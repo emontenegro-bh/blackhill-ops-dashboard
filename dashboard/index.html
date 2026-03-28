@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Black Hill Landscaping - Ops Scorecard</title>
+<style>
+:root {
+  --sidebar-bg: #1a1e2e;
+  --sidebar-text: #8b92a5;
+  --sidebar-active: #ffffff;
+  --accent: #22c55e;
+  --accent-bg: rgba(34,197,94,0.08);
+  --yellow: #eab308;
+  --yellow-bg: rgba(234,179,8,0.08);
+  --red: #ef4444;
+  --red-bg: rgba(239,68,68,0.08);
+  --bg: #f8f9fa;
+  --surface: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #6b7280;
+  --border: #e5e7eb;
+  --gold: #C8A951;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ---- Sidebar ---- */
+.sidebar {
+  width: 220px;
+  background: var(--sidebar-bg);
+  color: var(--sidebar-text);
+  padding: 20px 0;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  overflow-y: auto;
+}
+
+.sidebar-brand {
+  padding: 0 20px 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  margin-bottom: 16px;
+}
+
+.sidebar-brand h1 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.sidebar-brand .tagline {
+  font-size: 10px;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 4px;
+}
+
+.sidebar-section {
+  padding: 0 12px;
+  margin-bottom: 20px;
+}
+
+.sidebar-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(255,255,255,0.3);
+  padding: 0 8px;
+  margin-bottom: 6px;
+}
+
+.sidebar-nav-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--sidebar-text);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-bottom: 2px;
+}
+
+.sidebar-nav-btn:hover { background: rgba(255,255,255,0.06); color: #fff; }
+
+.sidebar-nav-btn.active {
+  background: rgba(34,197,94,0.15);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.sidebar-stats {
+  padding: 16px 20px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  margin-top: auto;
+}
+
+.sidebar-stat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.sidebar-stat .label { color: var(--sidebar-text); }
+.sidebar-stat .value { color: #fff; font-weight: 600; }
+
+/* ---- Main ---- */
+.main {
+  margin-left: 220px;
+  flex: 1;
+  min-width: 0;
+}
+
+.topbar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 16px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.topbar-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.topbar-controls {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.pill-group {
+  display: flex;
+  background: var(--bg);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.pill-btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.pill-btn:hover { color: var(--text); }
+.pill-btn.active { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+
+.btn-icon {
+  background: var(--bg);
+  border: none;
+  color: var(--text-secondary);
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon:hover { background: var(--border); }
+
+/* ---- Content ---- */
+.content {
+  padding: 24px 28px;
+}
+
+.view { display: none; }
+.view.active { display: block; }
+
+/* ---- Scorecard Layout ---- */
+.sc-top {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.sc-metric-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 28px;
+  min-width: 160px;
+}
+
+.sc-metric-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.sc-metric-value {
+  font-size: 36px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.sc-controls-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.sc-controls-bar .label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+/* ---- Filter Checkboxes ---- */
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.filter-bar .label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.filter-check {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.filter-check input {
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.filter-check label { cursor: pointer; }
+
+/* ---- Matrix Table ---- */
+.matrix-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.matrix-card-header {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.matrix-card-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.matrix-wrap { overflow-x: auto; }
+
+.matrix-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.matrix-table th {
+  padding: 10px 14px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+  background: var(--bg);
+}
+
+.matrix-table th:first-child { text-align: left; }
+.matrix-table th:nth-child(2) { text-align: center; }
+
+.matrix-table td {
+  padding: 10px 14px;
+  font-size: 13px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.matrix-table td:first-child {
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.matrix-table td:nth-child(2) {
+  text-align: center;
+  font-weight: 700;
+}
+
+.matrix-table tbody tr { cursor: pointer; transition: background 0.1s; }
+.matrix-table tbody tr:hover { background: var(--accent-bg); }
+.matrix-table tbody tr.expanded { background: var(--accent-bg); }
+
+.matrix-table tr.total-row td {
+  font-weight: 700;
+  border-top: 2px solid var(--border);
+  background: var(--bg);
+}
+
+.matrix-table tr.total-row { cursor: default; }
+.matrix-table tr.total-row:hover { background: var(--bg); }
+
+.cell { font-weight: 600; }
+.cell.good { color: var(--accent); }
+.cell.ok { color: var(--yellow); }
+.cell.bad { color: var(--red); }
+.cell.empty { color: #d1d5db; }
+
+/* ---- Drill-down detail ---- */
+.detail-row td {
+  padding: 0 !important;
+  border-bottom: 1px solid var(--border);
+}
+
+.detail-content {
+  padding: 12px 18px;
+  background: #f1f5f9;
+}
+
+.detail-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.detail-table th {
+  text-align: left;
+  padding: 6px 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+}
+
+.detail-table td {
+  text-align: left;
+  padding: 6px 10px;
+  font-weight: 400;
+  border-bottom: 1px solid #e2e8f0;
+  white-space: nowrap;
+}
+
+.detail-table .cell { font-weight: 600; }
+
+/* ---- Trend Chart ---- */
+.chart-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.chart-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.chart-subtitle {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.trend-svg {
+  width: 100%;
+  height: 200px;
+}
+
+/* ---- Leaderboard ---- */
+.lb-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.lb-header {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lb-title { font-size: 14px; font-weight: 600; }
+
+.lb-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.lb-table th {
+  text-align: left;
+  padding: 10px 14px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.lb-table th:last-child { text-align: right; }
+
+.lb-table td {
+  padding: 12px 14px;
+  font-size: 13px;
+  border-bottom: 1px solid var(--border);
+}
+
+.lb-table td:last-child { text-align: right; }
+
+.lb-table tr:hover { background: var(--accent-bg); }
+
+.rank { font-weight: 700; font-size: 16px; min-width: 28px; display: inline-block; }
+.rank-1 { color: var(--gold); }
+
+.crew-name { font-weight: 600; }
+
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.badge.good { background: var(--accent-bg); color: var(--accent); }
+.badge.ok { background: var(--yellow-bg); color: var(--yellow); }
+.badge.bad { background: var(--red-bg); color: var(--red); }
+
+.bonus-tag {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.bonus-tag.yes { background: var(--accent-bg); color: var(--accent); }
+.bonus-tag.no { background: var(--red-bg); color: var(--red); }
+
+.trend-arrow { font-size: 12px; font-weight: 600; }
+.trend-arrow.up { color: var(--accent); }
+.trend-arrow.down { color: var(--red); }
+.trend-arrow.same { color: var(--text-secondary); }
+
+/* ---- Job Board ---- */
+.jb-board-wrap { overflow-x: auto; }
+
+.jb-board {
+  display: grid;
+  gap: 0;
+  min-width: 900px;
+}
+
+.jb-route-label {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  min-width: 180px;
+}
+
+.jb-route-name { font-size: 13px; font-weight: 700; color: var(--accent); }
+.jb-route-crew { font-size: 11px; color: var(--text-secondary); margin-top: 2px; }
+
+.jb-day-header {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.jb-cell {
+  border: 1px solid var(--border);
+  padding: 4px;
+  vertical-align: top;
+  min-height: 60px;
+  background: var(--surface);
+}
+
+.jb-card {
+  border-radius: 5px;
+  padding: 6px 8px;
+  margin-bottom: 3px;
+  font-size: 11px;
+  color: #fff;
+}
+
+.jb-card.status-good { background: #2563eb; }
+.jb-card.status-ok { background: #16a34a; }
+.jb-card.status-over { background: #dc2626; }
+.jb-card.status-pending { background: #6b7280; }
+
+.jb-card-title {
+  font-weight: 600;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 3px;
+}
+
+.jb-card-bar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.jb-bar-track {
+  flex: 1;
+  height: 4px;
+  background: rgba(255,255,255,0.25);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.jb-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: rgba(255,255,255,0.7);
+  max-width: 100%;
+}
+
+.jb-card-pct { font-size: 10px; font-weight: 600; min-width: 28px; text-align: right; }
+.jb-card-hours { font-size: 10px; text-align: right; opacity: 0.8; }
+
+.jb-day-total {
+  border: 1px solid var(--border);
+  padding: 4px 10px;
+  text-align: right;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  background: var(--bg);
+}
+
+/* ---- Footer ---- */
+.footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .sidebar { width: 60px; padding: 12px 0; }
+  .sidebar-brand h1, .sidebar-brand .tagline, .sidebar-label, .sidebar-nav-btn span { display: none; }
+  .sidebar-stats { display: none; }
+  .main { margin-left: 60px; }
+  .content { padding: 16px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <div class="sidebar-brand">
+    <h1>BLACK HILL</h1>
+    <div class="tagline">Ops Scorecard</div>
+  </div>
+  <div class="sidebar-section">
+    <div class="sidebar-label">Views</div>
+    <button class="sidebar-nav-btn active" data-view="scorecard">Scorecard</button>
+    <button class="sidebar-nav-btn" data-view="leaderboard">Leaderboard</button>
+    <button class="sidebar-nav-btn" data-view="jobboard">Job Board</button>
+  </div>
+  <div class="sidebar-section">
+    <div class="sidebar-label">View By</div>
+    <button class="sidebar-nav-btn active" data-vb="route" onclick="switchViewBy('route')">Route</button>
+    <button class="sidebar-nav-btn" data-vb="crew" onclick="switchViewBy('crew')">Crew Leader</button>
+    <button class="sidebar-nav-btn" data-vb="division" onclick="switchViewBy('division')">Division</button>
+    <button class="sidebar-nav-btn" data-vb="property" onclick="switchViewBy('property')">Job</button>
+  </div>
+  <div class="sidebar-stats">
+    <div class="sidebar-stat">
+      <span class="label">Avg Efficiency</span>
+      <span class="value" id="sb-avg">--</span>
+    </div>
+    <div class="sidebar-stat">
+      <span class="label">Bonus Eligible</span>
+      <span class="value" id="sb-bonus">--</span>
+    </div>
+    <div class="sidebar-stat">
+      <span class="label">Tickets</span>
+      <span class="value" id="sb-tickets">--</span>
+    </div>
+  </div>
+</div>
+
+<!-- Main -->
+<div class="main">
+  <div class="topbar">
+    <div class="topbar-title" id="topbar-title">Ops Scorecard - Crew Efficiency</div>
+    <div class="topbar-controls">
+      <div class="pill-group" id="period-toggle">
+        <button class="pill-btn active" data-period="mtd" onclick="switchPeriod('mtd')">Month</button>
+        <button class="pill-btn" data-period="prior_week" onclick="switchPeriod('prior_week')">Last Week</button>
+      </div>
+      <div class="pill-group" id="time-toggle">
+        <button class="pill-btn" data-time="daily" onclick="switchTime('daily')">Daily</button>
+        <button class="pill-btn active" data-time="weekly" onclick="switchTime('weekly')">Weekly</button>
+        <button class="pill-btn" data-time="monthly" onclick="switchTime('monthly')">Monthly</button>
+      </div>
+      <button class="btn-icon" onclick="toggleFullscreen()" title="Fullscreen">&#9974;</button>
+    </div>
+  </div>
+
+  <div class="content">
+
+    <!-- Scorecard View -->
+    <div id="view-scorecard" class="view active">
+      <div class="sc-top">
+        <div class="sc-metric-card">
+          <div class="sc-metric-label">Efficiency</div>
+          <div class="sc-metric-value" id="sc-overall">--</div>
+        </div>
+        <div class="sc-metric-card">
+          <div class="sc-metric-label">Bonus Eligible</div>
+          <div class="sc-metric-value" id="sc-bonus-count">--</div>
+        </div>
+        <div class="sc-metric-card">
+          <div class="sc-metric-label">Tickets Analyzed</div>
+          <div class="sc-metric-value" id="sc-ticket-count">--</div>
+        </div>
+      </div>
+
+      <div class="filter-bar" id="sc-filter-bar"></div>
+
+      <div class="matrix-card">
+        <div class="matrix-card-header">
+          <div class="matrix-card-title" id="matrix-title">Weekly Matrix</div>
+        </div>
+        <div class="matrix-wrap">
+          <table class="matrix-table" id="scorecard-matrix">
+            <thead><tr id="matrix-header"></tr></thead>
+            <tbody id="matrix-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-title" id="chart-title">Efficiency Trend</div>
+        <div class="chart-subtitle" id="chart-subtitle">Performance over time</div>
+        <div id="trend-chart"></div>
+      </div>
+    </div>
+
+    <!-- Leaderboard View -->
+    <div id="view-leaderboard" class="view">
+      <div class="sc-top">
+        <div class="sc-metric-card">
+          <div class="sc-metric-label">Company Avg</div>
+          <div class="sc-metric-value" id="lb-avg">--</div>
+        </div>
+        <div class="sc-metric-card">
+          <div class="sc-metric-label">Bonus Target</div>
+          <div class="sc-metric-value">&ge;97%</div>
+        </div>
+      </div>
+      <div class="lb-card">
+        <div class="lb-header">
+          <div class="lb-title">Crew Rankings</div>
+        </div>
+        <table class="lb-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Trend</th>
+              <th>Crew Leader</th>
+              <th>Target Hrs</th>
+              <th>Actual Hrs</th>
+              <th>Efficiency</th>
+              <th>Bonus</th>
+            </tr>
+          </thead>
+          <tbody id="lb-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Job Board View -->
+    <div id="view-jobboard" class="view">
+      <div class="sc-top">
+        <div class="sc-metric-card">
+          <div class="sc-metric-label">Current Week</div>
+          <div class="sc-metric-value" id="jb-week" style="font-size:20px">--</div>
+        </div>
+      </div>
+      <div class="jb-board-wrap">
+        <div class="jb-board" id="jb-board"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <span>Last updated: <span id="footer-updated">--</span></span>
+  </div>
+</div>
+
+<script>
+// ---------------------------------------------------------------------------
+// State
+// ---------------------------------------------------------------------------
+let D = null; // dashboard data
+let activePeriod = (() => { try { return localStorage.getItem('bh-period') || 'mtd'; } catch(e) { return 'mtd'; } })();
+let scViewBy = (() => { try { return localStorage.getItem('bh-vb') || 'route'; } catch(e) { return 'route'; } })();
+let scTime = (() => { try { return localStorage.getItem('bh-time') || 'weekly'; } catch(e) { return 'weekly'; } })();
+let activeView = (() => { try { return localStorage.getItem('bh-view') || 'scorecard'; } catch(e) { return 'scorecard'; } })();
+let scFilters = {};
+let expandedRow = null;
+
+// ---------------------------------------------------------------------------
+// Helpers
+// ---------------------------------------------------------------------------
+function vColor(pct) {
+  if (pct >= 100) return 'var(--accent)';
+  if (pct >= 97) return 'var(--yellow)';
+  return 'var(--red)';
+}
+function vClass(pct) {
+  if (pct === null) return 'empty';
+  if (pct >= 100) return 'good';
+  if (pct >= 97) return 'ok';
+  return 'bad';
+}
+
+// ---------------------------------------------------------------------------
+// Data loading
+// ---------------------------------------------------------------------------
+async function loadData() {
+  try {
+    const r = await fetch('data.json?' + Date.now());
+    if (!r.ok) throw new Error('Failed');
+    D = await r.json();
+    render();
+  } catch(e) { console.error(e); }
+}
+
+// ---------------------------------------------------------------------------
+// Render
+// ---------------------------------------------------------------------------
+function render() {
+  if (!D) return;
+  const view = D[activePeriod];
+  if (!view) return;
+
+  // Sidebar stats
+  document.getElementById('sb-avg').textContent = view.company_avg_variance + '%';
+  document.getElementById('sb-bonus').textContent = view.bonus_eligible_count + '/' + view.total_crew_leaders;
+  document.getElementById('sb-tickets').textContent = view.tickets_analyzed;
+
+  // Footer
+  document.getElementById('footer-updated').textContent = new Date(D.generated).toLocaleString();
+
+  // Scorecard
+  const sc = getScorecard();
+  if (sc) {
+    const el = document.getElementById('sc-overall');
+    el.textContent = (sc.overall_efficiency || '--') + '%';
+    el.style.color = sc.overall_efficiency ? vColor(sc.overall_efficiency) : '';
+    document.getElementById('sc-bonus-count').textContent = view.bonus_eligible_count;
+    document.getElementById('sc-ticket-count').textContent = view.tickets_analyzed;
+  }
+  buildFilters(sc);
+  renderMatrix(sc);
+  renderChart(sc);
+  renderLeaderboard(view.leaderboard, view);
+  renderJobBoard();
+}
+
+// ---------------------------------------------------------------------------
+// Navigation
+// ---------------------------------------------------------------------------
+function switchView(v) {
+  activeView = v;
+  try { localStorage.setItem('bh-view', v); } catch(e) {}
+  document.querySelectorAll('.sidebar-nav-btn[data-view]').forEach(b => b.classList.toggle('active', b.dataset.view === v));
+  document.querySelectorAll('.view').forEach(el => el.classList.toggle('active', el.id === 'view-' + v));
+  const titles = { scorecard: 'Ops Scorecard - Crew Efficiency', leaderboard: 'Ops Leaderboard', jobboard: 'Job Board' };
+  document.getElementById('topbar-title').textContent = titles[v] || '';
+  // Show/hide time toggle only on scorecard
+  document.getElementById('time-toggle').style.display = v === 'scorecard' ? '' : 'none';
+}
+
+document.querySelectorAll('.sidebar-nav-btn[data-view]').forEach(btn => {
+  btn.addEventListener('click', () => switchView(btn.dataset.view));
+});
+
+function switchPeriod(p) {
+  activePeriod = p;
+  try { localStorage.setItem('bh-period', p); } catch(e) {}
+  document.querySelectorAll('#period-toggle .pill-btn').forEach(b => b.classList.toggle('active', b.dataset.period === p));
+  render();
+}
+
+function switchViewBy(vb) {
+  scViewBy = vb;
+  try { localStorage.setItem('bh-vb', vb); } catch(e) {}
+  document.querySelectorAll('.sidebar-nav-btn[data-vb]').forEach(b => b.classList.toggle('active', b.dataset.vb === vb));
+  expandedRow = null;
+  const sc = getScorecard();
+  buildFilters(sc);
+  renderMatrix(sc);
+  renderChart(sc);
+}
+
+function switchTime(t) {
+  scTime = t;
+  try { localStorage.setItem('bh-time', t); } catch(e) {}
+  document.querySelectorAll('#time-toggle .pill-btn').forEach(b => b.classList.toggle('active', b.dataset.time === t));
+  const timeLabels = { daily: 'Daily', weekly: 'Weekly', monthly: 'Monthly' };
+  document.getElementById('matrix-title').textContent = (timeLabels[t] || 'Weekly') + ' Matrix';
+  expandedRow = null;
+  renderMatrix(getScorecard());
+  renderChart(getScorecard());
+}
+
+function getScorecard() {
+  if (!D || !D.scorecard) return null;
+  return D.scorecard[scViewBy + '_' + scTime];
+}
+
+// ---------------------------------------------------------------------------
+// Filters
+// ---------------------------------------------------------------------------
+function buildFilters(sc) {
+  const bar = document.getElementById('sc-filter-bar');
+  if (!sc || !sc.rows) { bar.innerHTML = ''; return; }
+  const names = sc.rows.map(r => r.name);
+  if (!scFilters[scViewBy]) scFilters[scViewBy] = new Set(names);
+  const checked = scFilters[scViewBy];
+
+  let html = '<span class="label">Filter</span>';
+  names.forEach(name => {
+    const id = 'f-' + name.replace(/[^a-zA-Z0-9]/g, '_');
+    const c = checked.has(name) ? 'checked' : '';
+    html += `<span class="filter-check"><input type="checkbox" id="${id}" ${c} onchange="toggleFilter('${name.replace(/'/g,"\\'")}',this.checked)"><label for="${id}">${name}</label></span>`;
+  });
+  bar.innerHTML = html;
+}
+
+function toggleFilter(name, on) {
+  if (!scFilters[scViewBy]) return;
+  if (on) scFilters[scViewBy].add(name); else scFilters[scViewBy].delete(name);
+  renderMatrix(getScorecard());
+}
+
+// ---------------------------------------------------------------------------
+// Matrix
+// ---------------------------------------------------------------------------
+function renderMatrix(sc) {
+  if (!sc) return;
+  const cols = sc.weeks;
+  const checked = scFilters[scViewBy];
+
+  // Header
+  const colLabels = { route: 'Route', crew: 'Crew Leader', division: 'Division', property: 'Job' };
+  const hdr = document.getElementById('matrix-header');
+  hdr.innerHTML = `<th>${colLabels[scViewBy] || 'Name'}</th><th>Total</th>`;
+  cols.forEach(c => hdr.innerHTML += `<th>${c}</th>`);
+
+  // Body
+  const tbody = document.getElementById('matrix-body');
+  tbody.innerHTML = '';
+
+  sc.rows.forEach(r => {
+    if (checked && !checked.has(r.name)) return;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${r.name}</td><td><span class="cell ${vClass(r.total)}">${r.total != null ? r.total+'%' : '—'}</span></td>`;
+    cols.forEach((c, i) => {
+      const v = r.weekly_values[i];
+      tr.innerHTML += `<td><span class="cell ${vClass(v)}">${v != null ? v+'%' : '—'}</span></td>`;
+    });
+    tr.addEventListener('click', () => toggleDetail(r.name, tr));
+    tbody.appendChild(tr);
+  });
+
+  // Total row
+  const tot = document.createElement('tr');
+  tot.className = 'total-row';
+  tot.innerHTML = `<td>Total</td><td><span class="cell ${vClass(sc.total_row.total)}">${sc.total_row.total != null ? sc.total_row.total+'%' : '—'}</span></td>`;
+  cols.forEach((c, i) => {
+    const v = sc.total_row.weekly_values[i];
+    tot.innerHTML += `<td><span class="cell ${vClass(v)}">${v != null ? v+'%' : '—'}</span></td>`;
+  });
+  tbody.appendChild(tot);
+}
+
+// ---------------------------------------------------------------------------
+// Drill-down
+// ---------------------------------------------------------------------------
+function toggleDetail(name, tr) {
+  const existing = tr.nextElementSibling;
+  if (existing && existing.classList.contains('detail-row')) {
+    existing.remove();
+    tr.classList.remove('expanded');
+    expandedRow = null;
+    return;
+  }
+  // Remove any other expanded
+  document.querySelectorAll('.detail-row').forEach(el => el.remove());
+  document.querySelectorAll('.matrix-table tbody tr.expanded').forEach(el => el.classList.remove('expanded'));
+
+  if (!D || !D.tickets) return;
+  tr.classList.add('expanded');
+  expandedRow = name;
+
+  // Filter tickets for this group
+  const fieldMap = { route: 'route', crew: 'crew_leader', division: 'division', property: 'property' };
+  const field = fieldMap[scViewBy];
+  const tickets = D.tickets.filter(t => t[field] === name);
+  const colSpan = tr.children.length;
+
+  const detailTr = document.createElement('tr');
+  detailTr.className = 'detail-row';
+  let html = `<td colspan="${colSpan}"><div class="detail-content">`;
+  if (tickets.length === 0) {
+    html += '<div style="color:var(--text-secondary);font-size:12px">No ticket details available</div>';
+  } else {
+    html += `<table class="detail-table"><thead><tr>
+      <th>Date</th><th>Property</th><th>Service</th><th>Crew Leader</th>
+      <th>Target Hrs</th><th>Actual Hrs</th><th>Efficiency</th>
+    </tr></thead><tbody>`;
+    tickets.sort((a,b) => a.date.localeCompare(b.date)).forEach(t => {
+      const cls = t.efficiency != null ? vClass(t.efficiency) : 'empty';
+      html += `<tr>
+        <td>${t.day_label}</td>
+        <td>${t.property}</td>
+        <td>${t.service}</td>
+        <td>${t.crew_leader}</td>
+        <td>${t.target_hours}</td>
+        <td>${t.actual_hours}</td>
+        <td><span class="cell ${cls}">${t.efficiency != null ? t.efficiency+'%' : '—'}</span></td>
+      </tr>`;
+    });
+    html += '</tbody></table>';
+  }
+  html += '</div></td>';
+  detailTr.innerHTML = html;
+  tr.after(detailTr);
+}
+
+// ---------------------------------------------------------------------------
+// Leaderboard
+// ---------------------------------------------------------------------------
+function renderLeaderboard(entries, view) {
+  if (!entries) return;
+  const avgEl = document.getElementById('lb-avg');
+  avgEl.textContent = view.company_avg_variance + '%';
+  avgEl.style.color = vColor(view.company_avg_variance);
+
+  const tbody = document.getElementById('lb-body');
+  tbody.innerHTML = '';
+  entries.forEach(e => {
+    let trend = '<span class="trend-arrow same">&mdash;</span>';
+    if (e.trend === 'up') trend = `<span class="trend-arrow up">&uarr; +${e.rank_change}</span>`;
+    else if (e.trend === 'down') trend = `<span class="trend-arrow down">&darr; ${e.rank_change}</span>`;
+    else if (e.trend === 'new') trend = `<span class="trend-arrow up">NEW</span>`;
+
+    const rankHTML = e.rank === 1 ? '<span class="rank rank-1">&#127942;</span>' : `<span class="rank">${e.rank}</span>`;
+    const bonusHTML = e.bonus_eligible ? '<span class="bonus-tag yes">Eligible</span>' : '<span class="bonus-tag no">Not Yet</span>';
+    const badgeCls = vClass(e.labor_variance_pct);
+
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${rankHTML}</td>
+      <td>${trend}</td>
+      <td><span class="crew-name">${e.crew_leader}</span></td>
+      <td>${e.estimated_hours.toFixed(1)}h</td>
+      <td>${e.actual_hours.toFixed(1)}h</td>
+      <td><span class="badge ${badgeCls}">${e.labor_variance_pct.toFixed(1)}%</span></td>
+      <td>${bonusHTML}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Trend Chart
+// ---------------------------------------------------------------------------
+function renderChart(sc) {
+  const chart = document.getElementById('trend-chart');
+  if (!sc) { chart.innerHTML = ''; return; }
+
+  const points = sc.weeks.map((w, i) => ({ week: w, val: sc.total_row.weekly_values[i] })).filter(p => p.val !== null);
+  if (points.length < 2) { chart.innerHTML = '<div style="color:var(--text-secondary);padding:20px;font-size:13px">Not enough data for trend line</div>'; return; }
+
+  const vals = points.map(p => p.val);
+  const minY = Math.min(...vals, 90), maxY = Math.max(...vals, 110);
+  const padY = (maxY - minY) * 0.15 || 10;
+  const yMin = Math.floor(minY - padY), yMax = Math.ceil(maxY + padY);
+  const yRange = yMax - yMin || 1;
+
+  const svgW = 700, svgH = 200, ml = 45, mr = 15, mt = 15, mb = 30;
+  const cw = svgW - ml - mr, ch = svgH - mt - mb;
+
+  const xPos = i => ml + (i / (points.length - 1)) * cw;
+  const yPos = v => mt + ch - ((v - yMin) / yRange) * ch;
+
+  const linePts = points.map((p, i) => `${xPos(i).toFixed(1)},${yPos(p.val).toFixed(1)}`);
+  const targetY = yPos(97);
+
+  const yTicks = [];
+  const step = yRange > 40 ? 20 : yRange > 15 ? 10 : 5;
+  for (let v = Math.ceil(yMin / step) * step; v <= yMax; v += step) yTicks.push(v);
+
+  let svg = `<svg class="trend-svg" viewBox="0 0 ${svgW} ${svgH}" preserveAspectRatio="xMidYMid meet">`;
+  yTicks.forEach(v => {
+    const y = yPos(v);
+    svg += `<line x1="${ml}" y1="${y}" x2="${svgW-mr}" y2="${y}" stroke="var(--border)" stroke-width="1"/>`;
+    svg += `<text x="${ml-6}" y="${y+4}" text-anchor="end" font-size="10" fill="var(--text-secondary)">${v}%</text>`;
+  });
+  svg += `<line x1="${ml}" y1="${targetY}" x2="${svgW-mr}" y2="${targetY}" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="6,4"/>`;
+  svg += `<text x="${svgW-mr+2}" y="${targetY+3}" font-size="9" fill="var(--accent)" font-weight="600">97%</text>`;
+  svg += `<polyline fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round" points="${linePts.join(' ')}"/>`;
+  points.forEach((p, i) => {
+    const x = xPos(i), y = yPos(p.val);
+    const color = p.val >= 100 ? '#22c55e' : p.val >= 97 ? '#eab308' : '#ef4444';
+    svg += `<circle cx="${x}" cy="${y}" r="4" fill="${color}" stroke="var(--surface)" stroke-width="2"/>`;
+    svg += `<text x="${x}" y="${svgH-6}" text-anchor="middle" font-size="9" fill="var(--text-secondary)">${p.week}</text>`;
+  });
+  svg += '</svg>';
+  chart.innerHTML = svg;
+}
+
+// ---------------------------------------------------------------------------
+// Job Board
+// ---------------------------------------------------------------------------
+function renderJobBoard() {
+  if (!D || !D.job_board) return;
+  const jb = D.job_board;
+  document.getElementById('jb-week').textContent = jb.week_label;
+  const board = document.getElementById('jb-board');
+  const days = jb.days;
+  board.style.gridTemplateColumns = `180px repeat(${days.length}, 1fr)`;
+
+  let html = '<div class="jb-route-label" style="border:none;background:transparent"></div>';
+  days.forEach(d => html += `<div class="jb-day-header">${d}</div>`);
+
+  jb.routes.forEach(route => {
+    html += `<div class="jb-route-label"><div class="jb-route-name">${route.name} (${route.job_count})</div><div class="jb-route-crew">${route.crew_leader}</div></div>`;
+    days.forEach(day => {
+      const dd = route.days[day];
+      html += '<div class="jb-cell">';
+      if (dd && dd.tickets.length) {
+        dd.tickets.forEach(t => {
+          const pct = t.variance_pct;
+          let cls = 'status-pending';
+          if (pct !== null) { cls = pct >= 100 ? 'status-good' : pct >= 97 ? 'status-ok' : 'status-over'; }
+          const barW = pct !== null ? Math.min(pct, 150) / 1.5 : 0;
+          const title = (t.occur ? '(' + t.occur + ') ' : '') + t.property + ' | ' + t.service;
+          html += `<div class="jb-card ${cls}" title="${title}"><div class="jb-card-title">${title}</div><div class="jb-card-bar"><div class="jb-bar-track"><div class="jb-bar-fill" style="width:${barW}%"></div></div><span class="jb-card-pct">${pct != null ? pct+'%' : ''}</span><span class="jb-card-hours">${t.target_hours.toFixed(1)}</span></div></div>`;
+        });
+      }
+      html += '</div>';
+    });
+    html += '<div class="jb-day-total" style="grid-column:1"></div>';
+    days.forEach(day => {
+      const dd = route.days[day];
+      const total = dd ? dd.total_hours : 0;
+      html += `<div class="jb-day-total">${total > 0 ? total.toFixed(1) : ''}</div>`;
+    });
+  });
+  board.innerHTML = html;
+}
+
+// ---------------------------------------------------------------------------
+// Fullscreen
+// ---------------------------------------------------------------------------
+function toggleFullscreen() {
+  if (!document.fullscreenElement) document.documentElement.requestFullscreen().catch(() => {});
+  else document.exitFullscreen().catch(() => {});
+}
+
+// ---------------------------------------------------------------------------
+// Init
+// ---------------------------------------------------------------------------
+// Restore UI state
+document.querySelectorAll('#period-toggle .pill-btn').forEach(b => b.classList.toggle('active', b.dataset.period === activePeriod));
+document.querySelectorAll('#time-toggle .pill-btn').forEach(b => b.classList.toggle('active', b.dataset.time === scTime));
+document.querySelectorAll('.sidebar-nav-btn[data-vb]').forEach(b => b.classList.toggle('active', b.dataset.vb === scViewBy));
+switchView(activeView);
+const timeLabels = { daily: 'Daily', weekly: 'Weekly', monthly: 'Monthly' };
+document.getElementById('matrix-title').textContent = (timeLabels[scTime] || 'Weekly') + ' Matrix';
+
+loadData();
+setInterval(loadData, 5 * 60 * 1000);
+</script>
+</body>
+</html>
