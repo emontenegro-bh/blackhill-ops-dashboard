@@ -5,6 +5,9 @@ on:
     - cron: '0 10 * * *'  # 5 AM CDT (UTC-5) = 10:00 UTC
   workflow_dispatch:       # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   export:
     runs-on: ubuntu-latest
