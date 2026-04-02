@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-01T11:00:18",
+  "generated": "2026-04-02T10:53:43",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -9,9 +9,9 @@
       "rows": [
         {
           "name": "Irrigation 1 - Red/Rojo",
-          "total": 50.1,
+          "total": 39.2,
           "weekly_values": [
-            50.1
+            39.2
           ]
         },
         {
@@ -23,9 +23,9 @@
         },
         {
           "name": "Maint 1 - Blue/Azul",
-          "total": 187.8,
+          "total": 157.3,
           "weekly_values": [
-            187.8
+            157.3
           ]
         },
         {
@@ -44,19 +44,19 @@
         },
         {
           "name": "Maint 4 - Yellow/Amarillo",
-          "total": 134.2,
+          "total": 102.3,
           "weekly_values": [
-            134.2
+            102.3
           ]
         }
       ],
       "total_row": {
-        "total": 157.3,
+        "total": 130.5,
         "weekly_values": [
-          157.3
+          130.5
         ]
       },
-      "overall_efficiency": 157.3
+      "overall_efficiency": 130.5
     },
     "route_daily": {
       "weeks": [
@@ -71,12 +71,12 @@
       "rows": [
         {
           "name": "Irrigation 1 - Red/Rojo",
-          "total": 50.1,
+          "total": 39.2,
           "weekly_values": [
             null,
-            32.7,
-            46.2,
-            39.9,
+            30.5,
+            41.7,
+            34.9,
             92.9,
             null,
             null
@@ -97,9 +97,9 @@
         },
         {
           "name": "Maint 1 - Blue/Azul",
-          "total": 187.8,
+          "total": 157.3,
           "weekly_values": [
-            187.8,
+            157.3,
             null,
             null,
             null,
@@ -136,11 +136,11 @@
         },
         {
           "name": "Maint 4 - Yellow/Amarillo",
-          "total": 134.2,
+          "total": 102.3,
           "weekly_values": [
             90.3,
             93.1,
-            236.6,
+            118.3,
             112.0,
             82.3,
             null,
@@ -149,18 +149,18 @@
         }
       ],
       "total_row": {
-        "total": 157.3,
+        "total": 130.5,
         "weekly_values": [
-          172.2,
-          85.9,
-          163.5,
-          106.6,
+          148.0,
+          63.9,
+          96.1,
+          104.9,
           107.5,
           null,
           null
         ]
       },
-      "overall_efficiency": 157.3
+      "overall_efficiency": 130.5
     },
     "route_monthly": {
       "weeks": [
@@ -225,9 +225,9 @@
       "rows": [
         {
           "name": "Edgar Herrera Palafox",
-          "total": 161.6,
+          "total": 130.4,
           "weekly_values": [
-            161.6
+            130.4
           ]
         },
         {
@@ -239,33 +239,33 @@
         },
         {
           "name": "Jon Hatcher",
-          "total": 50.1,
+          "total": 39.2,
           "weekly_values": [
-            50.1
+            39.2
           ]
         },
         {
           "name": "Jorge Torres Conde",
-          "total": 134.2,
+          "total": 102.3,
           "weekly_values": [
-            134.2
+            102.3
           ]
         },
         {
           "name": "Saul Cruz Morales",
-          "total": 187.8,
+          "total": 157.3,
           "weekly_values": [
-            187.8
+            157.3
           ]
         }
       ],
       "total_row": {
-        "total": 158.3,
+        "total": 130.5,
         "weekly_values": [
-          158.3
+          130.5
         ]
       },
-      "overall_efficiency": 158.3
+      "overall_efficiency": 130.5
     },
     "crew_daily": {
       "weeks": [
@@ -280,13 +280,13 @@
       "rows": [
         {
           "name": "Edgar Herrera Palafox",
-          "total": 161.6,
+          "total": 130.4,
           "weekly_values": [
-            179.3,
             null,
-            140.1,
             null,
-            129.6,
+            null,
+            null,
+            130.4,
             null,
             null
           ]
@@ -306,12 +306,12 @@
         },
         {
           "name": "Jon Hatcher",
-          "total": 50.1,
+          "total": 39.2,
           "weekly_values": [
             null,
-            32.7,
-            46.2,
-            39.9,
+            30.5,
+            41.7,
+            34.9,
             92.9,
             null,
             null
@@ -319,11 +319,11 @@
         },
         {
           "name": "Jorge Torres Conde",
-          "total": 134.2,
+          "total": 102.3,
           "weekly_values": [
             90.3,
             93.1,
-            236.6,
+            118.3,
             112.0,
             82.3,
             null,
@@ -332,9 +332,9 @@
         },
         {
           "name": "Saul Cruz Morales",
-          "total": 187.8,
+          "total": 157.3,
           "weekly_values": [
-            187.8,
+            157.3,
             null,
             null,
             null,
@@ -345,18 +345,18 @@
         }
       ],
       "total_row": {
-        "total": 158.3,
+        "total": 130.5,
         "weekly_values": [
-          173.7,
-          85.9,
-          154.7,
-          106.6,
-          120.0,
+          148.0,
+          63.9,
+          96.1,
+          104.9,
+          120.5,
           null,
           null
         ]
       },
-      "overall_efficiency": 158.3
+      "overall_efficiency": 130.5
     },
     "crew_monthly": {
       "weeks": [
@@ -378,9 +378,9 @@
       "rows": [
         {
           "name": "Irrigation",
-          "total": 50.1,
+          "total": 39.2,
           "weekly_values": [
-            50.1
+            39.2
           ]
         },
         {
@@ -392,19 +392,19 @@
         },
         {
           "name": "Maintenance",
-          "total": 162.1,
+          "total": 137.7,
           "weekly_values": [
-            162.1
+            137.7
           ]
         }
       ],
       "total_row": {
-        "total": 157.3,
+        "total": 130.5,
         "weekly_values": [
-          157.3
+          130.5
         ]
       },
-      "overall_efficiency": 157.3
+      "overall_efficiency": 130.5
     },
     "division_daily": {
       "weeks": [
@@ -419,12 +419,12 @@
       "rows": [
         {
           "name": "Irrigation",
-          "total": 50.1,
+          "total": 39.2,
           "weekly_values": [
             null,
-            32.7,
-            46.2,
-            39.9,
+            30.5,
+            41.7,
+            34.9,
             92.9,
             null,
             null
@@ -445,11 +445,11 @@
         },
         {
           "name": "Maintenance",
-          "total": 162.1,
+          "total": 137.7,
           "weekly_values": [
-            172.2,
+            148.0,
             93.1,
-            184.8,
+            107.1,
             114.8,
             110.7,
             null,
@@ -458,18 +458,18 @@
         }
       ],
       "total_row": {
-        "total": 157.3,
+        "total": 130.5,
         "weekly_values": [
-          172.2,
-          85.9,
-          163.5,
-          106.6,
+          148.0,
+          63.9,
+          96.1,
+          104.9,
           107.5,
           null,
           null
         ]
       },
-      "overall_efficiency": 157.3
+      "overall_efficiency": 130.5
     },
     "division_monthly": {
       "weeks": [
@@ -513,16 +513,23 @@
         },
         {
           "name": "Arlington Laboratory Services",
-          "total": 129.6,
+          "total": 130.4,
           "weekly_values": [
-            129.6
+            130.4
           ]
         },
         {
           "name": "Arlington Medians and ROW District 2",
-          "total": 187.8,
+          "total": 157.3,
           "weekly_values": [
-            187.8
+            157.3
+          ]
+        },
+        {
+          "name": "BASIS Benbrook ",
+          "total": 26.7,
+          "weekly_values": [
+            26.7
           ]
         },
         {
@@ -555,9 +562,9 @@
         },
         {
           "name": "Five Oaks Crossing Mansfield",
-          "total": 32.7,
+          "total": 37.2,
           "weekly_values": [
-            32.7
+            37.2
           ]
         },
         {
@@ -569,9 +576,9 @@
         },
         {
           "name": "Hampton Manor of Crowley",
-          "total": 164.4,
+          "total": 105.6,
           "weekly_values": [
-            164.4
+            105.6
           ]
         },
         {
@@ -590,44 +597,44 @@
         },
         {
           "name": "James Miller Residence",
-          "total": 24.0,
+          "total": 21.0,
           "weekly_values": [
-            24.0
+            21.0
           ]
         },
         {
           "name": "Jennifer Johnson Residence",
-          "total": 21.1,
+          "total": 19.0,
           "weekly_values": [
-            21.1
+            19.0
           ]
         },
         {
           "name": "Leo at Bethel",
-          "total": 236.6,
+          "total": 118.3,
           "weekly_values": [
-            236.6
+            118.3
           ]
         },
         {
           "name": "Lynn Lynch Residence",
-          "total": 117.6,
+          "total": 103.1,
           "weekly_values": [
-            117.6
+            103.1
           ]
         },
         {
           "name": "Mary Williams Residence",
-          "total": 44.6,
+          "total": 40.3,
           "weekly_values": [
-            44.6
+            40.3
           ]
         },
         {
           "name": "Miller Milling",
-          "total": 120.5,
+          "total": 108.1,
           "weekly_values": [
-            120.5
+            108.1
           ]
         },
         {
@@ -642,6 +649,13 @@
           "total": 93.5,
           "weekly_values": [
             93.5
+          ]
+        },
+        {
+          "name": "University Christian Church ",
+          "total": 49.3,
+          "weekly_values": [
+            49.3
           ]
         },
         {
@@ -702,12 +716,12 @@
         }
       ],
       "total_row": {
-        "total": 158.3,
+        "total": 130.5,
         "weekly_values": [
-          158.3
+          130.5
         ]
       },
-      "overall_efficiency": 158.3
+      "overall_efficiency": 130.5
     },
     "property_daily": {
       "weeks": [
@@ -735,23 +749,36 @@
         },
         {
           "name": "Arlington Laboratory Services",
-          "total": 129.6,
+          "total": 130.4,
           "weekly_values": [
             null,
             null,
             null,
             null,
-            129.6,
+            130.4,
             null,
             null
           ]
         },
         {
           "name": "Arlington Medians and ROW District 2",
-          "total": 187.8,
+          "total": 157.3,
           "weekly_values": [
-            187.8,
+            157.3,
             null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "BASIS Benbrook ",
+          "total": 26.7,
+          "weekly_values": [
+            null,
+            26.7,
             null,
             null,
             null,
@@ -813,10 +840,10 @@
         },
         {
           "name": "Five Oaks Crossing Mansfield",
-          "total": 32.7,
+          "total": 37.2,
           "weekly_values": [
             null,
-            32.7,
+            37.2,
             null,
             null,
             null,
@@ -839,11 +866,11 @@
         },
         {
           "name": "Hampton Manor of Crowley",
-          "total": 164.4,
+          "total": 105.6,
           "weekly_values": [
-            179.3,
             null,
-            140.1,
+            null,
+            null,
             105.6,
             null,
             null,
@@ -878,12 +905,12 @@
         },
         {
           "name": "James Miller Residence",
-          "total": 24.0,
+          "total": 21.0,
           "weekly_values": [
             null,
             null,
             null,
-            24.0,
+            21.0,
             null,
             null,
             null
@@ -891,11 +918,11 @@
         },
         {
           "name": "Jennifer Johnson Residence",
-          "total": 21.1,
+          "total": 19.0,
           "weekly_values": [
             null,
             null,
-            21.1,
+            19.0,
             null,
             null,
             null,
@@ -904,11 +931,11 @@
         },
         {
           "name": "Leo at Bethel",
-          "total": 236.6,
+          "total": 118.3,
           "weekly_values": [
             null,
             null,
-            236.6,
+            118.3,
             null,
             null,
             null,
@@ -917,12 +944,12 @@
         },
         {
           "name": "Lynn Lynch Residence",
-          "total": 117.6,
+          "total": 103.1,
           "weekly_values": [
             null,
             null,
             null,
-            117.6,
+            103.1,
             null,
             null,
             null
@@ -930,11 +957,11 @@
         },
         {
           "name": "Mary Williams Residence",
-          "total": 44.6,
+          "total": 40.3,
           "weekly_values": [
             null,
             null,
-            44.6,
+            40.3,
             null,
             null,
             null,
@@ -943,11 +970,11 @@
         },
         {
           "name": "Miller Milling",
-          "total": 120.5,
+          "total": 108.1,
           "weekly_values": [
             null,
             null,
-            120.5,
+            108.1,
             null,
             null,
             null,
@@ -976,6 +1003,19 @@
             null,
             null,
             93.5,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "University Christian Church ",
+          "total": 49.3,
+          "weekly_values": [
+            null,
+            49.3,
+            null,
+            null,
+            null,
             null,
             null
           ]
@@ -1086,18 +1126,18 @@
         }
       ],
       "total_row": {
-        "total": 158.3,
+        "total": 130.5,
         "weekly_values": [
-          173.7,
-          85.9,
-          154.7,
-          106.6,
-          120.0,
+          148.0,
+          63.9,
+          96.1,
+          104.9,
+          120.5,
           null,
           null
         ]
       },
-      "overall_efficiency": 158.3
+      "overall_efficiency": 130.5
     },
     "property_monthly": {
       "weeks": [
@@ -1130,6 +1170,19 @@
         "crew_leader": "Jon Hatcher",
         "crew_leader_id": 2384,
         "days": {
+          "Tue 3/31": {
+            "tickets": [
+              {
+                "property": "Bear Creek HOA",
+                "service": "Irrigation Monitoring",
+                "occur": "6/6",
+                "target_hours": 1.0,
+                "actual_hours": 1.1,
+                "variance_pct": 90.9
+              }
+            ],
+            "total_hours": 1.0
+          },
           "Mon 3/30": {
             "tickets": [
               {
@@ -1137,22 +1190,51 @@
                 "service": "Irrigation Assessment",
                 "occur": "",
                 "target_hours": 2.0,
-                "actual_hours": 2.76,
-                "variance_pct": 72.5
+                "actual_hours": 9.39,
+                "variance_pct": 21.3
               }
             ],
             "total_hours": 2.0
           }
         },
-        "job_count": 1
+        "job_count": 2
       },
       {
         "name": "Land 1 - Green/Verde",
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
         "crew_leader_id": 1834,
         "days": {
+          "Tue 3/31": {
+            "tickets": [
+              {
+                "property": "John F. Kubala Water Treatment",
+                "service": "Mobilization",
+                "occur": "",
+                "target_hours": 8.0,
+                "actual_hours": 7.75,
+                "variance_pct": 103.2
+              },
+              {
+                "property": "John F. Kubala Water Treatment",
+                "service": "Landscape Clean Up ",
+                "occur": "",
+                "target_hours": 27.0,
+                "actual_hours": 10.97,
+                "variance_pct": 246.1
+              }
+            ],
+            "total_hours": 35.0
+          },
           "Mon 3/30": {
             "tickets": [
+              {
+                "property": "John F. Kubala Water Treatment",
+                "service": "Landscape Clean Up ",
+                "occur": "",
+                "target_hours": 27.0,
+                "actual_hours": 36.5,
+                "variance_pct": 74.0
+              },
               {
                 "property": "John F. Kubala Water Treatment",
                 "service": "Mobilization",
@@ -1162,10 +1244,10 @@
                 "variance_pct": 85.4
               }
             ],
-            "total_hours": 8.0
+            "total_hours": 35.0
           }
         },
-        "job_count": 1
+        "job_count": 4
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -1206,8 +1288,38 @@
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Tue 3/31": {
+            "tickets": [
+              {
+                "property": "BASIS Benbrook ",
+                "service": "Maintenance Care",
+                "occur": "19/36",
+                "target_hours": 10.0,
+                "actual_hours": 7.93,
+                "variance_pct": 126.1
+              },
+              {
+                "property": "Crowley Creekside HOA",
+                "service": "Tractor Mowing",
+                "occur": "2/18",
+                "target_hours": 12.0,
+                "actual_hours": 13.1,
+                "variance_pct": 91.6
+              },
+              {
+                "property": "Crowley Creekside HOA",
+                "service": "Mobilization",
+                "occur": "2/18",
+                "target_hours": 6.0,
+                "actual_hours": 2.09,
+                "variance_pct": 287.1
+              }
+            ],
+            "total_hours": 28.0
+          }
+        },
+        "job_count": 3
       }
     ]
   },
@@ -1297,6 +1409,18 @@
       "efficiency": 83.5
     },
     {
+      "date": "2026-03-31",
+      "day_label": "3/31",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "Bear Creek HOA",
+      "service": "Irrigation Monitoring",
+      "target_hours": 1.0,
+      "actual_hours": 1.1,
+      "efficiency": 90.9
+    },
+    {
       "date": "2026-03-19",
       "day_label": "3/19",
       "crew_leader": "Gustavo Aguilar",
@@ -1345,6 +1469,30 @@
       "efficiency": 96.0
     },
     {
+      "date": "2026-03-31",
+      "day_label": "3/31",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "BASIS Benbrook ",
+      "service": "Maintenance Care",
+      "target_hours": 10.0,
+      "actual_hours": 7.93,
+      "efficiency": 126.1
+    },
+    {
+      "date": "2026-03-24",
+      "day_label": "3/24",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "BASIS Benbrook ",
+      "service": "Irrigation Activation",
+      "target_hours": 4.0,
+      "actual_hours": 14.96,
+      "efficiency": 26.7
+    },
+    {
       "date": "2026-04-01",
       "day_label": "4/1",
       "crew_leader": "Edwin Penalvert",
@@ -1379,6 +1527,18 @@
       "target_hours": 1.0,
       "actual_hours": 1.16,
       "efficiency": 86.2
+    },
+    {
+      "date": "2026-03-24",
+      "day_label": "3/24",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "University Christian Church ",
+      "service": "Irrigation Monitoring",
+      "target_hours": 1.0,
+      "actual_hours": 2.03,
+      "efficiency": 49.3
     },
     {
       "date": "2026-03-02",
@@ -1436,9 +1596,9 @@
       "division": "Maintenance",
       "property": "Leo at Bethel",
       "service": "Maintenance Care",
-      "target_hours": 74.0,
+      "target_hours": 37.0,
       "actual_hours": 31.27,
-      "efficiency": 236.6
+      "efficiency": 118.3
     },
     {
       "date": "2026-03-12",
@@ -1461,8 +1621,8 @@
       "property": "Miller Milling",
       "service": "Irrigation Activation",
       "target_hours": 2.0,
-      "actual_hours": 1.66,
-      "efficiency": 120.5
+      "actual_hours": 1.85,
+      "efficiency": 108.1
     },
     {
       "date": "2026-03-02",
@@ -2581,6 +2741,18 @@
       "efficiency": 72.7
     },
     {
+      "date": "2026-03-31",
+      "day_label": "3/31",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Crowley Creekside HOA",
+      "service": "Tractor Mowing",
+      "target_hours": 12.0,
+      "actual_hours": 13.1,
+      "efficiency": 91.6
+    },
+    {
       "date": "2026-03-13",
       "day_label": "3/13",
       "crew_leader": "Jorge Torres Conde",
@@ -2593,6 +2765,18 @@
       "efficiency": 112.1
     },
     {
+      "date": "2026-03-31",
+      "day_label": "3/31",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Crowley Creekside HOA",
+      "service": "Mobilization",
+      "target_hours": 6.0,
+      "actual_hours": 2.09,
+      "efficiency": 287.1
+    },
+    {
       "date": "2026-03-26",
       "day_label": "3/26",
       "crew_leader": "Jon Hatcher",
@@ -2601,8 +2785,8 @@
       "property": "Lynn Lynch Residence",
       "service": "Irrigation Assessment",
       "target_hours": 1.0,
-      "actual_hours": 0.85,
-      "efficiency": 117.6
+      "actual_hours": 0.97,
+      "efficiency": 103.1
     },
     {
       "date": "2026-03-16",
@@ -2637,8 +2821,8 @@
       "property": "Jennifer Johnson Residence",
       "service": "Irrigation Assessment",
       "target_hours": 1.0,
-      "actual_hours": 4.75,
-      "efficiency": 21.1
+      "actual_hours": 5.27,
+      "efficiency": 19.0
     },
     {
       "date": "2026-03-18",
@@ -2697,8 +2881,8 @@
       "property": "Arlington Medians and ROW District 2",
       "service": "Mobilization",
       "target_hours": 110.0,
-      "actual_hours": 55.1,
-      "efficiency": 199.6
+      "actual_hours": 63.52,
+      "efficiency": 173.2
     },
     {
       "date": "2026-03-23",
@@ -2709,8 +2893,8 @@
       "property": "Arlington Medians and ROW District 2",
       "service": "Municipality Mow",
       "target_hours": 385.0,
-      "actual_hours": 208.5,
-      "efficiency": 184.7
+      "actual_hours": 251.1,
+      "efficiency": 153.3
     },
     {
       "date": "2026-03-24",
@@ -2721,8 +2905,8 @@
       "property": "Five Oaks Crossing Mansfield",
       "service": "Irrigation Inspections",
       "target_hours": 1.0,
-      "actual_hours": 3.06,
-      "efficiency": 32.7
+      "actual_hours": 2.69,
+      "efficiency": 37.2
     },
     {
       "date": "2026-03-25",
@@ -2733,32 +2917,8 @@
       "property": "Mary Williams Residence",
       "service": "Irrigation Assessment",
       "target_hours": 1.0,
-      "actual_hours": 2.24,
-      "efficiency": 44.6
-    },
-    {
-      "date": "2026-03-23",
-      "day_label": "3/23",
-      "crew_leader": "Edgar Herrera Palafox",
-      "route": null,
-      "division": null,
-      "property": "Hampton Manor of Crowley",
-      "service": "Landscape Upgrade",
-      "target_hours": 150.0,
-      "actual_hours": 83.67,
-      "efficiency": 179.3
-    },
-    {
-      "date": "2026-03-25",
-      "day_label": "3/25",
-      "crew_leader": "Edgar Herrera Palafox",
-      "route": null,
-      "division": null,
-      "property": "Hampton Manor of Crowley",
-      "service": "Mobilization",
-      "target_hours": 48.0,
-      "actual_hours": 34.25,
-      "efficiency": 140.1
+      "actual_hours": 2.48,
+      "efficiency": 40.3
     },
     {
       "date": "2026-03-27",
@@ -2781,8 +2941,8 @@
       "property": "James Miller Residence",
       "service": "Irrigation Assessment",
       "target_hours": 1.0,
-      "actual_hours": 4.16,
-      "efficiency": 24.0
+      "actual_hours": 4.76,
+      "efficiency": 21.0
     },
     {
       "date": "2026-03-27",
@@ -2793,8 +2953,8 @@
       "property": "Arlington Laboratory Services",
       "service": "Landscape Clean Up ",
       "target_hours": 24.0,
-      "actual_hours": 18.65,
-      "efficiency": 128.7
+      "actual_hours": 18.5,
+      "efficiency": 129.7
     },
     {
       "date": "2026-03-27",
@@ -2845,6 +3005,42 @@
       "efficiency": 188.7
     },
     {
+      "date": "2026-03-31",
+      "day_label": "3/31",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "John F. Kubala Water Treatment",
+      "service": "Mobilization",
+      "target_hours": 8.0,
+      "actual_hours": 7.75,
+      "efficiency": 103.2
+    },
+    {
+      "date": "2026-03-31",
+      "day_label": "3/31",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "John F. Kubala Water Treatment",
+      "service": "Landscape Clean Up ",
+      "target_hours": 27.0,
+      "actual_hours": 10.97,
+      "efficiency": 246.1
+    },
+    {
+      "date": "2026-03-30",
+      "day_label": "3/30",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "John F. Kubala Water Treatment",
+      "service": "Landscape Clean Up ",
+      "target_hours": 27.0,
+      "actual_hours": 36.5,
+      "efficiency": 74.0
+    },
+    {
       "date": "2026-03-30",
       "day_label": "3/30",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -2865,15 +3061,15 @@
       "property": "Adair McKnight Residence",
       "service": "Irrigation Assessment",
       "target_hours": 2.0,
-      "actual_hours": 2.76,
-      "efficiency": 72.5
+      "actual_hours": 9.39,
+      "efficiency": 21.3
     }
   ],
   "mtd": {
     "period": {
       "label": "April 2026",
       "start": "2026-04-01",
-      "end": "2026-04-01"
+      "end": "2026-04-02"
     },
     "leaderboard": [],
     "bonus_eligible_count": 0,
@@ -2890,9 +3086,9 @@
     "leaderboard": [
       {
         "crew_leader": "Saul Cruz Morales",
-        "actual_hours": 263.6,
+        "actual_hours": 314.6,
         "estimated_hours": 495.0,
-        "labor_variance_pct": 187.8,
+        "labor_variance_pct": 157.3,
         "bonus_eligible": true,
         "rank": 1,
         "trend": "up",
@@ -2900,9 +3096,9 @@
       },
       {
         "crew_leader": "Edgar Herrera Palafox",
-        "actual_hours": 141.1,
-        "estimated_hours": 228.0,
-        "labor_variance_pct": 161.6,
+        "actual_hours": 23.0,
+        "estimated_hours": 30.0,
+        "labor_variance_pct": 130.4,
         "bonus_eligible": true,
         "rank": 2,
         "trend": "new",
@@ -2911,8 +3107,8 @@
       {
         "crew_leader": "Jorge Torres Conde",
         "actual_hours": 115.7,
-        "estimated_hours": 155.3,
-        "labor_variance_pct": 134.2,
+        "estimated_hours": 118.3,
+        "labor_variance_pct": 102.3,
         "bonus_eligible": true,
         "rank": 3,
         "trend": "same",
@@ -2930,7 +3126,7 @@
       }
     ],
     "bonus_eligible_count": 4,
-    "company_avg_variance": 155.7,
+    "company_avg_variance": 128.2,
     "total_crew_leaders": 4,
     "tickets_analyzed": 39
   }
