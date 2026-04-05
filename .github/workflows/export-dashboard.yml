@@ -36,3 +36,41 @@ jobs:
           git add dashboard/data.json
           git diff --staged --quiet || git commit -m "Update ops dashboard data $(date -u +%Y-%m-%d)"
           git push
+
+  notify-failure:
+    needs: [export]
+    if: failure()
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - name: Send failure email
+        env:
+          GMAIL_EMAIL: ${{ secrets.GMAIL_EMAIL }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          python3 -c "
+          import smtplib, os
+          from email.mime.text import MIMEText
+          from email.mime.multipart import MIMEMultipart
+
+          url = '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+
+          msg = MIMEMultipart('alternative')
+          msg['Subject'] = '[ALERT] Ops Dashboard Export failed'
+          msg['From'] = f'Black Hill Assistant <{os.environ[\"GMAIL_EMAIL\"]}>'
+          msg['To'] = 'evelin@blackhilltx.com'
+
+          body = '''<h3>Workflow Failure: Ops Dashboard Export</h3>
+          <p>The daily ops dashboard export failed.</p>
+          <p><a href=\"{}\">View failed run</a></p>
+          <p style=\"color:#888;font-size:12px\">Sent by Black Hill automation monitor</p>'''.format(url)
+
+          msg.attach(MIMEText(f'Ops Dashboard Export failed. View: {url}', 'plain'))
+          msg.attach(MIMEText(body, 'html'))
+
+          with smtplib.SMTP('smtp.gmail.com', 587) as s:
+              s.starttls()
+              s.login(os.environ['GMAIL_EMAIL'], os.environ['GMAIL_APP_PASSWORD'])
+              s.sendmail(os.environ['GMAIL_EMAIL'], 'evelin@blackhilltx.com', msg.as_string())
+          print('Failure alert sent for: Ops Dashboard Export')
+          "
