@@ -3,286 +3,329 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Black Hill Landscaping - Ops Scorecard</title>
+<title>Black Hill Landscaping - Ops Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Google+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
-  --sidebar-bg: #1a1e2e;
-  --sidebar-text: #8b92a5;
-  --sidebar-active: #ffffff;
-  --accent: #22c55e;
-  --accent-bg: rgba(34,197,94,0.08);
-  --yellow: #eab308;
-  --yellow-bg: rgba(234,179,8,0.08);
-  --red: #ef4444;
-  --red-bg: rgba(239,68,68,0.08);
-  --bg: #f8f9fa;
+  --accent: #C9A24D;
+  --accent-dark: #B08A3C;
+  --accent-light: rgba(201,162,77,0.12);
+  --accent-bg: rgba(201,162,77,0.06);
+  --green: #16a34a;
+  --green-bg: rgba(22,163,74,0.08);
+  --yellow: #b45309;
+  --yellow-bg: rgba(180,83,9,0.08);
+  --red: #dc2626;
+  --red-bg: rgba(220,38,38,0.06);
+  --bg: #F5F3EF;
   --surface: #ffffff;
-  --text: #1a1a2e;
-  --text-secondary: #6b7280;
-  --border: #e5e7eb;
-  --gold: #C8A951;
+  --nav-bg: #0B0B0B;
+  --text: #0B0B0B;
+  --text-secondary: #8A857D;
+  --border: #E0DCD5;
+  --border-light: #EDE9E3;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--bg);
   color: var(--text);
-  display: flex;
   min-height: 100vh;
 }
 
-/* ---- Sidebar ---- */
-.sidebar {
-  width: 220px;
-  background: var(--sidebar-bg);
-  color: var(--sidebar-text);
-  padding: 20px 0;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 10;
-  overflow-y: auto;
-}
-
-.sidebar-brand {
-  padding: 0 20px 20px;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-  margin-bottom: 16px;
-}
-
-.sidebar-brand h1 {
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 0.5px;
-}
-
-.sidebar-brand .tagline {
-  font-size: 10px;
-  color: var(--gold);
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-top: 4px;
-}
-
-.sidebar-section {
-  padding: 0 12px;
-  margin-bottom: 20px;
-}
-
-.sidebar-label {
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: rgba(255,255,255,0.3);
-  padding: 0 8px;
-  margin-bottom: 6px;
-}
-
-.sidebar-nav-btn {
-  display: block;
-  width: 100%;
-  text-align: left;
-  padding: 10px 12px;
-  border: none;
-  border-radius: 6px;
-  background: transparent;
-  color: var(--sidebar-text);
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.15s;
-  margin-bottom: 2px;
-}
-
-.sidebar-nav-btn:hover { background: rgba(255,255,255,0.06); color: #fff; }
-
-.sidebar-nav-btn.active {
-  background: rgba(34,197,94,0.15);
-  color: var(--accent);
-  font-weight: 600;
-}
-
-.sidebar-stats {
-  padding: 16px 20px;
-  border-top: 1px solid rgba(255,255,255,0.08);
-  margin-top: auto;
-}
-
-.sidebar-stat {
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-  margin-bottom: 8px;
-}
-
-.sidebar-stat .label { color: var(--sidebar-text); }
-.sidebar-stat .value { color: #fff; font-weight: 600; }
-
-/* ---- Main ---- */
-.main {
-  margin-left: 220px;
-  flex: 1;
-  min-width: 0;
-}
-
-.topbar {
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
-  padding: 16px 28px;
+/* ---- Top Nav ---- */
+.topnav {
+  background: var(--nav-bg);
+  padding: 0 32px;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: sticky;
   top: 0;
-  z-index: 5;
+  z-index: 20;
 }
 
-.topbar-title {
+.topnav-brand {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.topnav-brand h1 {
+  font-family: 'Lora', serif;
   font-size: 16px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.topnav-brand .tagline {
+  font-size: 10px;
+  color: #B8B4AA;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.topnav-links {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.nav-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: #8A857D;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.nav-btn:hover { background: rgba(255,255,255,0.08); color: #fff; }
+.nav-btn.active { background: rgba(201,162,77,0.15); color: var(--accent); font-weight: 600; }
+
+.topnav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.topnav-updated {
+  font-size: 11px;
+  color: #8A857D;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--nav-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
   font-weight: 700;
 }
 
-.topbar-controls {
+/* ---- Filter Bar ---- */
+.filter-bar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 32px;
   display: flex;
-  gap: 6px;
+  gap: 8px;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 12px;
+  border: 1px solid var(--accent-dark);
+  border-radius: 20px;
+  background: var(--accent-light);
+  color: var(--accent-dark);
+  font-size: 12px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: default;
+  white-space: nowrap;
+}
+
+.filter-chip.muted {
+  border-color: var(--border);
+  background: var(--surface);
+  color: var(--text-secondary);
+}
+
+.filter-controls {
+  margin-left: auto;
+  display: flex;
+  gap: 4px;
 }
 
 .pill-group {
   display: flex;
   background: var(--bg);
+  border: 1px solid var(--border);
   border-radius: 6px;
   padding: 2px;
 }
 
 .pill-btn {
-  padding: 6px 14px;
+  padding: 5px 12px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   background: transparent;
   color: var(--text-secondary);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
+  font-family: inherit;
   cursor: pointer;
   transition: all 0.15s;
 }
 
 .pill-btn:hover { color: var(--text); }
-.pill-btn.active { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.pill-btn.active { background: var(--surface); color: var(--text); box-shadow: 0 1px 2px rgba(0,0,0,0.08); }
 
 .btn-icon {
-  background: var(--bg);
-  border: none;
+  background: transparent;
+  border: 1px solid var(--border);
   color: var(--text-secondary);
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.btn-icon:hover { background: var(--border); }
+.btn-icon:hover { background: var(--bg); }
 
-/* ---- Content ---- */
-.content {
-  padding: 24px 28px;
+/* ---- Page Layout ---- */
+.page-header {
+  padding: 24px 32px 0;
 }
+
+.page-title {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.page-subtitle {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.page-tabs {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 0;
+}
+
+.page-tab {
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: inherit;
+  padding: 0;
+}
+
+.page-tab:hover { text-decoration: underline; }
 
 .view { display: none; }
 .view.active { display: block; }
 
-/* ---- Scorecard Layout ---- */
-.sc-top {
+/* ---- Content with Left Panel ---- */
+.content-area {
+  padding: 24px 32px;
   display: flex;
-  gap: 20px;
-  margin-bottom: 24px;
-  flex-wrap: wrap;
+  gap: 24px;
 }
 
-.sc-metric-card {
+.left-panel {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.panel-section {
+  margin-bottom: 24px;
+}
+
+.panel-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  padding: 0 4px;
+}
+
+.panel-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 9px 14px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.12s;
+  margin-bottom: 2px;
+}
+
+.panel-btn:hover { background: var(--border-light); color: var(--text); }
+.panel-btn.active { background: var(--accent-light); color: var(--accent-dark); font-weight: 600; }
+
+.panel-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 8px 0 16px;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ---- KPI Cards ---- */
+.kpi-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.kpi-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 10px;
-  padding: 20px 28px;
-  min-width: 160px;
+  padding: 20px 24px;
+  min-width: 140px;
 }
 
-.sc-metric-label {
-  font-size: 11px;
+.kpi-label {
+  font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   color: var(--text-secondary);
-  margin-bottom: 4px;
+  font-weight: 600;
+  margin-bottom: 6px;
 }
 
-.sc-metric-value {
-  font-size: 36px;
+.kpi-value {
+  font-size: 32px;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
+  line-height: 1;
 }
-
-.sc-controls-bar {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
-  flex-wrap: wrap;
-}
-
-.sc-controls-bar .label {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--text-secondary);
-  font-weight: 600;
-}
-
-/* ---- Filter Checkboxes ---- */
-.filter-bar {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 16px;
-  padding: 10px 14px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-}
-
-.filter-bar .label {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--text-secondary);
-  font-weight: 600;
-  margin-right: 4px;
-}
-
-.filter-check {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 12px;
-  cursor: pointer;
-}
-
-.filter-check input {
-  accent-color: var(--accent);
-  cursor: pointer;
-}
-
-.filter-check label { cursor: pointer; }
 
 /* ---- Matrix Table ---- */
 .matrix-card {
@@ -293,7 +336,7 @@ body {
   margin-bottom: 24px;
 }
 
-.matrix-card-header {
+.matrix-header {
   padding: 14px 18px;
   border-bottom: 1px solid var(--border);
   display: flex;
@@ -301,9 +344,15 @@ body {
   justify-content: space-between;
 }
 
-.matrix-card-title {
+.matrix-title {
   font-size: 14px;
   font-weight: 600;
+}
+
+.matrix-controls {
+  display: flex;
+  gap: 6px;
+  align-items: center;
 }
 
 .matrix-wrap { overflow-x: auto; }
@@ -316,7 +365,7 @@ body {
 
 .matrix-table th {
   padding: 10px 14px;
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: var(--text-secondary);
@@ -327,30 +376,29 @@ body {
   background: var(--bg);
 }
 
-.matrix-table th:first-child { text-align: left; }
+.matrix-table th:first-child { text-align: left; padding-left: 18px; }
 .matrix-table th:nth-child(2) { text-align: center; }
 
 .matrix-table td {
-  padding: 10px 14px;
+  padding: 11px 14px;
   font-size: 13px;
   text-align: center;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--border-light);
 }
 
 .matrix-table td:first-child {
   text-align: left;
   font-weight: 600;
   white-space: nowrap;
+  padding-left: 18px;
+  color: var(--text);
 }
 
-.matrix-table td:nth-child(2) {
-  text-align: center;
-  font-weight: 700;
-}
+.matrix-table td:nth-child(2) { text-align: center; font-weight: 700; }
 
 .matrix-table tbody tr { cursor: pointer; transition: background 0.1s; }
-.matrix-table tbody tr:hover { background: var(--accent-bg); }
-.matrix-table tbody tr.expanded { background: var(--accent-bg); }
+.matrix-table tbody tr:hover { background: var(--accent-light); }
+.matrix-table tbody tr.expanded { background: var(--accent-light); }
 
 .matrix-table tr.total-row td {
   font-weight: 700;
@@ -362,27 +410,21 @@ body {
 .matrix-table tr.total-row:hover { background: var(--bg); }
 
 .cell { font-weight: 600; }
-.cell.good { color: var(--accent); }
+.cell.good { color: var(--green); }
 .cell.ok { color: var(--yellow); }
 .cell.bad { color: var(--red); }
-.cell.empty { color: #d1d5db; }
+.cell.empty { color: #c8c3bb; }
 
-/* ---- Drill-down detail ---- */
-.detail-row td {
-  padding: 0 !important;
-  border-bottom: 1px solid var(--border);
-}
+/* ---- Drill-down ---- */
+.detail-row td { padding: 0 !important; border-bottom: 1px solid var(--border); }
 
 .detail-content {
-  padding: 12px 18px;
-  background: #f1f5f9;
+  padding: 14px 18px;
+  background: #f8fafb;
+  border-top: 1px solid var(--border-light);
 }
 
-.detail-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 12px;
-}
+.detail-table { width: 100%; border-collapse: collapse; font-size: 12px; }
 
 .detail-table th {
   text-align: left;
@@ -397,15 +439,15 @@ body {
 
 .detail-table td {
   text-align: left;
-  padding: 6px 10px;
+  padding: 7px 10px;
   font-weight: 400;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 1px solid var(--border-light);
   white-space: nowrap;
 }
 
 .detail-table .cell { font-weight: 600; }
 
-/* ---- Trend Chart ---- */
+/* ---- Chart ---- */
 .chart-card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -414,22 +456,41 @@ body {
   margin-bottom: 24px;
 }
 
-.chart-title {
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 4px;
-}
+.chart-title { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+.chart-subtitle { font-size: 12px; color: var(--text-secondary); margin-bottom: 16px; }
+.trend-svg { width: 100%; height: 200px; }
 
-.chart-subtitle {
-  font-size: 12px;
-  color: var(--text-secondary);
+/* ---- Filter Checkboxes ---- */
+.check-filter-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 16px;
+  padding: 8px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
 }
 
-.trend-svg {
-  width: 100%;
-  height: 200px;
+.check-filter-bar .label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+  font-weight: 600;
 }
+
+.filter-check {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.filter-check input { accent-color: var(--accent-dark); cursor: pointer; }
+.filter-check label { cursor: pointer; }
 
 /* ---- Leaderboard ---- */
 .lb-card {
@@ -450,15 +511,12 @@ body {
 
 .lb-title { font-size: 14px; font-weight: 600; }
 
-.lb-table {
-  width: 100%;
-  border-collapse: collapse;
-}
+.lb-table { width: 100%; border-collapse: collapse; }
 
 .lb-table th {
   text-align: left;
   padding: 10px 14px;
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: var(--text-secondary);
@@ -472,16 +530,14 @@ body {
 .lb-table td {
   padding: 12px 14px;
   font-size: 13px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--border-light);
 }
 
 .lb-table td:last-child { text-align: right; }
-
-.lb-table tr:hover { background: var(--accent-bg); }
+.lb-table tr:hover { background: var(--accent-light); }
 
 .rank { font-weight: 700; font-size: 16px; min-width: 28px; display: inline-block; }
-.rank-1 { color: var(--gold); }
-
+.rank-1 { color: #C8A951; }
 .crew-name { font-weight: 600; }
 
 .badge {
@@ -493,7 +549,7 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
-.badge.good { background: var(--accent-bg); color: var(--accent); }
+.badge.good { background: var(--green-bg); color: var(--green); }
 .badge.ok { background: var(--yellow-bg); color: var(--yellow); }
 .badge.bad { background: var(--red-bg); color: var(--red); }
 
@@ -506,22 +562,18 @@ body {
   text-transform: uppercase;
 }
 
-.bonus-tag.yes { background: var(--accent-bg); color: var(--accent); }
+.bonus-tag.yes { background: var(--green-bg); color: var(--green); }
 .bonus-tag.no { background: var(--red-bg); color: var(--red); }
 
 .trend-arrow { font-size: 12px; font-weight: 600; }
-.trend-arrow.up { color: var(--accent); }
+.trend-arrow.up { color: var(--green); }
 .trend-arrow.down { color: var(--red); }
 .trend-arrow.same { color: var(--text-secondary); }
 
 /* ---- Job Board ---- */
 .jb-board-wrap { overflow-x: auto; }
 
-.jb-board {
-  display: grid;
-  gap: 0;
-  min-width: 900px;
-}
+.jb-board { display: grid; gap: 0; min-width: 900px; }
 
 .jb-route-label {
   background: var(--surface);
@@ -533,7 +585,7 @@ body {
   min-width: 180px;
 }
 
-.jb-route-name { font-size: 13px; font-weight: 700; color: var(--accent); }
+.jb-route-name { font-size: 13px; font-weight: 700; color: var(--accent-dark); }
 .jb-route-crew { font-size: 11px; color: var(--text-secondary); margin-top: 2px; }
 
 .jb-day-header {
@@ -577,11 +629,7 @@ body {
   margin-bottom: 3px;
 }
 
-.jb-card-bar {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
+.jb-card-bar { display: flex; align-items: center; gap: 4px; }
 
 .jb-bar-track {
   flex: 1;
@@ -591,12 +639,7 @@ body {
   overflow: hidden;
 }
 
-.jb-bar-fill {
-  height: 100%;
-  border-radius: 2px;
-  background: rgba(255,255,255,0.7);
-  max-width: 100%;
-}
+.jb-bar-fill { height: 100%; border-radius: 2px; background: rgba(255,255,255,0.7); max-width: 100%; }
 
 .jb-card-pct { font-size: 10px; font-weight: 600; min-width: 28px; text-align: right; }
 .jb-card-hours { font-size: 10px; text-align: right; opacity: 0.8; }
@@ -611,107 +654,100 @@ body {
   background: var(--bg);
 }
 
-/* ---- Footer ---- */
-.footer {
-  text-align: center;
-  padding: 16px;
-  font-size: 11px;
-  color: var(--text-secondary);
-}
-
 /* ---- Responsive ---- */
-@media (max-width: 768px) {
-  .sidebar { width: 60px; padding: 12px 0; }
-  .sidebar-brand h1, .sidebar-brand .tagline, .sidebar-label, .sidebar-nav-btn span { display: none; }
-  .sidebar-stats { display: none; }
-  .main { margin-left: 60px; }
-  .content { padding: 16px; }
+@media (max-width: 900px) {
+  .left-panel { display: none; }
+  .content-area { padding: 16px; }
+  .topnav { padding: 0 16px; }
+  .filter-bar { padding: 8px 16px; }
+  .page-header { padding: 16px 16px 0; }
 }
 </style>
 </head>
 <body>
 
-<!-- Sidebar -->
-<div class="sidebar">
-  <div class="sidebar-brand">
-    <h1>BLACK HILL</h1>
-    <div class="tagline">Ops Scorecard</div>
+<!-- Top Navigation -->
+<nav class="topnav">
+  <div class="topnav-brand">
+    <h1>Black Hill</h1>
+    <span class="tagline">Ops Intelligence</span>
   </div>
-  <div class="sidebar-section">
-    <div class="sidebar-label">Views</div>
-    <button class="sidebar-nav-btn active" data-view="scorecard">Scorecard</button>
-    <button class="sidebar-nav-btn" data-view="leaderboard">Leaderboard</button>
-    <button class="sidebar-nav-btn" data-view="jobboard">Job Board</button>
+  <div class="topnav-links">
+    <button class="nav-btn active" data-view="scorecard">Scorecard</button>
+    <button class="nav-btn" data-view="leaderboard">Leaderboard</button>
+    <button class="nav-btn" data-view="jobboard">Job Board</button>
   </div>
-  <div class="sidebar-section">
-    <div class="sidebar-label">View By</div>
-    <button class="sidebar-nav-btn active" data-vb="route" onclick="switchViewBy('route')">Route</button>
-    <button class="sidebar-nav-btn" data-vb="crew" onclick="switchViewBy('crew')">Crew Leader</button>
-    <button class="sidebar-nav-btn" data-vb="division" onclick="switchViewBy('division')">Division</button>
-    <button class="sidebar-nav-btn" data-vb="property" onclick="switchViewBy('property')">Job</button>
+  <div class="topnav-right">
+    <span class="topnav-updated" id="footer-updated"></span>
+    <div class="avatar">EM</div>
   </div>
-  <div class="sidebar-stats">
-    <div class="sidebar-stat">
-      <span class="label">Avg Efficiency</span>
-      <span class="value" id="sb-avg">--</span>
-    </div>
-    <div class="sidebar-stat">
-      <span class="label">Bonus Eligible</span>
-      <span class="value" id="sb-bonus">--</span>
-    </div>
-    <div class="sidebar-stat">
-      <span class="label">Tickets</span>
-      <span class="value" id="sb-tickets">--</span>
-    </div>
+</nav>
+
+<!-- Filter Bar -->
+<div class="filter-bar" id="top-filter-bar">
+  <div class="pill-group" id="period-toggle">
+    <button class="pill-btn active" data-period="mtd" onclick="switchPeriod('mtd')">Month to Date</button>
+    <button class="pill-btn" data-period="prior_week" onclick="switchPeriod('prior_week')">Last Week</button>
+  </div>
+  <div class="pill-group" id="time-toggle">
+    <button class="pill-btn" data-time="daily" onclick="switchTime('daily')">Daily</button>
+    <button class="pill-btn active" data-time="weekly" onclick="switchTime('weekly')">Weekly</button>
+    <button class="pill-btn" data-time="monthly" onclick="switchTime('monthly')">Monthly</button>
+  </div>
+  <div class="filter-controls">
+    <button class="btn-icon" onclick="toggleFullscreen()" title="Fullscreen">&#9974;</button>
   </div>
 </div>
 
-<!-- Main -->
-<div class="main">
-  <div class="topbar">
-    <div class="topbar-title" id="topbar-title">Ops Scorecard - Crew Efficiency</div>
-    <div class="topbar-controls">
-      <div class="pill-group" id="period-toggle">
-        <button class="pill-btn active" data-period="mtd" onclick="switchPeriod('mtd')">Month</button>
-        <button class="pill-btn" data-period="prior_week" onclick="switchPeriod('prior_week')">Last Week</button>
+<!-- Page Header -->
+<div class="page-header">
+  <div class="page-title" id="page-title">Crew Scorecard</div>
+  <div class="page-subtitle" id="page-subtitle">Labor efficiency by crew leader</div>
+</div>
+
+<!-- Scorecard View -->
+<div id="view-scorecard" class="view active">
+  <div class="content-area">
+    <div class="left-panel">
+      <div class="panel-section">
+        <div class="panel-label">Metric</div>
+        <button class="panel-btn active" data-metric="efficiency" onclick="switchMetric('efficiency')">Labor Efficiency</button>
+        <button class="panel-btn" data-metric="margin" onclick="switchMetric('margin')">Gross Margin</button>
       </div>
-      <div class="pill-group" id="time-toggle">
-        <button class="pill-btn" data-time="daily" onclick="switchTime('daily')">Daily</button>
-        <button class="pill-btn active" data-time="weekly" onclick="switchTime('weekly')">Weekly</button>
-        <button class="pill-btn" data-time="monthly" onclick="switchTime('monthly')">Monthly</button>
+      <div class="panel-divider"></div>
+      <div class="panel-section">
+        <div class="panel-label">View By</div>
+        <button class="panel-btn active" data-vb="route" onclick="switchViewBy('route')">Route</button>
+        <button class="panel-btn" data-vb="crew" onclick="switchViewBy('crew')">Crew Leader</button>
+        <button class="panel-btn" data-vb="division" onclick="switchViewBy('division')">Division</button>
+        <button class="panel-btn" data-vb="property" onclick="switchViewBy('property')">Property</button>
       </div>
-      <button class="btn-icon" onclick="toggleFullscreen()" title="Fullscreen">&#9974;</button>
     </div>
-  </div>
-
-  <div class="content">
-
-    <!-- Scorecard View -->
-    <div id="view-scorecard" class="view active">
-      <div class="sc-top">
-        <div class="sc-metric-card">
-          <div class="sc-metric-label">Efficiency</div>
-          <div class="sc-metric-value" id="sc-overall">--</div>
+    <div class="main-content">
+      <div class="kpi-row" id="sc-kpi-cards">
+        <div class="kpi-card">
+          <div class="kpi-label" id="sc-kpi1-label">Efficiency</div>
+          <div class="kpi-value" id="sc-kpi1-value">--</div>
         </div>
-        <div class="sc-metric-card">
-          <div class="sc-metric-label">Bonus Eligible</div>
-          <div class="sc-metric-value" id="sc-bonus-count">--</div>
+        <div class="kpi-card">
+          <div class="kpi-label" id="sc-kpi2-label">Bonus Eligible</div>
+          <div class="kpi-value" id="sc-kpi2-value">--</div>
         </div>
-        <div class="sc-metric-card">
-          <div class="sc-metric-label">Tickets Analyzed</div>
-          <div class="sc-metric-value" id="sc-ticket-count">--</div>
+        <div class="kpi-card">
+          <div class="kpi-label" id="sc-kpi3-label">Tickets Analyzed</div>
+          <div class="kpi-value" id="sc-kpi3-value">--</div>
         </div>
       </div>
 
-      <div class="filter-bar" id="sc-filter-bar"></div>
+      <div class="check-filter-bar" id="sc-filter-bar"></div>
 
       <div class="matrix-card">
-        <div class="matrix-card-header">
-          <div class="matrix-card-title" id="matrix-title">Weekly Matrix</div>
+        <div class="matrix-header">
+          <div class="matrix-title" id="matrix-title">Weekly Matrix</div>
         </div>
         <div class="matrix-wrap">
           <table class="matrix-table" id="scorecard-matrix">
-            <thead><tr id="matrix-header"></tr></thead>
+            <thead><tr id="matrix-header-row"></tr></thead>
             <tbody id="matrix-body"></tbody>
           </table>
         </div>
@@ -719,21 +755,25 @@ body {
 
       <div class="chart-card">
         <div class="chart-title" id="chart-title">Efficiency Trend</div>
-        <div class="chart-subtitle" id="chart-subtitle">Performance over time</div>
+        <div class="chart-subtitle" id="chart-subtitle">Weekly trend over time</div>
         <div id="trend-chart"></div>
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- Leaderboard View -->
-    <div id="view-leaderboard" class="view">
-      <div class="sc-top">
-        <div class="sc-metric-card">
-          <div class="sc-metric-label">Company Avg</div>
-          <div class="sc-metric-value" id="lb-avg">--</div>
+<!-- Leaderboard View -->
+<div id="view-leaderboard" class="view">
+  <div class="content-area">
+    <div class="main-content">
+      <div class="kpi-row">
+        <div class="kpi-card">
+          <div class="kpi-label">Company Avg</div>
+          <div class="kpi-value" id="lb-avg">--</div>
         </div>
-        <div class="sc-metric-card">
-          <div class="sc-metric-label">Bonus Target</div>
-          <div class="sc-metric-value">&ge;97%</div>
+        <div class="kpi-card">
+          <div class="kpi-label">Bonus Target</div>
+          <div class="kpi-value">&ge;97%</div>
         </div>
       </div>
       <div class="lb-card">
@@ -745,7 +785,7 @@ body {
             <tr>
               <th>#</th>
               <th>Trend</th>
-              <th>Crew Leader</th>
+              <th>Crew</th>
               <th>Target Hrs</th>
               <th>Actual Hrs</th>
               <th>Efficiency</th>
@@ -756,24 +796,23 @@ body {
         </table>
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- Job Board View -->
-    <div id="view-jobboard" class="view">
-      <div class="sc-top">
-        <div class="sc-metric-card">
-          <div class="sc-metric-label">Current Week</div>
-          <div class="sc-metric-value" id="jb-week" style="font-size:20px">--</div>
+<!-- Job Board View -->
+<div id="view-jobboard" class="view">
+  <div class="content-area">
+    <div class="main-content">
+      <div class="kpi-row">
+        <div class="kpi-card">
+          <div class="kpi-label">Current Week</div>
+          <div class="kpi-value" id="jb-week" style="font-size:20px">--</div>
         </div>
       </div>
       <div class="jb-board-wrap">
         <div class="jb-board" id="jb-board"></div>
       </div>
     </div>
-
-  </div>
-
-  <div class="footer">
-    <span>Last updated: <span id="footer-updated">--</span></span>
   </div>
 </div>
 
@@ -781,11 +820,12 @@ body {
 // ---------------------------------------------------------------------------
 // State
 // ---------------------------------------------------------------------------
-let D = null; // dashboard data
+let D = null;
 let activePeriod = (() => { try { return localStorage.getItem('bh-period') || 'mtd'; } catch(e) { return 'mtd'; } })();
 let scViewBy = (() => { try { return localStorage.getItem('bh-vb') || 'route'; } catch(e) { return 'route'; } })();
 let scTime = (() => { try { return localStorage.getItem('bh-time') || 'weekly'; } catch(e) { return 'weekly'; } })();
 let activeView = (() => { try { return localStorage.getItem('bh-view') || 'scorecard'; } catch(e) { return 'scorecard'; } })();
+let scMetric = (() => { try { return localStorage.getItem('bh-metric') || 'efficiency'; } catch(e) { return 'efficiency'; } })();
 let scFilters = {};
 let expandedRow = null;
 
@@ -793,12 +833,22 @@ let expandedRow = null;
 // Helpers
 // ---------------------------------------------------------------------------
 function vColor(pct) {
-  if (pct >= 100) return 'var(--accent)';
+  if (scMetric === 'margin') {
+    if (pct >= 45) return 'var(--green)';
+    if (pct >= 30) return 'var(--yellow)';
+    return 'var(--red)';
+  }
+  if (pct >= 100) return 'var(--green)';
   if (pct >= 97) return 'var(--yellow)';
   return 'var(--red)';
 }
 function vClass(pct) {
-  if (pct === null) return 'empty';
+  if (pct === null || pct === undefined) return 'empty';
+  if (scMetric === 'margin') {
+    if (pct >= 45) return 'good';
+    if (pct >= 30) return 'ok';
+    return 'bad';
+  }
   if (pct >= 100) return 'good';
   if (pct >= 97) return 'ok';
   return 'bad';
@@ -824,23 +874,40 @@ function render() {
   const view = D[activePeriod];
   if (!view) return;
 
-  // Sidebar stats
-  document.getElementById('sb-avg').textContent = view.company_avg_variance + '%';
-  document.getElementById('sb-bonus').textContent = view.bonus_eligible_count + '/' + view.total_crew_leaders;
-  document.getElementById('sb-tickets').textContent = view.tickets_analyzed;
+  // Updated timestamp
+  document.getElementById('footer-updated').textContent = 'Updated ' + new Date(D.generated).toLocaleString();
 
-  // Footer
-  document.getElementById('footer-updated').textContent = new Date(D.generated).toLocaleString();
-
-  // Scorecard
+  // Scorecard KPI cards
   const sc = getScorecard();
   if (sc) {
-    const el = document.getElementById('sc-overall');
-    el.textContent = (sc.overall_efficiency || '--') + '%';
-    el.style.color = sc.overall_efficiency ? vColor(sc.overall_efficiency) : '';
-    document.getElementById('sc-bonus-count').textContent = view.bonus_eligible_count;
-    document.getElementById('sc-ticket-count').textContent = view.tickets_analyzed;
+    const overall = sc.overall_efficiency;
+    const el1 = document.getElementById('sc-kpi1-value');
+    if (scMetric === 'margin') {
+      document.getElementById('sc-kpi1-label').textContent = 'Gross Margin';
+      el1.textContent = overall != null ? overall + '%' : '--';
+      el1.style.color = overall != null ? vColor(overall) : '';
+      document.getElementById('sc-kpi2-label').textContent = 'Avg Efficiency';
+      const effSc = D.scorecard ? D.scorecard[scViewBy + '_' + scTime] : null;
+      const effVal = effSc ? effSc.overall_efficiency : null;
+      document.getElementById('sc-kpi2-value').textContent = effVal != null ? effVal + '%' : '--';
+      document.getElementById('sc-kpi3-label').textContent = 'Tickets';
+      document.getElementById('sc-kpi3-value').textContent = view.tickets_analyzed;
+    } else {
+      document.getElementById('sc-kpi1-label').textContent = 'Efficiency';
+      el1.textContent = overall != null ? overall + '%' : '--';
+      el1.style.color = overall != null ? vColor(overall) : '';
+      document.getElementById('sc-kpi2-label').textContent = 'Bonus Eligible';
+      document.getElementById('sc-kpi2-value').textContent = view.bonus_eligible_count;
+      document.getElementById('sc-kpi3-label').textContent = 'Tickets Analyzed';
+      document.getElementById('sc-kpi3-value').textContent = view.tickets_analyzed;
+    }
   }
+
+  // Chart title
+  const metricLabel = scMetric === 'margin' ? 'Gross Margin' : 'Efficiency';
+  document.getElementById('chart-title').textContent = metricLabel + ' Trend';
+  document.getElementById('chart-subtitle').textContent = 'Weekly trend over time';
+
   buildFilters(sc);
   renderMatrix(sc);
   renderChart(sc);
@@ -854,17 +921,34 @@ function render() {
 function switchView(v) {
   activeView = v;
   try { localStorage.setItem('bh-view', v); } catch(e) {}
-  document.querySelectorAll('.sidebar-nav-btn[data-view]').forEach(b => b.classList.toggle('active', b.dataset.view === v));
+  document.querySelectorAll('.nav-btn[data-view]').forEach(b => b.classList.toggle('active', b.dataset.view === v));
   document.querySelectorAll('.view').forEach(el => el.classList.toggle('active', el.id === 'view-' + v));
-  const titles = { scorecard: 'Ops Scorecard - Crew Efficiency', leaderboard: 'Ops Leaderboard', jobboard: 'Job Board' };
-  document.getElementById('topbar-title').textContent = titles[v] || '';
-  // Show/hide time toggle only on scorecard
+  updatePageHeader();
   document.getElementById('time-toggle').style.display = v === 'scorecard' ? '' : 'none';
 }
 
-document.querySelectorAll('.sidebar-nav-btn[data-view]').forEach(btn => {
+document.querySelectorAll('.nav-btn[data-view]').forEach(btn => {
   btn.addEventListener('click', () => switchView(btn.dataset.view));
 });
+
+function updatePageHeader() {
+  const vbLabels = { route: 'route', crew: 'crew leader', division: 'division', property: 'property' };
+  if (activeView === 'scorecard') {
+    if (scMetric === 'margin') {
+      document.getElementById('page-title').textContent = 'Crew Scorecard';
+      document.getElementById('page-subtitle').textContent = 'Gross margin by ' + (vbLabels[scViewBy] || 'route');
+    } else {
+      document.getElementById('page-title').textContent = 'Crew Scorecard';
+      document.getElementById('page-subtitle').textContent = 'Labor efficiency by ' + (vbLabels[scViewBy] || 'route');
+    }
+  } else if (activeView === 'leaderboard') {
+    document.getElementById('page-title').textContent = 'Crew Leaderboard';
+    document.getElementById('page-subtitle').textContent = 'Rankings by labor variance';
+  } else if (activeView === 'jobboard') {
+    document.getElementById('page-title').textContent = 'Job Board';
+    document.getElementById('page-subtitle').textContent = 'Current week schedule and progress';
+  }
+}
 
 function switchPeriod(p) {
   activePeriod = p;
@@ -873,11 +957,21 @@ function switchPeriod(p) {
   render();
 }
 
+function switchMetric(m) {
+  scMetric = m;
+  try { localStorage.setItem('bh-metric', m); } catch(e) {}
+  document.querySelectorAll('.panel-btn[data-metric]').forEach(b => b.classList.toggle('active', b.dataset.metric === m));
+  expandedRow = null;
+  updatePageHeader();
+  render();
+}
+
 function switchViewBy(vb) {
   scViewBy = vb;
   try { localStorage.setItem('bh-vb', vb); } catch(e) {}
-  document.querySelectorAll('.sidebar-nav-btn[data-vb]').forEach(b => b.classList.toggle('active', b.dataset.vb === vb));
+  document.querySelectorAll('.panel-btn[data-vb]').forEach(b => b.classList.toggle('active', b.dataset.vb === vb));
   expandedRow = null;
+  updatePageHeader();
   const sc = getScorecard();
   buildFilters(sc);
   renderMatrix(sc);
@@ -896,8 +990,10 @@ function switchTime(t) {
 }
 
 function getScorecard() {
-  if (!D || !D.scorecard) return null;
-  return D.scorecard[scViewBy + '_' + scTime];
+  if (!D) return null;
+  const source = scMetric === 'margin' ? D.margin : D.scorecard;
+  if (!source) return null;
+  return source[scViewBy + '_' + scTime];
 }
 
 // ---------------------------------------------------------------------------
@@ -933,13 +1029,11 @@ function renderMatrix(sc) {
   const cols = sc.weeks;
   const checked = scFilters[scViewBy];
 
-  // Header
-  const colLabels = { route: 'Route', crew: 'Crew Leader', division: 'Division', property: 'Job' };
-  const hdr = document.getElementById('matrix-header');
+  const colLabels = { route: 'Route', crew: 'Crew Leader', division: 'Division', property: 'Property' };
+  const hdr = document.getElementById('matrix-header-row');
   hdr.innerHTML = `<th>${colLabels[scViewBy] || 'Name'}</th><th>Total</th>`;
   cols.forEach(c => hdr.innerHTML += `<th>${c}</th>`);
 
-  // Body
   const tbody = document.getElementById('matrix-body');
   tbody.innerHTML = '';
 
@@ -955,7 +1049,6 @@ function renderMatrix(sc) {
     tbody.appendChild(tr);
   });
 
-  // Total row
   const tot = document.createElement('tr');
   tot.className = 'total-row';
   tot.innerHTML = `<td>Total</td><td><span class="cell ${vClass(sc.total_row.total)}">${sc.total_row.total != null ? sc.total_row.total+'%' : '—'}</span></td>`;
@@ -977,7 +1070,6 @@ function toggleDetail(name, tr) {
     expandedRow = null;
     return;
   }
-  // Remove any other expanded
   document.querySelectorAll('.detail-row').forEach(el => el.remove());
   document.querySelectorAll('.matrix-table tbody tr.expanded').forEach(el => el.classList.remove('expanded'));
 
@@ -985,7 +1077,6 @@ function toggleDetail(name, tr) {
   tr.classList.add('expanded');
   expandedRow = name;
 
-  // Filter tickets for this group
   const fieldMap = { route: 'route', crew: 'crew_leader', division: 'division', property: 'property' };
   const field = fieldMap[scViewBy];
   const tickets = D.tickets.filter(t => t[field] === name);
@@ -997,23 +1088,37 @@ function toggleDetail(name, tr) {
   if (tickets.length === 0) {
     html += '<div style="color:var(--text-secondary);font-size:12px">No ticket details available</div>';
   } else {
-    html += `<table class="detail-table"><thead><tr>
-      <th>Date</th><th>Property</th><th>Service</th><th>Crew Leader</th>
-      <th>Target Hrs</th><th>Actual Hrs</th><th>Efficiency</th>
-    </tr></thead><tbody>`;
-    tickets.sort((a,b) => a.date.localeCompare(b.date)).forEach(t => {
-      const cls = t.efficiency != null ? vClass(t.efficiency) : 'empty';
-      html += `<tr>
-        <td>${t.day_label}</td>
-        <td>${t.property}</td>
-        <td>${t.service}</td>
-        <td>${t.crew_leader}</td>
-        <td>${t.target_hours}</td>
-        <td>${t.actual_hours}</td>
-        <td><span class="cell ${cls}">${t.efficiency != null ? t.efficiency+'%' : '—'}</span></td>
-      </tr>`;
-    });
-    html += '</tbody></table>';
+    if (scMetric === 'margin') {
+      html += `<table class="detail-table"><thead><tr>
+        <th>Date</th><th>Property</th><th>Service</th><th>Crew Leader</th>
+        <th>Revenue</th><th>Cost</th><th>GM%</th>
+      </tr></thead><tbody>`;
+      tickets.sort((a,b) => a.date.localeCompare(b.date)).forEach(t => {
+        const cls = t.gm_pct != null ? vClass(t.gm_pct) : 'empty';
+        const rev = t.revenue != null ? '$' + t.revenue.toLocaleString() : '—';
+        const cst = t.cost != null ? '$' + t.cost.toLocaleString() : '—';
+        html += `<tr>
+          <td>${t.day_label}</td><td>${t.property}</td><td>${t.service}</td><td>${t.crew_leader}</td>
+          <td>${rev}</td><td>${cst}</td>
+          <td><span class="cell ${cls}">${t.gm_pct != null ? t.gm_pct+'%' : '—'}</span></td>
+        </tr>`;
+      });
+      html += '</tbody></table>';
+    } else {
+      html += `<table class="detail-table"><thead><tr>
+        <th>Date</th><th>Property</th><th>Service</th><th>Crew Leader</th>
+        <th>Target Hrs</th><th>Actual Hrs</th><th>Efficiency</th>
+      </tr></thead><tbody>`;
+      tickets.sort((a,b) => a.date.localeCompare(b.date)).forEach(t => {
+        const cls = t.efficiency != null ? vClass(t.efficiency) : 'empty';
+        html += `<tr>
+          <td>${t.day_label}</td><td>${t.property}</td><td>${t.service}</td><td>${t.crew_leader}</td>
+          <td>${t.target_hours}</td><td>${t.actual_hours}</td>
+          <td><span class="cell ${cls}">${t.efficiency != null ? t.efficiency+'%' : '—'}</span></td>
+        </tr>`;
+      });
+      html += '</tbody></table>';
+    }
   }
   html += '</div></td>';
   detailTr.innerHTML = html;
@@ -1045,7 +1150,7 @@ function renderLeaderboard(entries, view) {
     tr.innerHTML = `
       <td>${rankHTML}</td>
       <td>${trend}</td>
-      <td><span class="crew-name">${e.crew_leader}</span></td>
+      <td><span class="crew-name">${e.crew || e.crew_leader}</span>${e.crew && e.crew_leader ? '<br><span style="font-size:11px;color:var(--text-secondary);font-weight:400">' + e.crew_leader + '</span>' : ''}</td>
       <td>${e.estimated_hours.toFixed(1)}h</td>
       <td>${e.actual_hours.toFixed(1)}h</td>
       <td><span class="badge ${badgeCls}">${e.labor_variance_pct.toFixed(1)}%</span></td>
@@ -1065,8 +1170,11 @@ function renderChart(sc) {
   const points = sc.weeks.map((w, i) => ({ week: w, val: sc.total_row.weekly_values[i] })).filter(p => p.val !== null);
   if (points.length < 2) { chart.innerHTML = '<div style="color:var(--text-secondary);padding:20px;font-size:13px">Not enough data for trend line</div>'; return; }
 
+  const targetVal = scMetric === 'margin' ? 45 : 97;
   const vals = points.map(p => p.val);
-  const minY = Math.min(...vals, 90), maxY = Math.max(...vals, 110);
+  const defaultMin = scMetric === 'margin' ? 20 : 90;
+  const defaultMax = scMetric === 'margin' ? 70 : 110;
+  const minY = Math.min(...vals, defaultMin), maxY = Math.max(...vals, defaultMax);
   const padY = (maxY - minY) * 0.15 || 10;
   const yMin = Math.floor(minY - padY), yMax = Math.ceil(maxY + padY);
   const yRange = yMax - yMin || 1;
@@ -1078,7 +1186,7 @@ function renderChart(sc) {
   const yPos = v => mt + ch - ((v - yMin) / yRange) * ch;
 
   const linePts = points.map((p, i) => `${xPos(i).toFixed(1)},${yPos(p.val).toFixed(1)}`);
-  const targetY = yPos(97);
+  const targetY = yPos(targetVal);
 
   const yTicks = [];
   const step = yRange > 40 ? 20 : yRange > 15 ? 10 : 5;
@@ -1090,12 +1198,14 @@ function renderChart(sc) {
     svg += `<line x1="${ml}" y1="${y}" x2="${svgW-mr}" y2="${y}" stroke="var(--border)" stroke-width="1"/>`;
     svg += `<text x="${ml-6}" y="${y+4}" text-anchor="end" font-size="10" fill="var(--text-secondary)">${v}%</text>`;
   });
-  svg += `<line x1="${ml}" y1="${targetY}" x2="${svgW-mr}" y2="${targetY}" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="6,4"/>`;
-  svg += `<text x="${svgW-mr+2}" y="${targetY+3}" font-size="9" fill="var(--accent)" font-weight="600">97%</text>`;
-  svg += `<polyline fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round" points="${linePts.join(' ')}"/>`;
+  svg += `<line x1="${ml}" y1="${targetY}" x2="${svgW-mr}" y2="${targetY}" stroke="var(--accent-dark)" stroke-width="1.5" stroke-dasharray="6,4"/>`;
+  svg += `<text x="${svgW-mr+2}" y="${targetY+3}" font-size="9" fill="var(--accent-dark)" font-weight="600">${targetVal}%</text>`;
+  svg += `<polyline fill="none" stroke="var(--accent-dark)" stroke-width="2.5" stroke-linejoin="round" points="${linePts.join(' ')}"/>`;
   points.forEach((p, i) => {
     const x = xPos(i), y = yPos(p.val);
-    const color = p.val >= 100 ? '#22c55e' : p.val >= 97 ? '#eab308' : '#ef4444';
+    const color = scMetric === 'margin'
+      ? (p.val >= 45 ? '#16a34a' : p.val >= 30 ? '#b45309' : '#dc2626')
+      : (p.val >= 100 ? '#16a34a' : p.val >= 97 ? '#b45309' : '#dc2626');
     svg += `<circle cx="${x}" cy="${y}" r="4" fill="${color}" stroke="var(--surface)" stroke-width="2"/>`;
     svg += `<text x="${x}" y="${svgH-6}" text-anchor="middle" font-size="9" fill="var(--text-secondary)">${p.week}</text>`;
   });
@@ -1155,11 +1265,12 @@ function toggleFullscreen() {
 // ---------------------------------------------------------------------------
 // Init
 // ---------------------------------------------------------------------------
-// Restore UI state
 document.querySelectorAll('#period-toggle .pill-btn').forEach(b => b.classList.toggle('active', b.dataset.period === activePeriod));
 document.querySelectorAll('#time-toggle .pill-btn').forEach(b => b.classList.toggle('active', b.dataset.time === scTime));
-document.querySelectorAll('.sidebar-nav-btn[data-vb]').forEach(b => b.classList.toggle('active', b.dataset.vb === scViewBy));
+document.querySelectorAll('.panel-btn[data-vb]').forEach(b => b.classList.toggle('active', b.dataset.vb === scViewBy));
+document.querySelectorAll('.panel-btn[data-metric]').forEach(b => b.classList.toggle('active', b.dataset.metric === scMetric));
 switchView(activeView);
+updatePageHeader();
 const timeLabels = { daily: 'Daily', weekly: 'Weekly', monthly: 'Monthly' };
 document.getElementById('matrix-title').textContent = (timeLabels[scTime] || 'Weekly') + ' Matrix';
 
