@@ -1,0 +1,69 @@
+name: Weekly Crew Schedule
+
+on:
+  schedule:
+    - cron: '0 13 * * 6'  # 8 AM CDT (UTC-5) every Saturday
+  workflow_dispatch:       # Allow manual trigger
+
+permissions:
+  contents: read
+
+jobs:
+  generate-schedule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate and email schedule
+        env:
+          ASPIRE_REPORTING_CLIENT_ID: ${{ secrets.ASPIRE_REPORTING_CLIENT_ID }}
+          ASPIRE_REPORTING_SECRET: ${{ secrets.ASPIRE_REPORTING_SECRET }}
+          ASPIRE_API_URL: ${{ secrets.ASPIRE_API_URL }}
+          GMAIL_EMAIL: ${{ secrets.GMAIL_EMAIL }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python scripts/weekly-schedule.py
+
+  notify-failure:
+    needs: [generate-schedule]
+    if: failure()
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - name: Send failure email
+        env:
+          GMAIL_EMAIL: ${{ secrets.GMAIL_EMAIL }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        shell: python
+        run: |
+          import smtplib, os
+          from email.mime.text import MIMEText
+          from email.mime.multipart import MIMEMultipart
+          from email.utils import formataddr
+
+          sender = os.environ['GMAIL_EMAIL']
+          url = os.environ['RUN_URL']
+
+          msg = MIMEMultipart('alternative')
+          msg['Subject'] = '[ALERT] Weekly Schedule Generator failed'
+          msg['From'] = formataddr(('Black Hill Assistant', sender))
+          msg['To'] = 'evelin@blackhilltx.com'
+
+          body = f'''<h3>Workflow Failure: Weekly Schedule Generator</h3>
+          <p>The Saturday schedule generation failed.</p>
+          <p><a href="{url}">View failed run</a></p>
+          <p style="color:#888;font-size:12px">Sent by Black Hill automation monitor</p>'''
+
+          msg.attach(MIMEText(body, 'html'))
+
+          with smtplib.SMTP_SSL('smtp.gmail.com', 465) as s:
+              s.login(sender, os.environ['GMAIL_APP_PASSWORD'])
+              s.sendmail(sender, ['evelin@blackhilltx.com'], msg.as_string())
