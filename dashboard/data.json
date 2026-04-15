@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-14T11:05:33",
+  "generated": "2026-04-15T11:01:44",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -23,9 +23,9 @@
         },
         {
           "name": "Maint 1 - Blue/Azul",
-          "total": 69.7,
+          "total": 85.7,
           "weekly_values": [
-            69.7
+            85.7
           ]
         },
         {
@@ -37,9 +37,9 @@
         },
         {
           "name": "Maint 3 - White/Blanco",
-          "total": 82.5,
+          "total": 78.4,
           "weekly_values": [
-            82.5
+            78.4
           ]
         },
         {
@@ -51,12 +51,12 @@
         }
       ],
       "total_row": {
-        "total": 80.7,
+        "total": 82.1,
         "weekly_values": [
-          80.7
+          82.1
         ]
       },
-      "overall_efficiency": 80.7
+      "overall_efficiency": 82.1
     },
     "route_daily": {
       "weeks": [
@@ -97,11 +97,11 @@
         },
         {
           "name": "Maint 1 - Blue/Azul",
-          "total": 69.7,
+          "total": 85.7,
           "weekly_values": [
-            70.6,
+            72.3,
             68.7,
-            null,
+            120.4,
             null,
             null,
             null,
@@ -123,11 +123,11 @@
         },
         {
           "name": "Maint 3 - White/Blanco",
-          "total": 82.5,
+          "total": 78.4,
           "weekly_values": [
             84.8,
             85.4,
-            71.0,
+            59.5,
             86.6,
             null,
             null,
@@ -149,18 +149,18 @@
         }
       ],
       "total_row": {
-        "total": 80.7,
+        "total": 82.1,
         "weekly_values": [
-          66.8,
+          67.1,
           85.7,
-          83.2,
+          88.0,
           125.1,
           16.7,
           null,
           null
         ]
       },
-      "overall_efficiency": 80.7
+      "overall_efficiency": 82.1
     },
     "route_monthly": {
       "weeks": [
@@ -183,9 +183,9 @@
         },
         {
           "name": "Maint 1 - Blue/Azul",
-          "total": 69.7,
+          "total": 85.7,
           "weekly_values": [
-            69.7
+            85.7
           ]
         },
         {
@@ -197,9 +197,9 @@
         },
         {
           "name": "Maint 3 - White/Blanco",
-          "total": 92.9,
+          "total": 90.3,
           "weekly_values": [
-            92.9
+            90.3
           ]
         },
         {
@@ -211,12 +211,12 @@
         }
       ],
       "total_row": {
-        "total": 86.5,
+        "total": 87.1,
         "weekly_values": [
-          86.5
+          87.1
         ]
       },
-      "overall_efficiency": 86.5
+      "overall_efficiency": 87.1
     },
     "crew_weekly": {
       "weeks": [
@@ -232,9 +232,9 @@
         },
         {
           "name": "Gustavo Aguilar",
-          "total": 82.5,
+          "total": 78.4,
           "weekly_values": [
-            82.5
+            78.4
           ]
         },
         {
@@ -260,19 +260,19 @@
         },
         {
           "name": "Saul Cruz Morales",
-          "total": 69.7,
+          "total": 85.7,
           "weekly_values": [
-            69.7
+            85.7
           ]
         }
       ],
       "total_row": {
-        "total": 80.7,
+        "total": 82.1,
         "weekly_values": [
-          80.7
+          82.1
         ]
       },
-      "overall_efficiency": 80.7
+      "overall_efficiency": 82.1
     },
     "crew_daily": {
       "weeks": [
@@ -300,11 +300,11 @@
         },
         {
           "name": "Gustavo Aguilar",
-          "total": 82.5,
+          "total": 78.4,
           "weekly_values": [
             84.8,
             85.4,
-            71.0,
+            59.5,
             86.6,
             null,
             null,
@@ -352,11 +352,11 @@
         },
         {
           "name": "Saul Cruz Morales",
-          "total": 69.7,
+          "total": 85.7,
           "weekly_values": [
-            70.6,
+            72.3,
             68.7,
-            null,
+            120.4,
             null,
             null,
             null,
@@ -365,18 +365,18 @@
         }
       ],
       "total_row": {
-        "total": 80.7,
+        "total": 82.1,
         "weekly_values": [
-          66.8,
+          67.1,
           85.7,
-          83.2,
+          88.0,
           125.1,
           16.7,
           null,
           null
         ]
       },
-      "overall_efficiency": 80.7
+      "overall_efficiency": 82.1
     },
     "crew_monthly": {
       "weeks": [
@@ -399,9 +399,9 @@
         },
         {
           "name": "Gustavo Aguilar",
-          "total": 92.9,
+          "total": 90.3,
           "weekly_values": [
-            92.9
+            90.3
           ]
         },
         {
@@ -427,19 +427,19 @@
         },
         {
           "name": "Saul Cruz Morales",
-          "total": 69.7,
+          "total": 85.7,
           "weekly_values": [
-            69.7
+            85.7
           ]
         }
       ],
       "total_row": {
-        "total": 86.3,
+        "total": 87.0,
         "weekly_values": [
-          86.3
+          87.0
         ]
       },
-      "overall_efficiency": 86.3
+      "overall_efficiency": 87.0
     },
     "division_weekly": {
       "weeks": [
@@ -462,19 +462,19 @@
         },
         {
           "name": "Maintenance",
-          "total": 76.6,
+          "total": 78.5,
           "weekly_values": [
-            76.6
+            78.5
           ]
         }
       ],
       "total_row": {
-        "total": 80.7,
+        "total": 82.1,
         "weekly_values": [
-          80.7
+          82.1
         ]
       },
-      "overall_efficiency": 80.7
+      "overall_efficiency": 82.1
     },
     "division_daily": {
       "weeks": [
@@ -515,11 +515,11 @@
         },
         {
           "name": "Maintenance",
-          "total": 76.6,
+          "total": 78.5,
           "weekly_values": [
-            66.3,
+            66.6,
             85.7,
-            81.3,
+            87.1,
             86.6,
             null,
             null,
@@ -528,18 +528,18 @@
         }
       ],
       "total_row": {
-        "total": 80.7,
+        "total": 82.1,
         "weekly_values": [
-          66.8,
+          67.1,
           85.7,
-          83.2,
+          88.0,
           125.1,
           16.7,
           null,
           null
         ]
       },
-      "overall_efficiency": 80.7
+      "overall_efficiency": 82.1
     },
     "division_monthly": {
       "weeks": [
@@ -562,19 +562,19 @@
         },
         {
           "name": "Maintenance",
-          "total": 87.6,
+          "total": 88.4,
           "weekly_values": [
-            87.6
+            88.4
           ]
         }
       ],
       "total_row": {
-        "total": 86.5,
+        "total": 87.1,
         "weekly_values": [
-          86.5
+          87.1
         ]
       },
-      "overall_efficiency": 86.5
+      "overall_efficiency": 87.1
     },
     "property_weekly": {
       "weeks": [
@@ -597,16 +597,16 @@
         },
         {
           "name": "BISD Park",
-          "total": 51.5,
+          "total": 43.6,
           "weekly_values": [
-            51.5
+            43.6
           ]
         },
         {
           "name": "Bear Creek HOA",
-          "total": 62.6,
+          "total": 75.0,
           "weekly_values": [
-            62.6
+            75.0
           ]
         },
         {
@@ -624,6 +624,13 @@
           ]
         },
         {
+          "name": "Chick-Fil-A North Irving",
+          "total": 32.8,
+          "weekly_values": [
+            32.8
+          ]
+        },
+        {
           "name": "Craft Residence - Magnolia",
           "total": 133.3,
           "weekly_values": [
@@ -632,9 +639,9 @@
         },
         {
           "name": "Crowley Creekside HOA",
-          "total": 48.2,
+          "total": 63.7,
           "weekly_values": [
-            48.2
+            63.7
           ]
         },
         {
@@ -660,16 +667,16 @@
         },
         {
           "name": "Foster Village Park",
-          "total": 80.6,
+          "total": 92.7,
           "weekly_values": [
-            80.6
+            92.7
           ]
         },
         {
           "name": "Hampton Manor of Crowley",
-          "total": 124.0,
+          "total": 76.4,
           "weekly_values": [
-            124.0
+            76.4
           ]
         },
         {
@@ -793,12 +800,12 @@
         }
       ],
       "total_row": {
-        "total": 80.7,
+        "total": 82.1,
         "weekly_values": [
-          80.7
+          82.1
         ]
       },
-      "overall_efficiency": 80.7
+      "overall_efficiency": 82.1
     },
     "property_daily": {
       "weeks": [
@@ -839,9 +846,9 @@
         },
         {
           "name": "BISD Park",
-          "total": 51.5,
+          "total": 43.6,
           "weekly_values": [
-            51.5,
+            43.6,
             null,
             null,
             null,
@@ -852,11 +859,11 @@
         },
         {
           "name": "Bear Creek HOA",
-          "total": 62.6,
+          "total": 75.0,
           "weekly_values": [
             77.1,
             null,
-            54.9,
+            73.5,
             null,
             null,
             null,
@@ -890,6 +897,19 @@
           ]
         },
         {
+          "name": "Chick-Fil-A North Irving",
+          "total": 32.8,
+          "weekly_values": [
+            null,
+            null,
+            32.8,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
           "name": "Craft Residence - Magnolia",
           "total": 133.3,
           "weekly_values": [
@@ -904,11 +924,11 @@
         },
         {
           "name": "Crowley Creekside HOA",
-          "total": 48.2,
+          "total": 63.7,
           "weekly_values": [
             51.0,
             null,
-            null,
+            120.4,
             null,
             16.7,
             null,
@@ -956,9 +976,9 @@
         },
         {
           "name": "Foster Village Park",
-          "total": 80.6,
+          "total": 92.7,
           "weekly_values": [
-            80.6,
+            92.7,
             null,
             null,
             null,
@@ -969,11 +989,11 @@
         },
         {
           "name": "Hampton Manor of Crowley",
-          "total": 124.0,
+          "total": 76.4,
           "weekly_values": [
             null,
             null,
-            124.0,
+            76.4,
             null,
             null,
             null,
@@ -1203,18 +1223,18 @@
         }
       ],
       "total_row": {
-        "total": 80.7,
+        "total": 82.1,
         "weekly_values": [
-          66.8,
+          67.1,
           85.7,
-          83.2,
+          88.0,
           125.1,
           16.7,
           null,
           null
         ]
       },
-      "overall_efficiency": 80.7
+      "overall_efficiency": 82.1
     },
     "property_monthly": {
       "weeks": [
@@ -1237,16 +1257,16 @@
         },
         {
           "name": "BISD Park",
-          "total": 63.0,
+          "total": 56.7,
           "weekly_values": [
-            63.0
+            56.7
           ]
         },
         {
           "name": "Bear Creek HOA",
-          "total": 62.6,
+          "total": 75.0,
           "weekly_values": [
-            62.6
+            75.0
           ]
         },
         {
@@ -1265,9 +1285,9 @@
         },
         {
           "name": "Chick-Fil-A North Irving",
-          "total": 173.9,
+          "total": 55.2,
           "weekly_values": [
-            173.9
+            55.2
           ]
         },
         {
@@ -1279,9 +1299,9 @@
         },
         {
           "name": "Crowley Creekside HOA",
-          "total": 53.2,
+          "total": 67.0,
           "weekly_values": [
-            53.2
+            67.0
           ]
         },
         {
@@ -1307,16 +1327,16 @@
         },
         {
           "name": "Foster Village Park",
-          "total": 101.2,
+          "total": 110.2,
           "weekly_values": [
-            101.2
+            110.2
           ]
         },
         {
           "name": "Hampton Manor of Crowley",
-          "total": 124.0,
+          "total": 76.4,
           "weekly_values": [
-            124.0
+            76.4
           ]
         },
         {
@@ -1475,12 +1495,12 @@
         }
       ],
       "total_row": {
-        "total": 86.3,
+        "total": 87.0,
         "weekly_values": [
-          86.3
+          87.0
         ]
       },
-      "overall_efficiency": 86.3
+      "overall_efficiency": 87.0
     }
   },
   "job_board": {
@@ -1534,12 +1554,38 @@
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 4/13": {
+            "tickets": [
+              {
+                "property": "Leo at Bethel",
+                "service": "Maintenance Care",
+                "occur": "25/39",
+                "target_hours": 37.0,
+                "actual_hours": 46.78,
+                "variance_pct": 79.1
+              }
+            ],
+            "total_hours": 37.0
+          }
+        },
+        "job_count": 1
       }
     ]
   },
   "tickets": [
+    {
+      "date": "2026-04-08",
+      "day_label": "4/8",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Chick-Fil-A North Irving",
+      "service": "Maintenance Care",
+      "target_hours": 2.0,
+      "actual_hours": 6.09,
+      "efficiency": 32.8
+    },
     {
       "date": "2026-04-03",
       "day_label": "4/3",
@@ -1645,8 +1691,8 @@
       "property": "Bear Creek HOA",
       "service": "Maintenance Care",
       "target_hours": 8.0,
-      "actual_hours": 14.57,
-      "efficiency": 54.9
+      "actual_hours": 10.88,
+      "efficiency": 73.5
     },
     {
       "date": "2026-03-31",
@@ -1889,6 +1935,18 @@
       "efficiency": 51.0
     },
     {
+      "date": "2026-03-27",
+      "day_label": "3/27",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "Crowley Creekside HOA",
+      "service": "Irrigation Activation",
+      "target_hours": 3.0,
+      "actual_hours": 8.8,
+      "efficiency": 34.1
+    },
+    {
       "date": "2026-04-10",
       "day_label": "4/10",
       "crew_leader": "Jon Hatcher",
@@ -1959,6 +2017,18 @@
       "target_hours": 37.0,
       "actual_hours": 35.1,
       "efficiency": 105.4
+    },
+    {
+      "date": "2026-04-13",
+      "day_label": "4/13",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Leo at Bethel",
+      "service": "Maintenance Care",
+      "target_hours": 37.0,
+      "actual_hours": 46.78,
+      "efficiency": 79.1
     },
     {
       "date": "2026-04-07",
@@ -2101,8 +2171,8 @@
       "property": "BISD Park",
       "service": "Mowing Cycle",
       "target_hours": 4.0,
-      "actual_hours": 7.76,
-      "efficiency": 51.5
+      "actual_hours": 9.18,
+      "efficiency": 43.6
     },
     {
       "date": "2026-03-16",
@@ -2269,8 +2339,8 @@
       "property": "Foster Village Park",
       "service": "Mowing Cycle",
       "target_hours": 12.0,
-      "actual_hours": 14.89,
-      "efficiency": 80.6
+      "actual_hours": 12.94,
+      "efficiency": 92.7
     },
     {
       "date": "2026-03-16",
@@ -2641,8 +2711,8 @@
       "property": "Hampton Manor of Crowley",
       "service": "Mowing Cycle",
       "target_hours": 7.34,
-      "actual_hours": 5.92,
-      "efficiency": 124.0
+      "actual_hours": 9.61,
+      "efficiency": 76.4
     },
     {
       "date": "2026-03-17",
@@ -3077,6 +3147,18 @@
       "efficiency": 88.2
     },
     {
+      "date": "2026-04-08",
+      "day_label": "4/8",
+      "crew_leader": "Saul Cruz Morales",
+      "route": "Maint 1 - Blue/Azul",
+      "division": "Maintenance",
+      "property": "Crowley Creekside HOA",
+      "service": "Tractor Mowing",
+      "target_hours": 12.0,
+      "actual_hours": 14.2,
+      "efficiency": 84.5
+    },
+    {
       "date": "2026-03-31",
       "day_label": "3/31",
       "crew_leader": "Jorge Torres Conde",
@@ -3087,6 +3169,18 @@
       "target_hours": 6.0,
       "actual_hours": 2.18,
       "efficiency": 275.2
+    },
+    {
+      "date": "2026-04-08",
+      "day_label": "4/8",
+      "crew_leader": "Saul Cruz Morales",
+      "route": "Maint 1 - Blue/Azul",
+      "division": "Maintenance",
+      "property": "Crowley Creekside HOA",
+      "service": "Mobilization",
+      "target_hours": 12.0,
+      "actual_hours": 5.74,
+      "efficiency": 209.1
     },
     {
       "date": "2026-03-26",
@@ -3291,6 +3385,30 @@
       "target_hours": 27.0,
       "actual_hours": 23.46,
       "efficiency": 115.1
+    },
+    {
+      "date": "2026-03-23",
+      "day_label": "3/23",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Hampton Manor of Crowley",
+      "service": "Landscape Upgrade",
+      "target_hours": 218.0,
+      "actual_hours": 174.85,
+      "efficiency": 124.7
+    },
+    {
+      "date": "2026-03-25",
+      "day_label": "3/25",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Hampton Manor of Crowley",
+      "service": "Mobilization",
+      "target_hours": 63.0,
+      "actual_hours": 67.47,
+      "efficiency": 93.4
     },
     {
       "date": "2026-03-27",
@@ -3537,7 +3655,7 @@
     "period": {
       "label": "April 2026",
       "start": "2026-04-01",
-      "end": "2026-04-14"
+      "end": "2026-04-15"
     },
     "leaderboard": [
       {
@@ -3552,23 +3670,33 @@
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 137.4,
-        "estimated_hours": 127.7,
-        "labor_variance_pct": 92.9,
+        "actual_hours": 143.5,
+        "estimated_hours": 129.7,
+        "labor_variance_pct": 90.3,
         "bonus_eligible": false,
         "rank": 2,
         "trend": "same",
         "rank_change": 0
       },
       {
-        "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 205.2,
-        "estimated_hours": 173.5,
-        "labor_variance_pct": 84.6,
+        "crew_leader": "Saul Cruz Morales",
+        "actual_hours": 65.3,
+        "estimated_hours": 56.0,
+        "labor_variance_pct": 85.7,
         "bonus_eligible": false,
         "rank": 3,
+        "trend": "new",
+        "rank_change": 0
+      },
+      {
+        "crew_leader": "Jorge Torres Conde",
+        "actual_hours": 251.9,
+        "estimated_hours": 210.5,
+        "labor_variance_pct": 83.6,
+        "bonus_eligible": false,
+        "rank": 4,
         "trend": "down",
-        "rank_change": -2
+        "rank_change": -3
       },
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -3576,25 +3704,15 @@
         "estimated_hours": 71.5,
         "labor_variance_pct": 83.1,
         "bonus_eligible": false,
-        "rank": 4,
-        "trend": "down",
-        "rank_change": -1
-      },
-      {
-        "crew_leader": "Saul Cruz Morales",
-        "actual_hours": 45.9,
-        "estimated_hours": 32.0,
-        "labor_variance_pct": 69.7,
-        "bonus_eligible": false,
         "rank": 5,
-        "trend": "new",
-        "rank_change": 0
+        "trend": "down",
+        "rank_change": -2
       }
     ],
     "bonus_eligible_count": 0,
-    "company_avg_variance": 82.1,
+    "company_avg_variance": 82.7,
     "total_crew_leaders": 5,
-    "tickets_analyzed": 75
+    "tickets_analyzed": 79
   },
   "prior_week": {
     "period": {
@@ -3624,24 +3742,24 @@
         "rank_change": 0
       },
       {
-        "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 68.7,
-        "estimated_hours": 56.6,
-        "labor_variance_pct": 82.5,
+        "crew_leader": "Saul Cruz Morales",
+        "actual_hours": 65.3,
+        "estimated_hours": 56.0,
+        "labor_variance_pct": 85.7,
         "bonus_eligible": false,
         "rank": 3,
-        "trend": "down",
-        "rank_change": -1
-      },
-      {
-        "crew_leader": "Saul Cruz Morales",
-        "actual_hours": 45.9,
-        "estimated_hours": 32.0,
-        "labor_variance_pct": 69.7,
-        "bonus_eligible": false,
-        "rank": 4,
         "trend": "new",
         "rank_change": 0
+      },
+      {
+        "crew_leader": "Gustavo Aguilar",
+        "actual_hours": 74.8,
+        "estimated_hours": 58.6,
+        "labor_variance_pct": 78.4,
+        "bonus_eligible": false,
+        "rank": 4,
+        "trend": "down",
+        "rank_change": -2
       },
       {
         "crew_leader": "Jorge Torres Conde",
@@ -3655,8 +3773,8 @@
       }
     ],
     "bonus_eligible_count": 1,
-    "company_avg_variance": 75.7,
+    "company_avg_variance": 77.2,
     "total_crew_leaders": 5,
-    "tickets_analyzed": 46
+    "tickets_analyzed": 49
   }
 }
