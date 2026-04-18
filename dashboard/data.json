@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-17T10:59:39",
+  "generated": "2026-04-18T10:43:16",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1578,6 +1578,27 @@
             ],
             "total_hours": 40.0
           },
+          "Thu 4/16": {
+            "tickets": [
+              {
+                "property": "Jill McNeill Residence",
+                "service": "Mobilization",
+                "occur": "",
+                "target_hours": 8.0,
+                "actual_hours": 10.09,
+                "variance_pct": 79.3
+              },
+              {
+                "property": "Jill McNeill Residence",
+                "service": "Sod Install",
+                "occur": "",
+                "target_hours": 27.0,
+                "actual_hours": 19.86,
+                "variance_pct": 136.0
+              }
+            ],
+            "total_hours": 35.0
+          },
           "Mon 4/13": {
             "tickets": [
               {
@@ -1629,7 +1650,7 @@
             "total_hours": 15.0
           }
         },
-        "job_count": 9
+        "job_count": 11
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -1650,6 +1671,67 @@
         "crew_leader": "Gustavo Aguilar",
         "crew_leader_id": 2284,
         "days": {
+          "Thu 4/16": {
+            "tickets": [
+              {
+                "property": "Chick-Fil-A North Irving",
+                "service": "Maintenance Care",
+                "occur": "36/37",
+                "target_hours": 4.0,
+                "actual_hours": 1.42,
+                "variance_pct": 281.7
+              },
+              {
+                "property": "Miller Milling",
+                "service": "Maintenance Care",
+                "occur": "5/37",
+                "target_hours": 5.32,
+                "actual_hours": 4.85,
+                "variance_pct": 109.7
+              },
+              {
+                "property": "Animal Service Center",
+                "service": "Mowing Cycle",
+                "occur": "12/31",
+                "target_hours": 2.0,
+                "actual_hours": 3.27,
+                "variance_pct": 61.2
+              },
+              {
+                "property": "Watauga Municipal Complex",
+                "service": "Mowing Cycle",
+                "occur": "12/31",
+                "target_hours": 4.0,
+                "actual_hours": 5.21,
+                "variance_pct": 76.8
+              },
+              {
+                "property": "Public Works Facility",
+                "service": "Mowing Cycle",
+                "occur": "12/31",
+                "target_hours": 8.0,
+                "actual_hours": 3.04,
+                "variance_pct": 263.2
+              },
+              {
+                "property": "Virgil Anthony Park",
+                "service": "Mowing Cycle",
+                "occur": "12/31",
+                "target_hours": 4.0,
+                "actual_hours": 4.91,
+                "variance_pct": 81.5
+              },
+              {
+                "property": "Watauga Community Center",
+                "service": "Mowing Cycle",
+                "occur": "12/31",
+                "target_hours": 8.0,
+                "actual_hours": 10.27,
+                "variance_pct": 77.9
+              }
+            ],
+            "total_hours": 35.32
+          },
           "Tue 4/14": {
             "tickets": [
               {
@@ -1717,13 +1799,42 @@
             "total_hours": 19.0
           }
         },
-        "job_count": 7
+        "job_count": 14
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
         "days": {
+          "Thu 4/16": {
+            "tickets": [
+              {
+                "property": "Parcel B",
+                "service": "Maintenance Care",
+                "occur": "8/36",
+                "target_hours": 10.0,
+                "actual_hours": 8.9,
+                "variance_pct": 112.4
+              },
+              {
+                "property": "Carol Katz Residence",
+                "service": "Maintenance Care",
+                "occur": "28/37",
+                "target_hours": 0.83,
+                "actual_hours": 0.0,
+                "variance_pct": null
+              },
+              {
+                "property": "Five Oaks Crossing Mansfield",
+                "service": "Maintenance Care",
+                "occur": "24/36",
+                "target_hours": 10.16,
+                "actual_hours": 18.77,
+                "variance_pct": 54.1
+              }
+            ],
+            "total_hours": 20.99
+          },
           "Wed 4/15": {
             "tickets": [
               {
@@ -1796,11 +1907,23 @@
             "total_hours": 37.0
           }
         },
-        "job_count": 7
+        "job_count": 10
       }
     ]
   },
   "tickets": [
+    {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Chick-Fil-A North Irving",
+      "service": "Maintenance Care",
+      "target_hours": 4.0,
+      "actual_hours": 1.42,
+      "efficiency": 281.7
+    },
     {
       "date": "2026-04-08",
       "day_label": "4/8",
@@ -1848,6 +1971,18 @@
       "target_hours": 2.0,
       "actual_hours": 2.4,
       "efficiency": 83.3
+    },
+    {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Parcel B",
+      "service": "Maintenance Care",
+      "target_hours": 10.0,
+      "actual_hours": 8.9,
+      "efficiency": 112.4
     },
     {
       "date": "2026-04-06",
@@ -1994,6 +2129,18 @@
       "efficiency": 52.2
     },
     {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Carol Katz Residence",
+      "service": "Maintenance Care",
+      "target_hours": 0.83,
+      "actual_hours": 0.0,
+      "efficiency": null
+    },
+    {
       "date": "2026-04-07",
       "day_label": "4/7",
       "crew_leader": "Jorge Torres Conde",
@@ -2004,6 +2151,18 @@
       "target_hours": 10.16,
       "actual_hours": 13.61,
       "efficiency": 74.7
+    },
+    {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Five Oaks Crossing Mansfield",
+      "service": "Maintenance Care",
+      "target_hours": 10.16,
+      "actual_hours": 18.77,
+      "efficiency": 54.1
     },
     {
       "date": "2026-04-08",
@@ -2294,6 +2453,18 @@
       "efficiency": 86.6
     },
     {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Miller Milling",
+      "service": "Maintenance Care",
+      "target_hours": 5.32,
+      "actual_hours": 4.85,
+      "efficiency": 109.7
+    },
+    {
       "date": "2026-03-25",
       "day_label": "3/25",
       "crew_leader": "Jon Hatcher",
@@ -2388,6 +2559,18 @@
       "target_hours": 2.0,
       "actual_hours": 3.48,
       "efficiency": 57.5
+    },
+    {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Animal Service Center",
+      "service": "Mowing Cycle",
+      "target_hours": 2.0,
+      "actual_hours": 3.27,
+      "efficiency": 61.2
     },
     {
       "date": "2026-03-16",
@@ -2786,6 +2969,18 @@
       "efficiency": 71.3
     },
     {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Municipal Complex",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 5.21,
+      "efficiency": 76.8
+    },
+    {
       "date": "2026-03-16",
       "day_label": "3/16",
       "crew_leader": "Gustavo Aguilar",
@@ -2834,6 +3029,18 @@
       "efficiency": 63.5
     },
     {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Public Works Facility",
+      "service": "Mowing Cycle",
+      "target_hours": 8.0,
+      "actual_hours": 3.04,
+      "efficiency": 263.2
+    },
+    {
       "date": "2026-03-17",
       "day_label": "3/17",
       "crew_leader": "Jorge Torres Conde",
@@ -2880,6 +3087,18 @@
       "target_hours": 4.0,
       "actual_hours": 5.81,
       "efficiency": 68.8
+    },
+    {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Virgil Anthony Park",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 4.91,
+      "efficiency": 81.5
     },
     {
       "date": "2026-03-17",
@@ -2952,6 +3171,18 @@
       "target_hours": 8.0,
       "actual_hours": 11.87,
       "efficiency": 67.4
+    },
+    {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Community Center",
+      "service": "Mowing Cycle",
+      "target_hours": 8.0,
+      "actual_hours": 10.27,
+      "efficiency": 77.9
     },
     {
       "date": "2026-03-17",
@@ -3456,6 +3687,30 @@
       "target_hours": 4.0,
       "actual_hours": 1.54,
       "efficiency": 259.7
+    },
+    {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Jill McNeill Residence",
+      "service": "Mobilization",
+      "target_hours": 8.0,
+      "actual_hours": 10.09,
+      "efficiency": 79.3
+    },
+    {
+      "date": "2026-04-16",
+      "day_label": "4/16",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Jill McNeill Residence",
+      "service": "Sod Install",
+      "target_hours": 27.0,
+      "actual_hours": 19.86,
+      "efficiency": 136.0
     },
     {
       "date": "2026-03-19",
@@ -4146,7 +4401,7 @@
     "period": {
       "label": "April 2026",
       "start": "2026-04-01",
-      "end": "2026-04-17"
+      "end": "2026-04-18"
     },
     "leaderboard": [
       {
@@ -4161,9 +4416,9 @@
       },
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 170.2,
-        "estimated_hours": 151.0,
-        "labor_variance_pct": 88.7,
+        "actual_hours": 200.2,
+        "estimated_hours": 186.0,
+        "labor_variance_pct": 92.9,
         "bonus_eligible": false,
         "rank": 2,
         "trend": "up",
@@ -4171,23 +4426,13 @@
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 204.5,
-        "estimated_hours": 179.7,
-        "labor_variance_pct": 87.9,
+        "actual_hours": 237.4,
+        "estimated_hours": 215.0,
+        "labor_variance_pct": 90.5,
         "bonus_eligible": false,
         "rank": 3,
         "trend": "down",
         "rank_change": -1
-      },
-      {
-        "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 291.0,
-        "estimated_hours": 251.2,
-        "labor_variance_pct": 86.3,
-        "bonus_eligible": false,
-        "rank": 4,
-        "trend": "down",
-        "rank_change": -3
       },
       {
         "crew_leader": "Saul Cruz Morales",
@@ -4195,15 +4440,25 @@
         "estimated_hours": 56.0,
         "labor_variance_pct": 85.9,
         "bonus_eligible": false,
-        "rank": 5,
+        "rank": 4,
         "trend": "new",
         "rank_change": 0
+      },
+      {
+        "crew_leader": "Jorge Torres Conde",
+        "actual_hours": 318.7,
+        "estimated_hours": 272.2,
+        "labor_variance_pct": 85.4,
+        "bonus_eligible": false,
+        "rank": 5,
+        "trend": "down",
+        "rank_change": -4
       }
     ],
     "bonus_eligible_count": 1,
-    "company_avg_variance": 85.2,
+    "company_avg_variance": 86.6,
     "total_crew_leaders": 5,
-    "tickets_analyzed": 108
+    "tickets_analyzed": 120
   },
   "prior_week": {
     "period": {
