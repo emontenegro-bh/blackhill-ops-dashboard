@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-20T11:20:08",
+  "generated": "2026-04-21T11:10:15",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -16,9 +16,9 @@
         },
         {
           "name": "Land 1 - Green/Verde",
-          "total": 104.2,
+          "total": 103.1,
           "weekly_values": [
-            104.2
+            103.1
           ]
         },
         {
@@ -37,26 +37,26 @@
         },
         {
           "name": "Maint 3 - White/Blanco",
-          "total": 89.7,
+          "total": 92.2,
           "weekly_values": [
-            89.7
+            92.2
           ]
         },
         {
           "name": "Maint 4 - Yellow/Amarillo",
-          "total": 86.1,
+          "total": 86.7,
           "weekly_values": [
-            86.1
+            86.7
           ]
         }
       ],
       "total_row": {
-        "total": 93.0,
+        "total": 92.9,
         "weekly_values": [
-          93.0
+          92.9
         ]
       },
-      "overall_efficiency": 93.0
+      "overall_efficiency": 92.9
     },
     "route_daily": {
       "weeks": [
@@ -84,13 +84,13 @@
         },
         {
           "name": "Land 1 - Green/Verde",
-          "total": 104.2,
+          "total": 103.1,
           "weekly_values": [
             74.0,
             68.4,
             125.1,
             116.9,
-            null,
+            78.1,
             null,
             null
           ]
@@ -123,44 +123,44 @@
         },
         {
           "name": "Maint 3 - White/Blanco",
-          "total": 89.7,
+          "total": 92.2,
           "weekly_values": [
             null,
             93.1,
             71.6,
             101.1,
-            null,
+            111.2,
             null,
             null
           ]
         },
         {
           "name": "Maint 4 - Yellow/Amarillo",
-          "total": 86.1,
+          "total": 86.7,
           "weekly_values": [
             79.1,
             98.8,
             104.2,
             75.9,
-            null,
+            88.3,
             null,
             null
           ]
         }
       ],
       "total_row": {
-        "total": 93.0,
+        "total": 92.9,
         "weekly_values": [
           78.3,
           88.1,
           101.7,
           98.6,
-          null,
+          92.4,
           null,
           null
         ]
       },
-      "overall_efficiency": 93.0
+      "overall_efficiency": 92.9
     },
     "route_monthly": {
       "weeks": [
@@ -176,9 +176,9 @@
         },
         {
           "name": "Land 1 - Green/Verde",
-          "total": 99.7,
+          "total": 99.2,
           "weekly_values": [
-            99.7
+            99.2
           ]
         },
         {
@@ -197,26 +197,26 @@
         },
         {
           "name": "Maint 3 - White/Blanco",
-          "total": 89.7,
+          "total": 90.8,
           "weekly_values": [
-            89.7
+            90.8
           ]
         },
         {
           "name": "Maint 4 - Yellow/Amarillo",
-          "total": 85.4,
+          "total": 85.7,
           "weekly_values": [
-            85.4
+            85.7
           ]
         }
       ],
       "total_row": {
-        "total": 89.6,
+        "total": 89.8,
         "weekly_values": [
-          89.6
+          89.8
         ]
       },
-      "overall_efficiency": 89.6
+      "overall_efficiency": 89.8
     },
     "crew_weekly": {
       "weeks": [
@@ -225,9 +225,9 @@
       "rows": [
         {
           "name": "Gustavo Aguilar",
-          "total": 89.7,
+          "total": 92.2,
           "weekly_values": [
-            89.7
+            92.2
           ]
         },
         {
@@ -239,26 +239,26 @@
         },
         {
           "name": "Jorge Torres Conde",
-          "total": 86.1,
+          "total": 86.7,
           "weekly_values": [
-            86.1
+            86.7
           ]
         },
         {
           "name": "Jose Guadalupe Sandoval Ramos",
-          "total": 104.2,
+          "total": 103.1,
           "weekly_values": [
-            104.2
+            103.1
           ]
         }
       ],
       "total_row": {
-        "total": 93.0,
+        "total": 92.9,
         "weekly_values": [
-          93.0
+          92.9
         ]
       },
-      "overall_efficiency": 93.0
+      "overall_efficiency": 92.9
     },
     "crew_daily": {
       "weeks": [
@@ -273,13 +273,13 @@
       "rows": [
         {
           "name": "Gustavo Aguilar",
-          "total": 89.7,
+          "total": 92.2,
           "weekly_values": [
             null,
             93.1,
             71.6,
             101.1,
-            null,
+            111.2,
             null,
             null
           ]
@@ -299,44 +299,44 @@
         },
         {
           "name": "Jorge Torres Conde",
-          "total": 86.1,
+          "total": 86.7,
           "weekly_values": [
             79.1,
             98.8,
             104.2,
             75.9,
-            null,
+            88.3,
             null,
             null
           ]
         },
         {
           "name": "Jose Guadalupe Sandoval Ramos",
-          "total": 104.2,
+          "total": 103.1,
           "weekly_values": [
             74.0,
             68.4,
             125.1,
             116.9,
-            null,
+            78.1,
             null,
             null
           ]
         }
       ],
       "total_row": {
-        "total": 93.0,
+        "total": 92.9,
         "weekly_values": [
           78.3,
           88.1,
           101.7,
           98.6,
-          null,
+          92.4,
           null,
           null
         ]
       },
-      "overall_efficiency": 93.0
+      "overall_efficiency": 92.9
     },
     "crew_monthly": {
       "weeks": [
@@ -359,9 +359,9 @@
         },
         {
           "name": "Gustavo Aguilar",
-          "total": 89.7,
+          "total": 90.8,
           "weekly_values": [
-            89.7
+            90.8
           ]
         },
         {
@@ -373,16 +373,16 @@
         },
         {
           "name": "Jorge Torres Conde",
-          "total": 85.4,
+          "total": 85.7,
           "weekly_values": [
-            85.4
+            85.7
           ]
         },
         {
           "name": "Jose Guadalupe Sandoval Ramos",
-          "total": 99.7,
+          "total": 99.2,
           "weekly_values": [
-            99.7
+            99.2
           ]
         },
         {
@@ -394,12 +394,12 @@
         }
       ],
       "total_row": {
-        "total": 89.5,
+        "total": 89.7,
         "weekly_values": [
-          89.5
+          89.7
         ]
       },
-      "overall_efficiency": 89.5
+      "overall_efficiency": 89.7
     },
     "division_weekly": {
       "weeks": [
@@ -415,26 +415,26 @@
         },
         {
           "name": "Landscape",
-          "total": 104.2,
+          "total": 103.1,
           "weekly_values": [
-            104.2
+            103.1
           ]
         },
         {
           "name": "Maintenance",
-          "total": 87.7,
+          "total": 88.9,
           "weekly_values": [
-            87.7
+            88.9
           ]
         }
       ],
       "total_row": {
-        "total": 93.0,
+        "total": 92.9,
         "weekly_values": [
-          93.0
+          92.9
         ]
       },
-      "overall_efficiency": 93.0
+      "overall_efficiency": 92.9
     },
     "division_daily": {
       "weeks": [
@@ -462,44 +462,44 @@
         },
         {
           "name": "Landscape",
-          "total": 104.2,
+          "total": 103.1,
           "weekly_values": [
             74.0,
             68.4,
             125.1,
             116.9,
-            null,
+            78.1,
             null,
             null
           ]
         },
         {
           "name": "Maintenance",
-          "total": 87.7,
+          "total": 88.9,
           "weekly_values": [
             79.1,
             95.3,
             85.2,
             89.6,
-            null,
+            93.4,
             null,
             null
           ]
         }
       ],
       "total_row": {
-        "total": 93.0,
+        "total": 92.9,
         "weekly_values": [
           78.3,
           88.1,
           101.7,
           98.6,
-          null,
+          92.4,
           null,
           null
         ]
       },
-      "overall_efficiency": 93.0
+      "overall_efficiency": 92.9
     },
     "division_monthly": {
       "weeks": [
@@ -515,26 +515,26 @@
         },
         {
           "name": "Landscape",
-          "total": 99.7,
+          "total": 99.2,
           "weekly_values": [
-            99.7
+            99.2
           ]
         },
         {
           "name": "Maintenance",
-          "total": 87.4,
+          "total": 87.9,
           "weekly_values": [
-            87.4
+            87.9
           ]
         }
       ],
       "total_row": {
-        "total": 89.6,
+        "total": 89.8,
         "weekly_values": [
-          89.6
+          89.8
         ]
       },
-      "overall_efficiency": 89.6
+      "overall_efficiency": 89.8
     },
     "property_weekly": {
       "weeks": [
@@ -570,6 +570,13 @@
           ]
         },
         {
+          "name": "Bear Creek HOA",
+          "total": 109.3,
+          "weekly_values": [
+            109.3
+          ]
+        },
+        {
           "name": "Capp Smith Park",
           "total": 91.4,
           "weekly_values": [
@@ -588,6 +595,20 @@
           "total": 140.8,
           "weekly_values": [
             140.8
+          ]
+        },
+        {
+          "name": "Craft Residence - Magnolia",
+          "total": 118.6,
+          "weekly_values": [
+            118.6
+          ]
+        },
+        {
+          "name": "Crowley Creekside HOA",
+          "total": 88.3,
+          "weekly_values": [
+            88.3
           ]
         },
         {
@@ -696,10 +717,17 @@
           ]
         },
         {
-          "name": "University Christian Church ",
-          "total": 100.4,
+          "name": "Tom Brown Residence",
+          "total": 108.7,
           "weekly_values": [
-            100.4
+            108.7
+          ]
+        },
+        {
+          "name": "University Christian Church ",
+          "total": 96.1,
+          "weekly_values": [
+            96.1
           ]
         },
         {
@@ -746,12 +774,12 @@
         }
       ],
       "total_row": {
-        "total": 93.0,
+        "total": 92.9,
         "weekly_values": [
-          93.0
+          92.9
         ]
       },
-      "overall_efficiency": 93.0
+      "overall_efficiency": 92.9
     },
     "property_daily": {
       "weeks": [
@@ -817,6 +845,19 @@
           ]
         },
         {
+          "name": "Bear Creek HOA",
+          "total": 109.3,
+          "weekly_values": [
+            null,
+            null,
+            null,
+            null,
+            109.3,
+            null,
+            null
+          ]
+        },
+        {
           "name": "Capp Smith Park",
           "total": 91.4,
           "weekly_values": [
@@ -851,6 +892,32 @@
             null,
             140.8,
             null,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "Craft Residence - Magnolia",
+          "total": 118.6,
+          "weekly_values": [
+            null,
+            null,
+            null,
+            null,
+            118.6,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "Crowley Creekside HOA",
+          "total": 88.3,
+          "weekly_values": [
+            null,
+            null,
+            null,
+            null,
+            88.3,
             null,
             null
           ]
@@ -1051,14 +1118,27 @@
           ]
         },
         {
+          "name": "Tom Brown Residence",
+          "total": 108.7,
+          "weekly_values": [
+            null,
+            null,
+            null,
+            null,
+            108.7,
+            null,
+            null
+          ]
+        },
+        {
           "name": "University Christian Church ",
-          "total": 100.4,
+          "total": 96.1,
           "weekly_values": [
             null,
             100.4,
             null,
             null,
-            null,
+            78.1,
             null,
             null
           ]
@@ -1143,18 +1223,18 @@
         }
       ],
       "total_row": {
-        "total": 93.0,
+        "total": 92.9,
         "weekly_values": [
           78.3,
           88.1,
           101.7,
           98.6,
-          null,
+          92.4,
           null,
           null
         ]
       },
-      "overall_efficiency": 93.0
+      "overall_efficiency": 92.9
     },
     "property_monthly": {
       "weeks": [
@@ -1191,9 +1271,9 @@
         },
         {
           "name": "Bear Creek HOA",
-          "total": 85.8,
+          "total": 93.1,
           "weekly_values": [
-            85.8
+            93.1
           ]
         },
         {
@@ -1219,16 +1299,16 @@
         },
         {
           "name": "Craft Residence - Magnolia",
-          "total": 142.9,
+          "total": 133.7,
           "weekly_values": [
-            142.9
+            133.7
           ]
         },
         {
           "name": "Crowley Creekside HOA",
-          "total": 61.2,
+          "total": 69.2,
           "weekly_values": [
-            61.2
+            69.2
           ]
         },
         {
@@ -1373,16 +1453,16 @@
         },
         {
           "name": "Tom Brown Residence",
-          "total": 109.9,
+          "total": 109.5,
           "weekly_values": [
-            109.9
+            109.5
           ]
         },
         {
           "name": "University Christian Church ",
-          "total": 73.8,
+          "total": 74.0,
           "weekly_values": [
-            73.8
+            74.0
           ]
         },
         {
@@ -1464,12 +1544,12 @@
         }
       ],
       "total_row": {
-        "total": 89.5,
+        "total": 89.7,
         "weekly_values": [
-          89.5
+          89.7
         ]
       },
-      "overall_efficiency": 89.5
+      "overall_efficiency": 89.7
     }
   },
   "job_board": {
@@ -1614,6 +1694,18 @@
       "efficiency": 127.7
     },
     {
+      "date": "2026-04-17",
+      "day_label": "4/17",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Craft Residence - Magnolia",
+      "service": "Maintenance Care",
+      "target_hours": 3.0,
+      "actual_hours": 2.53,
+      "efficiency": 118.6
+    },
+    {
       "date": "2026-03-31",
       "day_label": "3/31",
       "crew_leader": "Gustavo Aguilar",
@@ -1636,6 +1728,18 @@
       "target_hours": 8.0,
       "actual_hours": 10.88,
       "efficiency": 73.5
+    },
+    {
+      "date": "2026-04-17",
+      "day_label": "4/17",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Bear Creek HOA",
+      "service": "Maintenance Care",
+      "target_hours": 8.0,
+      "actual_hours": 7.32,
+      "efficiency": 109.3
     },
     {
       "date": "2026-03-31",
@@ -1876,6 +1980,18 @@
       "target_hours": 34.0,
       "actual_hours": 66.05,
       "efficiency": 51.5
+    },
+    {
+      "date": "2026-04-17",
+      "day_label": "4/17",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Crowley Creekside HOA",
+      "service": "Maintenance Care",
+      "target_hours": 36.0,
+      "actual_hours": 40.77,
+      "efficiency": 88.3
     },
     {
       "date": "2026-03-27",
@@ -3138,6 +3254,30 @@
       "efficiency": 115.1
     },
     {
+      "date": "2026-03-23",
+      "day_label": "3/23",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Hampton Manor of Crowley",
+      "service": "Landscape Upgrade",
+      "target_hours": 218.0,
+      "actual_hours": 189.88,
+      "efficiency": 114.8
+    },
+    {
+      "date": "2026-03-25",
+      "day_label": "3/25",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Hampton Manor of Crowley",
+      "service": "Mobilization",
+      "target_hours": 63.0,
+      "actual_hours": 72.27,
+      "efficiency": 87.2
+    },
+    {
       "date": "2026-03-27",
       "day_label": "3/27",
       "crew_leader": "Jon Hatcher",
@@ -3366,6 +3506,18 @@
       "efficiency": 103.6
     },
     {
+      "date": "2026-04-17",
+      "day_label": "4/17",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Tom Brown Residence",
+      "service": "Maintenance Care",
+      "target_hours": 2.0,
+      "actual_hours": 1.84,
+      "efficiency": 108.7
+    },
+    {
       "date": "2026-04-06",
       "day_label": "4/6",
       "crew_leader": "Jon Hatcher",
@@ -3472,13 +3624,25 @@
       "target_hours": 1.0,
       "actual_hours": 6.13,
       "efficiency": 16.3
+    },
+    {
+      "date": "2026-04-17",
+      "day_label": "4/17",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "University Christian Church ",
+      "service": "Mulch",
+      "target_hours": 3.0,
+      "actual_hours": 3.84,
+      "efficiency": 78.1
     }
   ],
   "mtd": {
     "period": {
       "label": "April 2026",
       "start": "2026-04-01",
-      "end": "2026-04-20"
+      "end": "2026-04-21"
     },
     "leaderboard": [
       {
@@ -3493,9 +3657,9 @@
       },
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 200.2,
-        "estimated_hours": 186.0,
-        "labor_variance_pct": 92.9,
+        "actual_hours": 204.0,
+        "estimated_hours": 189.0,
+        "labor_variance_pct": 92.6,
         "bonus_eligible": false,
         "rank": 2,
         "trend": "down",
@@ -3503,9 +3667,9 @@
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 237.4,
-        "estimated_hours": 213.0,
-        "labor_variance_pct": 89.7,
+        "actual_hours": 249.1,
+        "estimated_hours": 226.0,
+        "labor_variance_pct": 90.7,
         "bonus_eligible": false,
         "rank": 3,
         "trend": "same",
@@ -3513,9 +3677,9 @@
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 318.7,
-        "estimated_hours": 272.2,
-        "labor_variance_pct": 85.4,
+        "actual_hours": 359.5,
+        "estimated_hours": 308.2,
+        "labor_variance_pct": 85.7,
         "bonus_eligible": false,
         "rank": 4,
         "trend": "up",
@@ -3533,9 +3697,9 @@
       }
     ],
     "bonus_eligible_count": 1,
-    "company_avg_variance": 85.8,
+    "company_avg_variance": 86.2,
     "total_crew_leaders": 5,
-    "tickets_analyzed": 120
+    "tickets_analyzed": 125
   },
   "prior_week": {
     "period": {
@@ -3545,30 +3709,30 @@
     },
     "leaderboard": [
       {
-        "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 116.2,
-        "estimated_hours": 106.5,
-        "labor_variance_pct": 91.6,
+        "crew_leader": "Gustavo Aguilar",
+        "actual_hours": 104.6,
+        "estimated_hours": 96.3,
+        "labor_variance_pct": 92.0,
         "bonus_eligible": false,
         "rank": 1,
-        "trend": "same",
-        "rank_change": 0
+        "trend": "up",
+        "rank_change": 2
       },
       {
-        "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 92.9,
-        "estimated_hours": 83.3,
-        "labor_variance_pct": 89.6,
+        "crew_leader": "Jose Guadalupe Sandoval Ramos",
+        "actual_hours": 120.1,
+        "estimated_hours": 109.5,
+        "labor_variance_pct": 91.2,
         "bonus_eligible": false,
         "rank": 2,
-        "trend": "up",
-        "rank_change": 1
+        "trend": "down",
+        "rank_change": -1
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 114.6,
-        "estimated_hours": 98.7,
-        "labor_variance_pct": 86.1,
+        "actual_hours": 155.4,
+        "estimated_hours": 134.7,
+        "labor_variance_pct": 86.7,
         "bonus_eligible": false,
         "rank": 3,
         "trend": "up",
@@ -3576,8 +3740,8 @@
       }
     ],
     "bonus_eligible_count": 0,
-    "company_avg_variance": 89.3,
+    "company_avg_variance": 89.7,
     "total_crew_leaders": 3,
-    "tickets_analyzed": 41
+    "tickets_analyzed": 46
   }
 }
