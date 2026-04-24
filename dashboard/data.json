@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-23T11:12:34",
+  "generated": "2026-04-24T11:07:49",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1693,9 +1693,38 @@
               }
             ],
             "total_hours": 13.0
+          },
+          "Wed 4/22": {
+            "tickets": [
+              {
+                "property": "Whites Branch Creek Trail",
+                "service": "Mowing Cycle",
+                "occur": "8/21",
+                "target_hours": 6.0,
+                "actual_hours": 7.08,
+                "variance_pct": 84.7
+              },
+              {
+                "property": "BISD Park",
+                "service": "Mowing Cycle",
+                "occur": "13/31",
+                "target_hours": 4.0,
+                "actual_hours": 5.2,
+                "variance_pct": 76.9
+              },
+              {
+                "property": "Capp Smith Park",
+                "service": "Mowing Cycle",
+                "occur": "13/31",
+                "target_hours": 20.0,
+                "actual_hours": 24.94,
+                "variance_pct": 80.2
+              }
+            ],
+            "total_hours": 30.0
           }
         },
-        "job_count": 5
+        "job_count": 8
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
@@ -1709,14 +1738,51 @@
                 "service": "Maintenance Care",
                 "occur": "26/39",
                 "target_hours": 37.0,
-                "actual_hours": 31.15,
-                "variance_pct": 118.8
+                "actual_hours": 38.61,
+                "variance_pct": 95.8
               }
             ],
             "total_hours": 37.0
+          },
+          "Wed 4/22": {
+            "tickets": [
+              {
+                "property": "Foster Village Park",
+                "service": "Mowing Cycle",
+                "occur": "13/31",
+                "target_hours": 12.0,
+                "actual_hours": 12.28,
+                "variance_pct": 97.7
+              },
+              {
+                "property": "Watauga Municipal Complex",
+                "service": "Mowing Cycle",
+                "occur": "13/31",
+                "target_hours": 4.0,
+                "actual_hours": 4.55,
+                "variance_pct": 87.9
+              },
+              {
+                "property": "Virgil Anthony Park",
+                "service": "Mowing Cycle",
+                "occur": "13/31",
+                "target_hours": 4.0,
+                "actual_hours": 3.81,
+                "variance_pct": 105.0
+              },
+              {
+                "property": "Watauga Community Center",
+                "service": "Mowing Cycle",
+                "occur": "13/31",
+                "target_hours": 8.0,
+                "actual_hours": 10.66,
+                "variance_pct": 75.0
+              }
+            ],
+            "total_hours": 28.0
           }
         },
-        "job_count": 1
+        "job_count": 5
       }
     ]
   },
@@ -2210,8 +2276,8 @@
       "property": "Leo at Bethel",
       "service": "Maintenance Care",
       "target_hours": 37.0,
-      "actual_hours": 31.15,
-      "efficiency": 118.8
+      "actual_hours": 38.61,
+      "efficiency": 95.8
     },
     {
       "date": "2026-04-07",
@@ -2284,6 +2350,18 @@
       "target_hours": 6.0,
       "actual_hours": 5.44,
       "efficiency": 110.3
+    },
+    {
+      "date": "2026-04-22",
+      "day_label": "4/22",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Whites Branch Creek Trail",
+      "service": "Mowing Cycle",
+      "target_hours": 6.0,
+      "actual_hours": 7.08,
+      "efficiency": 84.7
     },
     {
       "date": "2026-03-25",
@@ -2394,6 +2472,18 @@
       "efficiency": 81.5
     },
     {
+      "date": "2026-04-22",
+      "day_label": "4/22",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "BISD Park",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 5.2,
+      "efficiency": 76.9
+    },
+    {
       "date": "2026-03-23",
       "day_label": "3/23",
       "crew_leader": "Jorge Torres Conde",
@@ -2440,6 +2530,18 @@
       "target_hours": 20.0,
       "actual_hours": 21.89,
       "efficiency": 91.4
+    },
+    {
+      "date": "2026-04-22",
+      "day_label": "4/22",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Capp Smith Park",
+      "service": "Mowing Cycle",
+      "target_hours": 20.0,
+      "actual_hours": 24.94,
+      "efficiency": 80.2
     },
     {
       "date": "2026-04-06",
@@ -2562,6 +2664,18 @@
       "efficiency": 88.7
     },
     {
+      "date": "2026-04-22",
+      "day_label": "4/22",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Foster Village Park",
+      "service": "Mowing Cycle",
+      "target_hours": 12.0,
+      "actual_hours": 12.28,
+      "efficiency": 97.7
+    },
+    {
       "date": "2026-03-25",
       "day_label": "3/25",
       "crew_leader": "Gustavo Aguilar",
@@ -2682,6 +2796,18 @@
       "efficiency": 86.8
     },
     {
+      "date": "2026-04-22",
+      "day_label": "4/22",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Watauga Municipal Complex",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 4.55,
+      "efficiency": 87.9
+    },
+    {
       "date": "2026-03-25",
       "day_label": "3/25",
       "crew_leader": "Gustavo Aguilar",
@@ -2790,6 +2916,18 @@
       "efficiency": 92.2
     },
     {
+      "date": "2026-04-22",
+      "day_label": "4/22",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Virgil Anthony Park",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 3.81,
+      "efficiency": 105.0
+    },
+    {
       "date": "2026-04-06",
       "day_label": "4/6",
       "crew_leader": "Gustavo Aguilar",
@@ -2848,6 +2986,18 @@
       "target_hours": 8.0,
       "actual_hours": 9.2,
       "efficiency": 87.0
+    },
+    {
+      "date": "2026-04-22",
+      "day_label": "4/22",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Watauga Community Center",
+      "service": "Mowing Cycle",
+      "target_hours": 8.0,
+      "actual_hours": 10.66,
+      "efficiency": 75.0
     },
     {
       "date": "2026-04-06",
@@ -3886,7 +4036,7 @@
     "period": {
       "label": "April 2026",
       "start": "2026-04-01",
-      "end": "2026-04-23"
+      "end": "2026-04-24"
     },
     "leaderboard": [
       {
@@ -3911,9 +4061,9 @@
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 262.8,
-        "estimated_hours": 233.0,
-        "labor_variance_pct": 88.7,
+        "actual_hours": 300.0,
+        "estimated_hours": 263.0,
+        "labor_variance_pct": 87.7,
         "bonus_eligible": false,
         "rank": 3,
         "trend": "same",
@@ -3921,9 +4071,9 @@
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 397.3,
-        "estimated_hours": 347.2,
-        "labor_variance_pct": 87.4,
+        "actual_hours": 436.1,
+        "estimated_hours": 375.2,
+        "labor_variance_pct": 86.0,
         "bonus_eligible": false,
         "rank": 4,
         "trend": "up",
@@ -3951,9 +4101,9 @@
       }
     ],
     "bonus_eligible_count": 1,
-    "company_avg_variance": 87.0,
+    "company_avg_variance": 86.3,
     "total_crew_leaders": 6,
-    "tickets_analyzed": 138
+    "tickets_analyzed": 145
   },
   "prior_week": {
     "period": {
