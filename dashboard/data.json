@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-24T11:07:49",
+  "generated": "2026-04-25T10:47:52",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1569,6 +1569,19 @@
         "crew_leader": "Jon Hatcher",
         "crew_leader_id": 2384,
         "days": {
+          "Thu 4/23": {
+            "tickets": [
+              {
+                "property": "University Christian Church ",
+                "service": "Irrigation Monitoring",
+                "occur": "5/6",
+                "target_hours": 1.0,
+                "actual_hours": 2.83,
+                "variance_pct": 35.3
+              }
+            ],
+            "total_hours": 1.0
+          },
           "Mon 4/20": {
             "tickets": [
               {
@@ -1576,8 +1589,8 @@
                 "service": "Irrigation Monitoring",
                 "occur": "4/6",
                 "target_hours": 2.0,
-                "actual_hours": 0.68,
-                "variance_pct": 294.1
+                "actual_hours": 1.21,
+                "variance_pct": 165.3
               },
               {
                 "property": "Martin Amelung Residence",
@@ -1599,13 +1612,34 @@
             "total_hours": 4.0
           }
         },
-        "job_count": 3
+        "job_count": 4
       },
       {
         "name": "Land 1 - Green/Verde",
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
         "crew_leader_id": 1834,
         "days": {
+          "Thu 4/23": {
+            "tickets": [
+              {
+                "property": "Marcy Selander Residence",
+                "service": "Landscape Clean Up ",
+                "occur": "",
+                "target_hours": 20.0,
+                "actual_hours": 23.8,
+                "variance_pct": 84.0
+              },
+              {
+                "property": "Marcy Selander Residence",
+                "service": "Sod Install",
+                "occur": "",
+                "target_hours": 50.0,
+                "actual_hours": 12.14,
+                "variance_pct": 411.9
+              }
+            ],
+            "total_hours": 70.0
+          },
           "Mon 4/20": {
             "tickets": [
               {
@@ -1628,7 +1662,7 @@
             "total_hours": 28.0
           }
         },
-        "job_count": 2
+        "job_count": 4
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -1694,6 +1728,27 @@
             ],
             "total_hours": 13.0
           },
+          "Thu 4/23": {
+            "tickets": [
+              {
+                "property": "Bear Creek HOA",
+                "service": "Maintenance Care",
+                "occur": "30/36",
+                "target_hours": 8.0,
+                "actual_hours": 9.78,
+                "variance_pct": 81.8
+              },
+              {
+                "property": "Five Oaks Crossing Mansfield",
+                "service": "Maintenance Care",
+                "occur": "25/36",
+                "target_hours": 10.16,
+                "actual_hours": 11.79,
+                "variance_pct": 86.2
+              }
+            ],
+            "total_hours": 18.16
+          },
           "Wed 4/22": {
             "tickets": [
               {
@@ -1724,13 +1779,34 @@
             "total_hours": 30.0
           }
         },
-        "job_count": 8
+        "job_count": 10
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
         "days": {
+          "Thu 4/23": {
+            "tickets": [
+              {
+                "property": "BASIS Benbrook ",
+                "service": "Maintenance Care",
+                "occur": "22/36",
+                "target_hours": 10.0,
+                "actual_hours": 10.11,
+                "variance_pct": 98.9
+              },
+              {
+                "property": "University Christian Church ",
+                "service": "Maintenance Care",
+                "occur": "22/36",
+                "target_hours": 16.0,
+                "actual_hours": 15.21,
+                "variance_pct": 105.2
+              }
+            ],
+            "total_hours": 26.0
+          },
           "Mon 4/20": {
             "tickets": [
               {
@@ -1782,7 +1858,7 @@
             "total_hours": 28.0
           }
         },
-        "job_count": 5
+        "job_count": 7
       }
     ]
   },
@@ -1932,6 +2008,18 @@
       "efficiency": 109.3
     },
     {
+      "date": "2026-04-23",
+      "day_label": "4/23",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Bear Creek HOA",
+      "service": "Maintenance Care",
+      "target_hours": 8.0,
+      "actual_hours": 9.78,
+      "efficiency": 81.8
+    },
+    {
       "date": "2026-03-31",
       "day_label": "3/31",
       "crew_leader": "Jon Hatcher",
@@ -2028,6 +2116,18 @@
       "efficiency": 66.9
     },
     {
+      "date": "2026-04-23",
+      "day_label": "4/23",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Five Oaks Crossing Mansfield",
+      "service": "Maintenance Care",
+      "target_hours": 10.16,
+      "actual_hours": 11.79,
+      "efficiency": 86.2
+    },
+    {
       "date": "2026-04-08",
       "day_label": "4/8",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -2074,6 +2174,18 @@
       "target_hours": 10.0,
       "actual_hours": 10.2,
       "efficiency": 98.0
+    },
+    {
+      "date": "2026-04-23",
+      "day_label": "4/23",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "BASIS Benbrook ",
+      "service": "Maintenance Care",
+      "target_hours": 10.0,
+      "actual_hours": 10.11,
+      "efficiency": 98.9
     },
     {
       "date": "2026-03-24",
@@ -2136,6 +2248,18 @@
       "efficiency": 100.4
     },
     {
+      "date": "2026-04-23",
+      "day_label": "4/23",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "University Christian Church ",
+      "service": "Maintenance Care",
+      "target_hours": 16.0,
+      "actual_hours": 15.21,
+      "efficiency": 105.2
+    },
+    {
       "date": "2026-03-24",
       "day_label": "3/24",
       "crew_leader": "Jon Hatcher",
@@ -2146,6 +2270,18 @@
       "target_hours": 1.0,
       "actual_hours": 2.03,
       "efficiency": 49.3
+    },
+    {
+      "date": "2026-04-23",
+      "day_label": "4/23",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "University Christian Church ",
+      "service": "Irrigation Monitoring",
+      "target_hours": 1.0,
+      "actual_hours": 2.83,
+      "efficiency": 35.3
     },
     {
       "date": "2026-04-03",
@@ -2324,8 +2460,8 @@
       "property": "Miller Milling",
       "service": "Irrigation Monitoring",
       "target_hours": 2.0,
-      "actual_hours": 0.68,
-      "efficiency": 294.1
+      "actual_hours": 1.21,
+      "efficiency": 165.3
     },
     {
       "date": "2026-04-02",
@@ -3864,6 +4000,30 @@
       "efficiency": 108.7
     },
     {
+      "date": "2026-04-23",
+      "day_label": "4/23",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Marcy Selander Residence",
+      "service": "Landscape Clean Up ",
+      "target_hours": 20.0,
+      "actual_hours": 23.8,
+      "efficiency": 84.0
+    },
+    {
+      "date": "2026-04-23",
+      "day_label": "4/23",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Marcy Selander Residence",
+      "service": "Sod Install",
+      "target_hours": 50.0,
+      "actual_hours": 12.14,
+      "efficiency": 411.9
+    },
+    {
       "date": "2026-04-06",
       "day_label": "4/6",
       "crew_leader": "Jon Hatcher",
@@ -4036,34 +4196,34 @@
     "period": {
       "label": "April 2026",
       "start": "2026-04-01",
-      "end": "2026-04-24"
+      "end": "2026-04-25"
     },
     "leaderboard": [
+      {
+        "crew_leader": "Jose Guadalupe Sandoval Ramos",
+        "actual_hours": 265.1,
+        "estimated_hours": 287.0,
+        "labor_variance_pct": 108.2,
+        "bonus_eligible": true,
+        "rank": 1,
+        "trend": "same",
+        "rank_change": 0
+      },
       {
         "crew_leader": "Daniel Garcia Albarran",
         "actual_hours": 81.0,
         "estimated_hours": 78.9,
         "labor_variance_pct": 97.4,
         "bonus_eligible": true,
-        "rank": 1,
-        "trend": "up",
-        "rank_change": 1
-      },
-      {
-        "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 229.2,
-        "estimated_hours": 217.0,
-        "labor_variance_pct": 94.7,
-        "bonus_eligible": false,
         "rank": 2,
-        "trend": "down",
-        "rank_change": -1
+        "trend": "same",
+        "rank_change": 0
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 300.0,
-        "estimated_hours": 263.0,
-        "labor_variance_pct": 87.7,
+        "actual_hours": 321.6,
+        "estimated_hours": 281.1,
+        "labor_variance_pct": 87.4,
         "bonus_eligible": false,
         "rank": 3,
         "trend": "same",
@@ -4071,9 +4231,9 @@
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 436.1,
-        "estimated_hours": 375.2,
-        "labor_variance_pct": 86.0,
+        "actual_hours": 461.4,
+        "estimated_hours": 401.2,
+        "labor_variance_pct": 87.0,
         "bonus_eligible": false,
         "rank": 4,
         "trend": "up",
@@ -4091,19 +4251,19 @@
       },
       {
         "crew_leader": "Jon Hatcher",
-        "actual_hours": 52.9,
-        "estimated_hours": 21.8,
-        "labor_variance_pct": 41.2,
+        "actual_hours": 56.3,
+        "estimated_hours": 22.8,
+        "labor_variance_pct": 40.6,
         "bonus_eligible": false,
         "rank": 6,
         "trend": "new",
         "rank_change": 0
       }
     ],
-    "bonus_eligible_count": 1,
-    "company_avg_variance": 86.3,
+    "bonus_eligible_count": 2,
+    "company_avg_variance": 89.6,
     "total_crew_leaders": 6,
-    "tickets_analyzed": 145
+    "tickets_analyzed": 152
   },
   "prior_week": {
     "period": {
