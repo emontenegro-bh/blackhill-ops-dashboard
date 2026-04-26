@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-25T10:47:52",
+  "generated": "2026-04-26T10:49:15",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1610,9 +1610,22 @@
               }
             ],
             "total_hours": 4.0
+          },
+          "Fri 4/24": {
+            "tickets": [
+              {
+                "property": "Marcy Selander Residence",
+                "service": "Landscape Upgrade",
+                "occur": "",
+                "target_hours": 4.0,
+                "actual_hours": 3.58,
+                "variance_pct": 111.7
+              }
+            ],
+            "total_hours": 4.0
           }
         },
-        "job_count": 4
+        "job_count": 5
       },
       {
         "name": "Land 1 - Green/Verde",
@@ -1660,9 +1673,22 @@
               }
             ],
             "total_hours": 28.0
+          },
+          "Fri 4/24": {
+            "tickets": [
+              {
+                "property": "University Christian Church ",
+                "service": "Edging Install",
+                "occur": "",
+                "target_hours": 1.5,
+                "actual_hours": 1.26,
+                "variance_pct": 119.0
+              }
+            ],
+            "total_hours": 1.5
           }
         },
-        "job_count": 4
+        "job_count": 5
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -3787,8 +3813,8 @@
       "date": "2026-03-27",
       "day_label": "3/27",
       "crew_leader": "Edgar Herrera Palafox",
-      "route": null,
-      "division": null,
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
       "property": "Arlington Laboratory Services",
       "service": "Landscape Clean Up ",
       "target_hours": 24.0,
@@ -3799,8 +3825,8 @@
       "date": "2026-03-27",
       "day_label": "3/27",
       "crew_leader": "Edgar Herrera Palafox",
-      "route": null,
-      "division": null,
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
       "property": "Arlington Laboratory Services",
       "service": "Mobilization",
       "target_hours": 6.0,
@@ -4168,6 +4194,18 @@
       "efficiency": 107.1
     },
     {
+      "date": "2026-04-24",
+      "day_label": "4/24",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "University Christian Church ",
+      "service": "Edging Install",
+      "target_hours": 1.5,
+      "actual_hours": 1.26,
+      "efficiency": 119.0
+    },
+    {
       "date": "2026-04-17",
       "day_label": "4/17",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -4190,20 +4228,32 @@
       "target_hours": 1.0,
       "actual_hours": 1.39,
       "efficiency": 71.9
+    },
+    {
+      "date": "2026-04-24",
+      "day_label": "4/24",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "Marcy Selander Residence",
+      "service": "Landscape Upgrade",
+      "target_hours": 4.0,
+      "actual_hours": 3.58,
+      "efficiency": 111.7
     }
   ],
   "mtd": {
     "period": {
       "label": "April 2026",
       "start": "2026-04-01",
-      "end": "2026-04-25"
+      "end": "2026-04-26"
     },
     "leaderboard": [
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 265.1,
-        "estimated_hours": 287.0,
-        "labor_variance_pct": 108.2,
+        "actual_hours": 266.4,
+        "estimated_hours": 288.5,
+        "labor_variance_pct": 108.3,
         "bonus_eligible": true,
         "rank": 1,
         "trend": "same",
@@ -4251,9 +4301,9 @@
       },
       {
         "crew_leader": "Jon Hatcher",
-        "actual_hours": 56.3,
-        "estimated_hours": 22.8,
-        "labor_variance_pct": 40.6,
+        "actual_hours": 59.9,
+        "estimated_hours": 26.8,
+        "labor_variance_pct": 44.8,
         "bonus_eligible": false,
         "rank": 6,
         "trend": "new",
@@ -4261,9 +4311,9 @@
       }
     ],
     "bonus_eligible_count": 2,
-    "company_avg_variance": 89.6,
+    "company_avg_variance": 89.7,
     "total_crew_leaders": 6,
-    "tickets_analyzed": 152
+    "tickets_analyzed": 154
   },
   "prior_week": {
     "period": {
