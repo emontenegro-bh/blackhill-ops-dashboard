@@ -2,11 +2,11 @@ name: Weekly Crew Schedule
 
 on:
   schedule:
-    - cron: '0 13 * * 6'  # 8 AM CDT (UTC-5) every Saturday
+    - cron: '0 14 * * 0'  # 9 AM CDT (UTC-5) every Sunday
   workflow_dispatch:       # Allow manual trigger
 
 permissions:
-  contents: read
+  contents: write  # Needed to commit updated xlsx back to repo
 
 jobs:
   generate-schedule:
@@ -22,7 +22,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Generate and email schedule
+      - name: Install dependencies
+        run: pip install openpyxl
+
+      - name: Generate schedule and email
         env:
           ASPIRE_REPORTING_CLIENT_ID: ${{ secrets.ASPIRE_REPORTING_CLIENT_ID }}
           ASPIRE_REPORTING_SECRET: ${{ secrets.ASPIRE_REPORTING_SECRET }}
@@ -30,6 +33,14 @@ jobs:
           GMAIL_EMAIL: ${{ secrets.GMAIL_EMAIL }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python scripts/weekly-schedule.py
+
+      - name: Commit updated spreadsheet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/crew-schedule.xlsx
+          git diff --cached --quiet || git commit -m "Update crew schedule spreadsheet $(date +%Y-%m-%d)"
+          git push
 
   notify-failure:
     needs: [generate-schedule]
@@ -58,7 +69,7 @@ jobs:
           msg['To'] = 'evelin@blackhilltx.com'
 
           body = f'''<h3>Workflow Failure: Weekly Schedule Generator</h3>
-          <p>The Saturday schedule generation failed.</p>
+          <p>The Sunday schedule generation failed.</p>
           <p><a href="{url}">View failed run</a></p>
           <p style="color:#888;font-size:12px">Sent by Black Hill automation monitor</p>'''
 
