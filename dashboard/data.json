@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-28T11:47:29",
+  "generated": "2026-04-29T11:40:14",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1530,8 +1530,22 @@
         "name": "Irrigation 1 - Red/Rojo",
         "crew_leader": "Jon Hatcher",
         "crew_leader_id": 2384,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 4/27": {
+            "tickets": [
+              {
+                "property": "BASIS Benbrook ",
+                "service": "Irrigation Monitoring",
+                "occur": "6/6",
+                "target_hours": 2.0,
+                "actual_hours": 3.37,
+                "variance_pct": 59.3
+              }
+            ],
+            "total_hours": 2.0
+          }
+        },
+        "job_count": 1
       },
       {
         "name": "Land 1 - Green/Verde",
@@ -1558,15 +1572,67 @@
         "name": "Maint 3 - White/Blanco",
         "crew_leader": "Gustavo Aguilar",
         "crew_leader_id": 2284,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 4/27": {
+            "tickets": [
+              {
+                "property": "Capp Smith Park",
+                "service": "Mowing Cycle",
+                "occur": "14/31",
+                "target_hours": 20.0,
+                "actual_hours": 24.01,
+                "variance_pct": 83.3
+              },
+              {
+                "property": "Watauga Central Fire Station",
+                "service": "Bed Maintenance",
+                "occur": "10/17",
+                "target_hours": 3.0,
+                "actual_hours": 1.15,
+                "variance_pct": 260.9
+              },
+              {
+                "property": "Watauga Central Fire Station",
+                "service": "Mowing Cycle",
+                "occur": "14/31",
+                "target_hours": 4.0,
+                "actual_hours": 3.78,
+                "variance_pct": 105.8
+              }
+            ],
+            "total_hours": 27.0
+          }
+        },
+        "job_count": 3
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 4/27": {
+            "tickets": [
+              {
+                "property": "Leo at Bethel",
+                "service": "Maintenance Care",
+                "occur": "27/39",
+                "target_hours": 37.0,
+                "actual_hours": 34.69,
+                "variance_pct": 106.7
+              },
+              {
+                "property": "Leo at Bethel",
+                "service": "Maintenance Care",
+                "occur": "7/12",
+                "target_hours": 0.18,
+                "actual_hours": 0.28,
+                "variance_pct": 64.3
+              }
+            ],
+            "total_hours": 37.18
+          }
+        },
+        "job_count": 2
       }
     ]
   },
@@ -1932,6 +1998,18 @@
       "efficiency": 60.1
     },
     {
+      "date": "2026-04-27",
+      "day_label": "4/27",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "BASIS Benbrook ",
+      "service": "Irrigation Monitoring",
+      "target_hours": 2.0,
+      "actual_hours": 3.37,
+      "efficiency": 59.3
+    },
+    {
       "date": "2026-04-01",
       "day_label": "4/1",
       "crew_leader": "Jorge Torres Conde",
@@ -2098,6 +2176,18 @@
       "target_hours": 37.0,
       "actual_hours": 38.61,
       "efficiency": 95.8
+    },
+    {
+      "date": "2026-04-27",
+      "day_label": "4/27",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Leo at Bethel",
+      "service": "Maintenance Care",
+      "target_hours": 37.0,
+      "actual_hours": 34.69,
+      "efficiency": 106.7
     },
     {
       "date": "2026-04-07",
@@ -2316,6 +2406,18 @@
       "efficiency": 80.2
     },
     {
+      "date": "2026-04-27",
+      "day_label": "4/27",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Capp Smith Park",
+      "service": "Mowing Cycle",
+      "target_hours": 20.0,
+      "actual_hours": 24.01,
+      "efficiency": 83.3
+    },
+    {
       "date": "2026-04-06",
       "day_label": "4/6",
       "crew_leader": "Gustavo Aguilar",
@@ -2326,6 +2428,18 @@
       "target_hours": 3.0,
       "actual_hours": 2.66,
       "efficiency": 112.8
+    },
+    {
+      "date": "2026-04-27",
+      "day_label": "4/27",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Central Fire Station",
+      "service": "Bed Maintenance",
+      "target_hours": 3.0,
+      "actual_hours": 1.15,
+      "efficiency": 260.9
     },
     {
       "date": "2026-04-02",
@@ -2374,6 +2488,18 @@
       "target_hours": 4.0,
       "actual_hours": 4.2,
       "efficiency": 95.2
+    },
+    {
+      "date": "2026-04-27",
+      "day_label": "4/27",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Central Fire Station",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 3.78,
+      "efficiency": 105.8
     },
     {
       "date": "2026-04-03",
@@ -2722,6 +2848,18 @@
       "target_hours": 0.18,
       "actual_hours": 0.98,
       "efficiency": 18.4
+    },
+    {
+      "date": "2026-04-27",
+      "day_label": "4/27",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Leo at Bethel",
+      "service": "Maintenance Care",
+      "target_hours": 0.18,
+      "actual_hours": 0.28,
+      "efficiency": 64.3
     },
     {
       "date": "2026-04-08",
@@ -3574,13 +3712,25 @@
       "target_hours": 4.0,
       "actual_hours": 9.21,
       "efficiency": 43.4
+    },
+    {
+      "date": "2026-04-27",
+      "day_label": "4/27",
+      "crew_leader": "Edgar Herrera Palafox",
+      "route": null,
+      "division": null,
+      "property": "Arlington Laboratory Services",
+      "service": "Landscape Upgrade",
+      "target_hours": 12.0,
+      "actual_hours": 11.95,
+      "efficiency": 100.4
     }
   ],
   "mtd": {
     "period": {
       "label": "April 2026",
       "start": "2026-04-01",
-      "end": "2026-04-28"
+      "end": "2026-04-29"
     },
     "leaderboard": [
       {
@@ -3595,8 +3745,8 @@
       },
       {
         "crew_leader": "Edgar Herrera Palafox",
-        "actual_hours": 495.5,
-        "estimated_hours": 493.0,
+        "actual_hours": 507.4,
+        "estimated_hours": 505.0,
         "labor_variance_pct": 99.5,
         "bonus_eligible": true,
         "rank": 2,
@@ -3605,9 +3755,9 @@
       },
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 292.5,
-        "estimated_hours": 288.5,
-        "labor_variance_pct": 98.6,
+        "actual_hours": 307.1,
+        "estimated_hours": 303.5,
+        "labor_variance_pct": 98.8,
         "bonus_eligible": true,
         "rank": 3,
         "trend": "same",
@@ -3625,9 +3775,9 @@
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 337.0,
-        "estimated_hours": 299.0,
-        "labor_variance_pct": 88.7,
+        "actual_hours": 366.0,
+        "estimated_hours": 326.0,
+        "labor_variance_pct": 89.1,
         "bonus_eligible": false,
         "rank": 5,
         "trend": "same",
@@ -3635,9 +3785,9 @@
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 491.8,
-        "estimated_hours": 426.5,
-        "labor_variance_pct": 86.7,
+        "actual_hours": 526.8,
+        "estimated_hours": 463.7,
+        "labor_variance_pct": 88.0,
         "bonus_eligible": false,
         "rank": 6,
         "trend": "down",
@@ -3645,9 +3795,9 @@
       },
       {
         "crew_leader": "Jon Hatcher",
-        "actual_hours": 65.5,
-        "estimated_hours": 26.8,
-        "labor_variance_pct": 41.0,
+        "actual_hours": 70.8,
+        "estimated_hours": 30.8,
+        "labor_variance_pct": 43.5,
         "bonus_eligible": false,
         "rank": 7,
         "trend": "new",
@@ -3655,9 +3805,9 @@
       }
     ],
     "bonus_eligible_count": 4,
-    "company_avg_variance": 93.8,
+    "company_avg_variance": 94.0,
     "total_crew_leaders": 7,
-    "tickets_analyzed": 166
+    "tickets_analyzed": 176
   },
   "prior_week": {
     "period": {
