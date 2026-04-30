@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-29T11:40:14",
+  "generated": "2026-04-30T11:39:32",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1551,8 +1551,22 @@
         "name": "Land 1 - Green/Verde",
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
         "crew_leader_id": 1834,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Tue 4/28": {
+            "tickets": [
+              {
+                "property": "Sam Schein Residence",
+                "service": "Mobilization",
+                "occur": "",
+                "target_hours": 11.0,
+                "actual_hours": 6.17,
+                "variance_pct": 178.3
+              }
+            ],
+            "total_hours": 11.0
+          }
+        },
+        "job_count": 1
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -1573,6 +1587,43 @@
         "crew_leader": "Gustavo Aguilar",
         "crew_leader_id": 2284,
         "days": {
+          "Tue 4/28": {
+            "tickets": [
+              {
+                "property": "Craft Residence - Magnolia",
+                "service": "Maintenance Care",
+                "occur": "35/36",
+                "target_hours": 3.0,
+                "actual_hours": 1.99,
+                "variance_pct": 150.8
+              },
+              {
+                "property": "Miller Milling",
+                "service": "Maintenance Care",
+                "occur": "6/37",
+                "target_hours": 5.32,
+                "actual_hours": 4.4,
+                "variance_pct": 120.9
+              },
+              {
+                "property": "Animal Service Center",
+                "service": "Mowing Cycle",
+                "occur": "14/31",
+                "target_hours": 2.0,
+                "actual_hours": 2.57,
+                "variance_pct": 77.8
+              },
+              {
+                "property": "Dakota Apartments ",
+                "service": "Maintenance Care",
+                "occur": "5/38",
+                "target_hours": 5.72,
+                "actual_hours": 7.47,
+                "variance_pct": 76.6
+              }
+            ],
+            "total_hours": 16.04
+          },
           "Mon 4/27": {
             "tickets": [
               {
@@ -1603,13 +1654,34 @@
             "total_hours": 27.0
           }
         },
-        "job_count": 3
+        "job_count": 7
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
         "days": {
+          "Tue 4/28": {
+            "tickets": [
+              {
+                "property": "BASIS Benbrook ",
+                "service": "Maintenance Care",
+                "occur": "23/36",
+                "target_hours": 10.0,
+                "actual_hours": 11.54,
+                "variance_pct": 86.7
+              },
+              {
+                "property": "University Christian Church ",
+                "service": "Maintenance Care",
+                "occur": "23/36",
+                "target_hours": 16.0,
+                "actual_hours": 15.65,
+                "variance_pct": 102.2
+              }
+            ],
+            "total_hours": 26.0
+          },
           "Mon 4/27": {
             "tickets": [
               {
@@ -1632,7 +1704,7 @@
             "total_hours": 37.18
           }
         },
-        "job_count": 2
+        "job_count": 4
       }
     ]
   },
@@ -1708,6 +1780,18 @@
       "target_hours": 10.0,
       "actual_hours": 11.93,
       "efficiency": 83.8
+    },
+    {
+      "date": "2026-04-28",
+      "day_label": "4/28",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Craft Residence - Magnolia",
+      "service": "Maintenance Care",
+      "target_hours": 3.0,
+      "actual_hours": 1.99,
+      "efficiency": 150.8
     },
     {
       "date": "2026-04-01",
@@ -1986,6 +2070,18 @@
       "efficiency": 98.9
     },
     {
+      "date": "2026-04-28",
+      "day_label": "4/28",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "BASIS Benbrook ",
+      "service": "Maintenance Care",
+      "target_hours": 10.0,
+      "actual_hours": 11.54,
+      "efficiency": 86.7
+    },
+    {
       "date": "2026-04-01",
       "day_label": "4/1",
       "crew_leader": "Edwin Penalvert",
@@ -2056,6 +2152,18 @@
       "target_hours": 16.0,
       "actual_hours": 15.21,
       "efficiency": 105.2
+    },
+    {
+      "date": "2026-04-28",
+      "day_label": "4/28",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "University Christian Church ",
+      "service": "Maintenance Care",
+      "target_hours": 16.0,
+      "actual_hours": 15.65,
+      "efficiency": 102.2
     },
     {
       "date": "2026-04-23",
@@ -2214,6 +2322,18 @@
       "efficiency": 90.6
     },
     {
+      "date": "2026-04-28",
+      "day_label": "4/28",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Miller Milling",
+      "service": "Maintenance Care",
+      "target_hours": 5.32,
+      "actual_hours": 4.4,
+      "efficiency": 120.9
+    },
+    {
       "date": "2026-04-20",
       "day_label": "4/20",
       "crew_leader": "Jon Hatcher",
@@ -2308,6 +2428,18 @@
       "target_hours": 2.0,
       "actual_hours": 2.7,
       "efficiency": 74.1
+    },
+    {
+      "date": "2026-04-28",
+      "day_label": "4/28",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Animal Service Center",
+      "service": "Mowing Cycle",
+      "target_hours": 2.0,
+      "actual_hours": 2.57,
+      "efficiency": 77.8
     },
     {
       "date": "2026-04-01",
@@ -3042,6 +3174,18 @@
       "efficiency": 79.3
     },
     {
+      "date": "2026-04-28",
+      "day_label": "4/28",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Dakota Apartments ",
+      "service": "Maintenance Care",
+      "target_hours": 5.72,
+      "actual_hours": 7.47,
+      "efficiency": 76.6
+    },
+    {
       "date": "2026-03-30",
       "day_label": "3/30",
       "crew_leader": "Gustavo Aguilar",
@@ -3486,6 +3630,18 @@
       "efficiency": 98.0
     },
     {
+      "date": "2026-04-28",
+      "day_label": "4/28",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Sam Schein Residence",
+      "service": "Mobilization",
+      "target_hours": 11.0,
+      "actual_hours": 6.17,
+      "efficiency": 178.3
+    },
+    {
       "date": "2026-04-09",
       "day_label": "4/9",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -3730,7 +3886,7 @@
     "period": {
       "label": "April 2026",
       "start": "2026-04-01",
-      "end": "2026-04-29"
+      "end": "2026-04-30"
     },
     "leaderboard": [
       {
@@ -3744,24 +3900,24 @@
         "rank_change": 0
       },
       {
+        "crew_leader": "Jose Guadalupe Sandoval Ramos",
+        "actual_hours": 313.3,
+        "estimated_hours": 314.5,
+        "labor_variance_pct": 100.4,
+        "bonus_eligible": true,
+        "rank": 2,
+        "trend": "up",
+        "rank_change": 1
+      },
+      {
         "crew_leader": "Edgar Herrera Palafox",
         "actual_hours": 507.4,
         "estimated_hours": 505.0,
         "labor_variance_pct": 99.5,
         "bonus_eligible": true,
-        "rank": 2,
-        "trend": "same",
-        "rank_change": 0
-      },
-      {
-        "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 307.1,
-        "estimated_hours": 303.5,
-        "labor_variance_pct": 98.8,
-        "bonus_eligible": true,
         "rank": 3,
-        "trend": "same",
-        "rank_change": 0
+        "trend": "down",
+        "rank_change": -1
       },
       {
         "crew_leader": "Daniel Garcia Albarran",
@@ -3775,9 +3931,9 @@
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 366.0,
-        "estimated_hours": 326.0,
-        "labor_variance_pct": 89.1,
+        "actual_hours": 382.4,
+        "estimated_hours": 342.0,
+        "labor_variance_pct": 89.4,
         "bonus_eligible": false,
         "rank": 5,
         "trend": "same",
@@ -3785,9 +3941,9 @@
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 526.8,
-        "estimated_hours": 463.7,
-        "labor_variance_pct": 88.0,
+        "actual_hours": 554.0,
+        "estimated_hours": 489.7,
+        "labor_variance_pct": 88.4,
         "bonus_eligible": false,
         "rank": 6,
         "trend": "down",
@@ -3795,9 +3951,9 @@
       },
       {
         "crew_leader": "Jon Hatcher",
-        "actual_hours": 70.8,
-        "estimated_hours": 30.8,
-        "labor_variance_pct": 43.5,
+        "actual_hours": 82.9,
+        "estimated_hours": 31.8,
+        "labor_variance_pct": 38.4,
         "bonus_eligible": false,
         "rank": 7,
         "trend": "new",
@@ -3805,9 +3961,9 @@
       }
     ],
     "bonus_eligible_count": 4,
-    "company_avg_variance": 94.0,
+    "company_avg_variance": 93.8,
     "total_crew_leaders": 7,
-    "tickets_analyzed": 176
+    "tickets_analyzed": 183
   },
   "prior_week": {
     "period": {
