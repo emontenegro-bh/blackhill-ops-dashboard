@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T11:08:40",
+  "generated": "2026-05-02T10:55:13",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1178,12 +1178,12 @@
                 "property": "Jennifer Johnson Residence",
                 "service": "Landscape Upgrade",
                 "occur": "",
-                "target_hours": 30.0,
+                "target_hours": 39.0,
                 "actual_hours": 29.49,
-                "variance_pct": 101.7
+                "variance_pct": 132.2
               }
             ],
-            "total_hours": 36.0
+            "total_hours": 45.0
           }
         },
         "job_count": 3
@@ -3293,9 +3293,9 @@
       "division": "Landscape",
       "property": "Jennifer Johnson Residence",
       "service": "Landscape Upgrade",
-      "target_hours": 30.0,
+      "target_hours": 39.0,
       "actual_hours": 29.49,
-      "efficiency": 101.7
+      "efficiency": 132.2
     },
     {
       "date": "2026-04-13",
@@ -3530,7 +3530,7 @@
     "period": {
       "label": "May 2026",
       "start": "2026-05-01",
-      "end": "2026-05-01"
+      "end": "2026-05-02"
     },
     "leaderboard": [],
     "bonus_eligible_count": 0,
