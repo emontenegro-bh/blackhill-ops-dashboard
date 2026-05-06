@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T11:17:06",
+  "generated": "2026-05-06T11:50:09",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -30,9 +30,9 @@
         },
         {
           "name": "Maint 2 - Orange/Naranja",
-          "total": 237.3,
+          "total": 215.4,
           "weekly_values": [
-            237.3
+            215.4
           ]
         },
         {
@@ -51,12 +51,12 @@
         }
       ],
       "total_row": {
-        "total": 108.6,
+        "total": 107.4,
         "weekly_values": [
-          108.6
+          107.4
         ]
       },
-      "overall_efficiency": 108.6
+      "overall_efficiency": 107.4
     },
     "route_daily": {
       "weeks": [
@@ -110,9 +110,9 @@
         },
         {
           "name": "Maint 2 - Orange/Naranja",
-          "total": 237.3,
+          "total": 215.4,
           "weekly_values": [
-            237.3,
+            215.4,
             null,
             null,
             null,
@@ -149,9 +149,9 @@
         }
       ],
       "total_row": {
-        "total": 108.6,
+        "total": 107.4,
         "weekly_values": [
-          152.5,
+          146.7,
           98.2,
           87.6,
           91.8,
@@ -160,7 +160,7 @@
           null
         ]
       },
-      "overall_efficiency": 108.6
+      "overall_efficiency": 107.4
     },
     "route_monthly": {
       "weeks": [
@@ -225,9 +225,9 @@
       "rows": [
         {
           "name": "Daniel Garcia Albarran",
-          "total": 237.3,
+          "total": 215.4,
           "weekly_values": [
-            237.3
+            215.4
           ]
         },
         {
@@ -267,12 +267,12 @@
         }
       ],
       "total_row": {
-        "total": 108.3,
+        "total": 107.2,
         "weekly_values": [
-          108.3
+          107.2
         ]
       },
-      "overall_efficiency": 108.3
+      "overall_efficiency": 107.2
     },
     "crew_daily": {
       "weeks": [
@@ -287,9 +287,9 @@
       "rows": [
         {
           "name": "Daniel Garcia Albarran",
-          "total": 237.3,
+          "total": 215.4,
           "weekly_values": [
-            237.3,
+            215.4,
             null,
             null,
             null,
@@ -365,9 +365,9 @@
         }
       ],
       "total_row": {
-        "total": 108.3,
+        "total": 107.2,
         "weekly_values": [
-          147.4,
+          142.3,
           98.2,
           87.6,
           91.8,
@@ -376,7 +376,7 @@
           null
         ]
       },
-      "overall_efficiency": 108.3
+      "overall_efficiency": 107.2
     },
     "crew_monthly": {
       "weeks": [
@@ -434,19 +434,19 @@
         },
         {
           "name": "Maintenance",
-          "total": 112.6,
+          "total": 111.0,
           "weekly_values": [
-            112.6
+            111.0
           ]
         }
       ],
       "total_row": {
-        "total": 108.6,
+        "total": 107.4,
         "weekly_values": [
-          108.6
+          107.4
         ]
       },
-      "overall_efficiency": 108.6
+      "overall_efficiency": 107.4
     },
     "division_daily": {
       "weeks": [
@@ -487,9 +487,9 @@
         },
         {
           "name": "Maintenance",
-          "total": 112.6,
+          "total": 111.0,
           "weekly_values": [
-            155.5,
+            149.4,
             96.4,
             89.2,
             81.0,
@@ -500,9 +500,9 @@
         }
       ],
       "total_row": {
-        "total": 108.6,
+        "total": 107.4,
         "weekly_values": [
-          152.5,
+          146.7,
           98.2,
           87.6,
           91.8,
@@ -511,7 +511,7 @@
           null
         ]
       },
-      "overall_efficiency": 108.6
+      "overall_efficiency": 107.4
     },
     "division_monthly": {
       "weeks": [
@@ -562,9 +562,9 @@
         },
         {
           "name": "Arlington Medians and ROW District 2",
-          "total": 237.3,
+          "total": 215.4,
           "weekly_values": [
-            237.3
+            215.4
           ]
         },
         {
@@ -772,12 +772,12 @@
         }
       ],
       "total_row": {
-        "total": 108.3,
+        "total": 107.2,
         "weekly_values": [
-          108.3
+          107.2
         ]
       },
-      "overall_efficiency": 108.3
+      "overall_efficiency": 107.2
     },
     "property_daily": {
       "weeks": [
@@ -818,9 +818,9 @@
         },
         {
           "name": "Arlington Medians and ROW District 2",
-          "total": 237.3,
+          "total": 215.4,
           "weekly_values": [
-            237.3,
+            215.4,
             null,
             null,
             null,
@@ -1208,9 +1208,9 @@
         }
       ],
       "total_row": {
-        "total": 108.3,
+        "total": 107.2,
         "weekly_values": [
-          147.4,
+          142.3,
           98.2,
           87.6,
           91.8,
@@ -1219,7 +1219,7 @@
           null
         ]
       },
-      "overall_efficiency": 108.3
+      "overall_efficiency": 107.2
     },
     "property_monthly": {
       "weeks": [
@@ -1315,8 +1315,22 @@
         "name": "Land 1 - Green/Verde",
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
         "crew_leader_id": 1834,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 5/4": {
+            "tickets": [
+              {
+                "property": "Leo at Bethel",
+                "service": "Maintenance Care",
+                "occur": "28/39",
+                "target_hours": 37.0,
+                "actual_hours": 33.84,
+                "variance_pct": 109.3
+              }
+            ],
+            "total_hours": 37.0
+          }
+        },
+        "job_count": 1
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -1336,15 +1350,75 @@
         "name": "Maint 3 - White/Blanco",
         "crew_leader": "Gustavo Aguilar",
         "crew_leader_id": 2284,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 5/4": {
+            "tickets": [
+              {
+                "property": "Capp Smith Park",
+                "service": "Mowing Cycle",
+                "occur": "15/31",
+                "target_hours": 18.0,
+                "actual_hours": 23.34,
+                "variance_pct": 77.1
+              },
+              {
+                "property": "Hillview Park",
+                "service": "Mowing Cycle",
+                "occur": "15/31",
+                "target_hours": 2.0,
+                "actual_hours": 2.14,
+                "variance_pct": 93.5
+              }
+            ],
+            "total_hours": 20.0
+          }
+        },
+        "job_count": 2
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 5/4": {
+            "tickets": [
+              {
+                "property": "Miller Milling",
+                "service": "Maintenance Care",
+                "occur": "7/37",
+                "target_hours": 5.32,
+                "actual_hours": 6.45,
+                "variance_pct": 82.5
+              },
+              {
+                "property": "Watauga Municipal Complex",
+                "service": "Mowing Cycle",
+                "occur": "15/31",
+                "target_hours": 4.0,
+                "actual_hours": 5.24,
+                "variance_pct": 76.3
+              },
+              {
+                "property": "Dakota Apartments ",
+                "service": "Maintenance Care",
+                "occur": "6/38",
+                "target_hours": 5.72,
+                "actual_hours": 7.65,
+                "variance_pct": 74.8
+              },
+              {
+                "property": "Dakota Apartments ",
+                "service": "Mobilization",
+                "occur": "6/38",
+                "target_hours": 4.0,
+                "actual_hours": 3.49,
+                "variance_pct": 114.6
+              }
+            ],
+            "total_hours": 19.04
+          }
+        },
+        "job_count": 4
       }
     ]
   },
@@ -1866,6 +1940,18 @@
       "efficiency": 106.7
     },
     {
+      "date": "2026-05-04",
+      "day_label": "5/4",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Leo at Bethel",
+      "service": "Maintenance Care",
+      "target_hours": 37.0,
+      "actual_hours": 33.84,
+      "efficiency": 109.3
+    },
+    {
       "date": "2026-04-07",
       "day_label": "4/7",
       "crew_leader": "Gustavo Aguilar",
@@ -1900,6 +1986,18 @@
       "target_hours": 5.32,
       "actual_hours": 4.4,
       "efficiency": 120.9
+    },
+    {
+      "date": "2026-05-04",
+      "day_label": "5/4",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Miller Milling",
+      "service": "Maintenance Care",
+      "target_hours": 5.32,
+      "actual_hours": 6.45,
+      "efficiency": 82.5
     },
     {
       "date": "2026-04-20",
@@ -2094,6 +2192,18 @@
       "efficiency": 83.3
     },
     {
+      "date": "2026-05-04",
+      "day_label": "5/4",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Capp Smith Park",
+      "service": "Mowing Cycle",
+      "target_hours": 18.0,
+      "actual_hours": 23.34,
+      "efficiency": 77.1
+    },
+    {
       "date": "2026-04-06",
       "day_label": "4/6",
       "crew_leader": "Gustavo Aguilar",
@@ -2250,6 +2360,18 @@
       "efficiency": 73.3
     },
     {
+      "date": "2026-05-04",
+      "day_label": "5/4",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Hillview Park",
+      "service": "Mowing Cycle",
+      "target_hours": 2.0,
+      "actual_hours": 2.14,
+      "efficiency": 93.5
+    },
+    {
       "date": "2026-04-20",
       "day_label": "4/20",
       "crew_leader": "Gustavo Aguilar",
@@ -2332,6 +2454,18 @@
       "target_hours": 4.0,
       "actual_hours": 5.03,
       "efficiency": 79.5
+    },
+    {
+      "date": "2026-05-04",
+      "day_label": "5/4",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Watauga Municipal Complex",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 5.24,
+      "efficiency": 76.3
     },
     {
       "date": "2026-04-08",
@@ -2658,6 +2792,18 @@
       "efficiency": 76.6
     },
     {
+      "date": "2026-05-04",
+      "day_label": "5/4",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Dakota Apartments ",
+      "service": "Maintenance Care",
+      "target_hours": 5.72,
+      "actual_hours": 7.65,
+      "efficiency": 74.8
+    },
+    {
       "date": "2026-04-15",
       "day_label": "4/15",
       "crew_leader": "Jorge Torres Conde",
@@ -2668,6 +2814,18 @@
       "target_hours": 4.0,
       "actual_hours": 1.52,
       "efficiency": 263.2
+    },
+    {
+      "date": "2026-05-04",
+      "day_label": "5/4",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Dakota Apartments ",
+      "service": "Mobilization",
+      "target_hours": 4.0,
+      "actual_hours": 3.49,
+      "efficiency": 114.6
     },
     {
       "date": "2026-04-16",
@@ -3350,8 +3508,8 @@
       "property": "Arlington Medians and ROW District 2",
       "service": "Mobilization",
       "target_hours": 102.0,
-      "actual_hours": 42.99,
-      "efficiency": 237.3
+      "actual_hours": 47.35,
+      "efficiency": 215.4
     },
     {
       "date": "2026-04-27",
@@ -3418,24 +3576,44 @@
     "period": {
       "label": "May 2026",
       "start": "2026-05-01",
-      "end": "2026-05-05"
+      "end": "2026-05-06"
     },
     "leaderboard": [
       {
-        "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 26.3,
-        "estimated_hours": 22.0,
-        "labor_variance_pct": 83.7,
-        "bonus_eligible": false,
+        "crew_leader": "Jose Guadalupe Sandoval Ramos",
+        "actual_hours": 51.3,
+        "estimated_hours": 50.5,
+        "labor_variance_pct": 98.4,
+        "bonus_eligible": true,
         "rank": 1,
-        "trend": "up",
-        "rank_change": 2
+        "trend": "same",
+        "rank_change": 0
+      },
+      {
+        "crew_leader": "Gustavo Aguilar",
+        "actual_hours": 42.0,
+        "estimated_hours": 37.8,
+        "labor_variance_pct": 90.0,
+        "bonus_eligible": false,
+        "rank": 2,
+        "trend": "same",
+        "rank_change": 0
+      },
+      {
+        "crew_leader": "Jorge Torres Conde",
+        "actual_hours": 49.1,
+        "estimated_hours": 41.0,
+        "labor_variance_pct": 83.5,
+        "bonus_eligible": false,
+        "rank": 3,
+        "trend": "same",
+        "rank_change": 0
       }
     ],
-    "bonus_eligible_count": 0,
-    "company_avg_variance": 80.2,
-    "total_crew_leaders": 1,
-    "tickets_analyzed": 15
+    "bonus_eligible_count": 1,
+    "company_avg_variance": 87.1,
+    "total_crew_leaders": 3,
+    "tickets_analyzed": 22
   },
   "prior_week": {
     "period": {
@@ -3446,9 +3624,9 @@
     "leaderboard": [
       {
         "crew_leader": "Daniel Garcia Albarran",
-        "actual_hours": 43.0,
+        "actual_hours": 47.4,
         "estimated_hours": 102.0,
-        "labor_variance_pct": 237.3,
+        "labor_variance_pct": 215.4,
         "bonus_eligible": true,
         "rank": 1,
         "trend": "new",
@@ -3486,7 +3664,7 @@
       }
     ],
     "bonus_eligible_count": 2,
-    "company_avg_variance": 103.2,
+    "company_avg_variance": 102.2,
     "total_crew_leaders": 4,
     "tickets_analyzed": 50
   }
