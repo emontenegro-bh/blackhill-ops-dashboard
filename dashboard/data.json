@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-12T11:59:55",
+  "generated": "2026-05-13T12:07:39",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1464,8 +1464,46 @@
         "name": "Land 1 - Green/Verde",
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
         "crew_leader_id": 1834,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Tue 5/12": {
+            "tickets": [
+              {
+                "property": "Matthew Pursley Residence",
+                "service": "Sod Install",
+                "occur": "",
+                "target_hours": 24.0,
+                "actual_hours": 9.25,
+                "variance_pct": 259.5
+              },
+              {
+                "property": "Matthew Pursley Residence",
+                "service": "Mobilization",
+                "occur": "",
+                "target_hours": 4.0,
+                "actual_hours": 3.96,
+                "variance_pct": 101.0
+              },
+              {
+                "property": "Eric Oaks Residence",
+                "service": "Sod Install",
+                "occur": "",
+                "target_hours": 10.0,
+                "actual_hours": 15.93,
+                "variance_pct": 62.8
+              },
+              {
+                "property": "Eric Oaks Residence",
+                "service": "Mobilization",
+                "occur": "",
+                "target_hours": 4.0,
+                "actual_hours": 2.77,
+                "variance_pct": 144.4
+              }
+            ],
+            "total_hours": 42.0
+          }
+        },
+        "job_count": 4
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -3455,6 +3493,54 @@
       "efficiency": 88.5
     },
     {
+      "date": "2026-05-12",
+      "day_label": "5/12",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Matthew Pursley Residence",
+      "service": "Sod Install",
+      "target_hours": 24.0,
+      "actual_hours": 9.25,
+      "efficiency": 259.5
+    },
+    {
+      "date": "2026-05-12",
+      "day_label": "5/12",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Matthew Pursley Residence",
+      "service": "Mobilization",
+      "target_hours": 4.0,
+      "actual_hours": 3.96,
+      "efficiency": 101.0
+    },
+    {
+      "date": "2026-05-12",
+      "day_label": "5/12",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Eric Oaks Residence",
+      "service": "Sod Install",
+      "target_hours": 10.0,
+      "actual_hours": 15.93,
+      "efficiency": 62.8
+    },
+    {
+      "date": "2026-05-12",
+      "day_label": "5/12",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Eric Oaks Residence",
+      "service": "Mobilization",
+      "target_hours": 4.0,
+      "actual_hours": 2.77,
+      "efficiency": 144.4
+    },
+    {
       "date": "2026-05-08",
       "day_label": "5/8",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -3543,14 +3629,14 @@
     "period": {
       "label": "May 2026",
       "start": "2026-05-01",
-      "end": "2026-05-12"
+      "end": "2026-05-13"
     },
     "leaderboard": [
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 134.1,
-        "estimated_hours": 136.7,
-        "labor_variance_pct": 101.9,
+        "actual_hours": 166.0,
+        "estimated_hours": 178.7,
+        "labor_variance_pct": 107.6,
         "bonus_eligible": true,
         "rank": 1,
         "trend": "up",
@@ -3578,9 +3664,9 @@
       }
     ],
     "bonus_eligible_count": 2,
-    "company_avg_variance": 93.7,
+    "company_avg_variance": 96.5,
     "total_crew_leaders": 3,
-    "tickets_analyzed": 68
+    "tickets_analyzed": 72
   },
   "prior_week": {
     "period": {
