@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T12:07:39",
+  "generated": "2026-05-14T11:54:20",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1457,14 +1457,57 @@
         "name": "Irrigation 1 - Red/Rojo",
         "crew_leader": "Jon Hatcher",
         "crew_leader_id": 2384,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 5/11": {
+            "tickets": [
+              {
+                "property": "BASIS Benbrook ",
+                "service": "Irrigation Monitoring",
+                "occur": "5/6",
+                "target_hours": 2.0,
+                "actual_hours": 4.8,
+                "variance_pct": 41.7
+              },
+              {
+                "property": "Lori Payne Residence",
+                "service": "Irrigation Assessment",
+                "occur": "",
+                "target_hours": 1.0,
+                "actual_hours": 1.66,
+                "variance_pct": 60.2
+              },
+              {
+                "property": "Sam Shipley Residence",
+                "service": "Irrigation Assessment",
+                "occur": "",
+                "target_hours": 1.0,
+                "actual_hours": 2.12,
+                "variance_pct": 47.2
+              }
+            ],
+            "total_hours": 4.0
+          }
+        },
+        "job_count": 3
       },
       {
         "name": "Land 1 - Green/Verde",
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
         "crew_leader_id": 1834,
         "days": {
+          "Mon 5/11": {
+            "tickets": [
+              {
+                "property": "Leo at Bethel",
+                "service": "Maintenance Care",
+                "occur": "29/39",
+                "target_hours": 37.0,
+                "actual_hours": 30.3,
+                "variance_pct": 122.1
+              }
+            ],
+            "total_hours": 37.0
+          },
           "Tue 5/12": {
             "tickets": [
               {
@@ -1472,38 +1515,38 @@
                 "service": "Sod Install",
                 "occur": "",
                 "target_hours": 24.0,
-                "actual_hours": 9.25,
-                "variance_pct": 259.5
+                "actual_hours": 8.64,
+                "variance_pct": 277.8
               },
               {
                 "property": "Matthew Pursley Residence",
                 "service": "Mobilization",
                 "occur": "",
                 "target_hours": 4.0,
-                "actual_hours": 3.96,
-                "variance_pct": 101.0
+                "actual_hours": 4.23,
+                "variance_pct": 94.6
               },
               {
                 "property": "Eric Oaks Residence",
                 "service": "Sod Install",
                 "occur": "",
                 "target_hours": 10.0,
-                "actual_hours": 15.93,
-                "variance_pct": 62.8
+                "actual_hours": 15.55,
+                "variance_pct": 64.3
               },
               {
                 "property": "Eric Oaks Residence",
                 "service": "Mobilization",
                 "occur": "",
                 "target_hours": 4.0,
-                "actual_hours": 2.77,
-                "variance_pct": 144.4
+                "actual_hours": 3.12,
+                "variance_pct": 128.2
               }
             ],
             "total_hours": 42.0
           }
         },
-        "job_count": 4
+        "job_count": 5
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -1523,15 +1566,96 @@
         "name": "Maint 3 - White/Blanco",
         "crew_leader": "Gustavo Aguilar",
         "crew_leader_id": 2284,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Tue 5/12": {
+            "tickets": [
+              {
+                "property": "Animal Service Center",
+                "service": "Mowing Cycle",
+                "occur": "16/31",
+                "target_hours": 2.0,
+                "actual_hours": 2.24,
+                "variance_pct": 89.3
+              },
+              {
+                "property": "BISD Park",
+                "service": "Mowing Cycle",
+                "occur": "16/31",
+                "target_hours": 4.0,
+                "actual_hours": 5.5,
+                "variance_pct": 72.7
+              },
+              {
+                "property": "Watauga Central Fire Station",
+                "service": "Mowing Cycle",
+                "occur": "16/31",
+                "target_hours": 4.0,
+                "actual_hours": 3.31,
+                "variance_pct": 120.8
+              },
+              {
+                "property": "Public Works Facility",
+                "service": "Mowing Cycle",
+                "occur": "16/31",
+                "target_hours": 2.0,
+                "actual_hours": 2.24,
+                "variance_pct": 89.3
+              },
+              {
+                "property": "Craft Residence - Magnolia",
+                "service": "Maintenance Care",
+                "occur": "1/36",
+                "target_hours": 3.0,
+                "actual_hours": 1.94,
+                "variance_pct": 154.6
+              }
+            ],
+            "total_hours": 15.0
+          }
+        },
+        "job_count": 5
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 5/11": {
+            "tickets": [
+              {
+                "property": "Crowley Creekside HOA",
+                "service": "Maintenance Care",
+                "occur": "24/37",
+                "target_hours": 37.0,
+                "actual_hours": 40.87,
+                "variance_pct": 90.5
+              }
+            ],
+            "total_hours": 37.0
+          },
+          "Tue 5/12": {
+            "tickets": [
+              {
+                "property": "Whites Branch Creek Trail",
+                "service": "Mowing Cycle",
+                "occur": "11/21",
+                "target_hours": 6.0,
+                "actual_hours": 6.3,
+                "variance_pct": 95.2
+              },
+              {
+                "property": "Capp Smith Park",
+                "service": "Mowing Cycle",
+                "occur": "16/31",
+                "target_hours": 18.5,
+                "actual_hours": 23.7,
+                "variance_pct": 78.1
+              }
+            ],
+            "total_hours": 24.5
+          }
+        },
+        "job_count": 3
       }
     ]
   },
@@ -1825,6 +1949,18 @@
       "efficiency": 82.3
     },
     {
+      "date": "2026-05-11",
+      "day_label": "5/11",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "BASIS Benbrook ",
+      "service": "Irrigation Monitoring",
+      "target_hours": 2.0,
+      "actual_hours": 4.8,
+      "efficiency": 41.7
+    },
+    {
       "date": "2026-04-27",
       "day_label": "4/27",
       "crew_leader": "Jon Hatcher",
@@ -1921,6 +2057,18 @@
       "efficiency": 107.3
     },
     {
+      "date": "2026-05-11",
+      "day_label": "5/11",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Crowley Creekside HOA",
+      "service": "Maintenance Care",
+      "target_hours": 37.0,
+      "actual_hours": 40.87,
+      "efficiency": 90.5
+    },
+    {
       "date": "2026-05-05",
       "day_label": "5/5",
       "crew_leader": "Jorge Torres Conde",
@@ -1979,6 +2127,18 @@
       "target_hours": 37.0,
       "actual_hours": 33.84,
       "efficiency": 109.3
+    },
+    {
+      "date": "2026-05-11",
+      "day_label": "5/11",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Leo at Bethel",
+      "service": "Maintenance Care",
+      "target_hours": 37.0,
+      "actual_hours": 30.3,
+      "efficiency": 122.1
     },
     {
       "date": "2026-04-16",
@@ -2089,6 +2249,18 @@
       "efficiency": 128.5
     },
     {
+      "date": "2026-05-12",
+      "day_label": "5/12",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Whites Branch Creek Trail",
+      "service": "Mowing Cycle",
+      "target_hours": 6.0,
+      "actual_hours": 6.3,
+      "efficiency": 95.2
+    },
+    {
       "date": "2026-04-16",
       "day_label": "4/16",
       "crew_leader": "Gustavo Aguilar",
@@ -2135,6 +2307,18 @@
       "target_hours": 2.0,
       "actual_hours": 2.81,
       "efficiency": 71.2
+    },
+    {
+      "date": "2026-05-12",
+      "day_label": "5/12",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Animal Service Center",
+      "service": "Mowing Cycle",
+      "target_hours": 2.0,
+      "actual_hours": 2.24,
+      "efficiency": 89.3
     },
     {
       "date": "2026-04-14",
@@ -2185,6 +2369,18 @@
       "efficiency": 82.8
     },
     {
+      "date": "2026-05-12",
+      "day_label": "5/12",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "BISD Park",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 5.5,
+      "efficiency": 72.7
+    },
+    {
       "date": "2026-04-14",
       "day_label": "4/14",
       "crew_leader": "Gustavo Aguilar",
@@ -2231,6 +2427,18 @@
       "target_hours": 18.0,
       "actual_hours": 23.34,
       "efficiency": 77.1
+    },
+    {
+      "date": "2026-05-12",
+      "day_label": "5/12",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Capp Smith Park",
+      "service": "Mowing Cycle",
+      "target_hours": 18.5,
+      "actual_hours": 23.7,
+      "efficiency": 78.1
     },
     {
       "date": "2026-04-27",
@@ -2291,6 +2499,18 @@
       "target_hours": 4.0,
       "actual_hours": 1.82,
       "efficiency": 219.8
+    },
+    {
+      "date": "2026-05-12",
+      "day_label": "5/12",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Central Fire Station",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 3.31,
+      "efficiency": 120.8
     },
     {
       "date": "2026-04-15",
@@ -2495,6 +2715,18 @@
       "target_hours": 2.0,
       "actual_hours": 2.66,
       "efficiency": 75.2
+    },
+    {
+      "date": "2026-05-12",
+      "day_label": "5/12",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Public Works Facility",
+      "service": "Mowing Cycle",
+      "target_hours": 2.0,
+      "actual_hours": 2.24,
+      "efficiency": 89.3
     },
     {
       "date": "2026-04-16",
@@ -3501,8 +3733,8 @@
       "property": "Matthew Pursley Residence",
       "service": "Sod Install",
       "target_hours": 24.0,
-      "actual_hours": 9.25,
-      "efficiency": 259.5
+      "actual_hours": 8.64,
+      "efficiency": 277.8
     },
     {
       "date": "2026-05-12",
@@ -3513,8 +3745,8 @@
       "property": "Matthew Pursley Residence",
       "service": "Mobilization",
       "target_hours": 4.0,
-      "actual_hours": 3.96,
-      "efficiency": 101.0
+      "actual_hours": 4.23,
+      "efficiency": 94.6
     },
     {
       "date": "2026-05-12",
@@ -3525,8 +3757,8 @@
       "property": "Eric Oaks Residence",
       "service": "Sod Install",
       "target_hours": 10.0,
-      "actual_hours": 15.93,
-      "efficiency": 62.8
+      "actual_hours": 15.55,
+      "efficiency": 64.3
     },
     {
       "date": "2026-05-12",
@@ -3537,8 +3769,8 @@
       "property": "Eric Oaks Residence",
       "service": "Mobilization",
       "target_hours": 4.0,
-      "actual_hours": 2.77,
-      "efficiency": 144.4
+      "actual_hours": 3.12,
+      "efficiency": 128.2
     },
     {
       "date": "2026-05-08",
@@ -3601,6 +3833,18 @@
       "efficiency": 177.8
     },
     {
+      "date": "2026-05-11",
+      "day_label": "5/11",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "Lori Payne Residence",
+      "service": "Irrigation Assessment",
+      "target_hours": 1.0,
+      "actual_hours": 1.66,
+      "efficiency": 60.2
+    },
+    {
       "date": "2026-05-08",
       "day_label": "5/8",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -3623,30 +3867,78 @@
       "target_hours": 4.0,
       "actual_hours": 5.82,
       "efficiency": 68.7
+    },
+    {
+      "date": "2026-05-12",
+      "day_label": "5/12",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Craft Residence - Magnolia",
+      "service": "Maintenance Care",
+      "target_hours": 3.0,
+      "actual_hours": 1.94,
+      "efficiency": 154.6
+    },
+    {
+      "date": "2026-05-11",
+      "day_label": "5/11",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "Sam Shipley Residence",
+      "service": "Irrigation Assessment",
+      "target_hours": 1.0,
+      "actual_hours": 2.12,
+      "efficiency": 47.2
+    },
+    {
+      "date": "2026-04-13",
+      "day_label": "4/13",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Pierce Burch Water Treatment Plant",
+      "service": "Bed Maintenance ",
+      "target_hours": 3.0,
+      "actual_hours": 0.0,
+      "efficiency": null
+    },
+    {
+      "date": "2026-04-27",
+      "day_label": "4/27",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Pierce Burch Water Treatment Plant",
+      "service": "Bed Maintenance ",
+      "target_hours": 3.0,
+      "actual_hours": 0.0,
+      "efficiency": null
     }
   ],
   "mtd": {
     "period": {
       "label": "May 2026",
       "start": "2026-05-01",
-      "end": "2026-05-13"
+      "end": "2026-05-14"
     },
     "leaderboard": [
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 166.0,
-        "estimated_hours": 178.7,
-        "labor_variance_pct": 107.6,
+        "actual_hours": 196.0,
+        "estimated_hours": 215.7,
+        "labor_variance_pct": 110.1,
         "bonus_eligible": true,
         "rank": 1,
         "trend": "up",
-        "rank_change": 3
+        "rank_change": 1
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 101.4,
-        "estimated_hours": 100.7,
-        "labor_variance_pct": 99.3,
+        "actual_hours": 116.6,
+        "estimated_hours": 115.7,
+        "labor_variance_pct": 99.2,
         "bonus_eligible": true,
         "rank": 2,
         "trend": "up",
@@ -3654,19 +3946,19 @@
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 139.7,
-        "estimated_hours": 125.2,
-        "labor_variance_pct": 89.6,
+        "actual_hours": 210.6,
+        "estimated_hours": 186.7,
+        "labor_variance_pct": 88.7,
         "bonus_eligible": false,
         "rank": 3,
-        "trend": "same",
-        "rank_change": 0
+        "trend": "up",
+        "rank_change": 1
       }
     ],
     "bonus_eligible_count": 2,
-    "company_avg_variance": 96.5,
+    "company_avg_variance": 96.1,
     "total_crew_leaders": 3,
-    "tickets_analyzed": 72
+    "tickets_analyzed": 85
   },
   "prior_week": {
     "period": {
@@ -3683,7 +3975,7 @@
         "bonus_eligible": true,
         "rank": 1,
         "trend": "up",
-        "rank_change": 3
+        "rank_change": 1
       },
       {
         "crew_leader": "Gustavo Aguilar",
@@ -3702,8 +3994,8 @@
         "labor_variance_pct": 91.0,
         "bonus_eligible": false,
         "rank": 3,
-        "trend": "same",
-        "rank_change": 0
+        "trend": "up",
+        "rank_change": 1
       }
     ],
     "bonus_eligible_count": 2,
