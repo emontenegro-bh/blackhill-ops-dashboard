@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-22T12:21:41",
+  "generated": "2026-05-23T11:14:22",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -16,9 +16,9 @@
         },
         {
           "name": "Land 1 - Green/Verde",
-          "total": 119.3,
+          "total": 121.0,
           "weekly_values": [
-            119.3
+            121.0
           ]
         },
         {
@@ -51,12 +51,12 @@
         }
       ],
       "total_row": {
-        "total": 102.3,
+        "total": 102.8,
         "weekly_values": [
-          102.3
+          102.8
         ]
       },
-      "overall_efficiency": 102.3
+      "overall_efficiency": 102.8
     },
     "route_daily": {
       "weeks": [
@@ -84,11 +84,11 @@
         },
         {
           "name": "Land 1 - Green/Verde",
-          "total": 119.3,
+          "total": 121.0,
           "weekly_values": [
             122.1,
             133.2,
-            124.1,
+            137.3,
             110.6,
             null,
             null,
@@ -149,18 +149,18 @@
         }
       ],
       "total_row": {
-        "total": 102.3,
+        "total": 102.8,
         "weekly_values": [
           97.8,
           106.2,
-          96.3,
+          98.9,
           108.7,
           97.9,
           null,
           null
         ]
       },
-      "overall_efficiency": 102.3
+      "overall_efficiency": 102.8
     },
     "route_monthly": {
       "weeks": [
@@ -176,9 +176,9 @@
         },
         {
           "name": "Land 1 - Green/Verde",
-          "total": 115.9,
+          "total": 116.8,
           "weekly_values": [
-            115.9
+            116.8
           ]
         },
         {
@@ -211,12 +211,12 @@
         }
       ],
       "total_row": {
-        "total": 100.8,
+        "total": 101.0,
         "weekly_values": [
-          100.8
+          101.0
         ]
       },
-      "overall_efficiency": 100.8
+      "overall_efficiency": 101.0
     },
     "crew_weekly": {
       "weeks": [
@@ -246,19 +246,19 @@
         },
         {
           "name": "Jose Guadalupe Sandoval Ramos",
-          "total": 119.3,
+          "total": 121.0,
           "weekly_values": [
-            119.3
+            121.0
           ]
         }
       ],
       "total_row": {
-        "total": 102.3,
+        "total": 102.8,
         "weekly_values": [
-          102.3
+          102.8
         ]
       },
-      "overall_efficiency": 102.3
+      "overall_efficiency": 102.8
     },
     "crew_daily": {
       "weeks": [
@@ -312,11 +312,11 @@
         },
         {
           "name": "Jose Guadalupe Sandoval Ramos",
-          "total": 119.3,
+          "total": 121.0,
           "weekly_values": [
             122.1,
             133.2,
-            124.1,
+            137.3,
             110.6,
             null,
             null,
@@ -325,18 +325,18 @@
         }
       ],
       "total_row": {
-        "total": 102.3,
+        "total": 102.8,
         "weekly_values": [
           97.8,
           106.2,
-          96.3,
+          98.9,
           108.7,
           97.9,
           null,
           null
         ]
       },
-      "overall_efficiency": 102.3
+      "overall_efficiency": 102.8
     },
     "crew_monthly": {
       "weeks": [
@@ -366,19 +366,19 @@
         },
         {
           "name": "Jose Guadalupe Sandoval Ramos",
-          "total": 115.9,
+          "total": 116.8,
           "weekly_values": [
-            115.9
+            116.8
           ]
         }
       ],
       "total_row": {
-        "total": 100.8,
+        "total": 101.0,
         "weekly_values": [
-          100.8
+          101.0
         ]
       },
-      "overall_efficiency": 100.8
+      "overall_efficiency": 101.0
     },
     "division_weekly": {
       "weeks": [
@@ -394,9 +394,9 @@
         },
         {
           "name": "Landscape",
-          "total": 119.3,
+          "total": 121.0,
           "weekly_values": [
-            119.3
+            121.0
           ]
         },
         {
@@ -408,12 +408,12 @@
         }
       ],
       "total_row": {
-        "total": 102.3,
+        "total": 102.8,
         "weekly_values": [
-          102.3
+          102.8
         ]
       },
-      "overall_efficiency": 102.3
+      "overall_efficiency": 102.8
     },
     "division_daily": {
       "weeks": [
@@ -441,11 +441,11 @@
         },
         {
           "name": "Landscape",
-          "total": 119.3,
+          "total": 121.0,
           "weekly_values": [
             122.1,
             133.2,
-            124.1,
+            137.3,
             110.6,
             null,
             null,
@@ -467,18 +467,18 @@
         }
       ],
       "total_row": {
-        "total": 102.3,
+        "total": 102.8,
         "weekly_values": [
           97.8,
           106.2,
-          96.3,
+          98.9,
           108.7,
           97.9,
           null,
           null
         ]
       },
-      "overall_efficiency": 102.3
+      "overall_efficiency": 102.8
     },
     "division_monthly": {
       "weeks": [
@@ -494,9 +494,9 @@
         },
         {
           "name": "Landscape",
-          "total": 115.9,
+          "total": 116.8,
           "weekly_values": [
-            115.9
+            116.8
           ]
         },
         {
@@ -508,12 +508,12 @@
         }
       ],
       "total_row": {
-        "total": 100.8,
+        "total": 101.0,
         "weekly_values": [
-          100.8
+          101.0
         ]
       },
-      "overall_efficiency": 100.8
+      "overall_efficiency": 101.0
     },
     "property_weekly": {
       "weeks": [
@@ -620,9 +620,9 @@
         },
         {
           "name": "John F. Kubala Water Treatment",
-          "total": 133.6,
+          "total": 180.2,
           "weekly_values": [
-            133.6
+            180.2
           ]
         },
         {
@@ -753,12 +753,12 @@
         }
       ],
       "total_row": {
-        "total": 102.3,
+        "total": 102.8,
         "weekly_values": [
-          102.3
+          102.8
         ]
       },
-      "overall_efficiency": 102.3
+      "overall_efficiency": 102.8
     },
     "property_daily": {
       "weeks": [
@@ -955,11 +955,11 @@
         },
         {
           "name": "John F. Kubala Water Treatment",
-          "total": 133.6,
+          "total": 180.2,
           "weekly_values": [
             null,
             null,
-            133.6,
+            180.2,
             null,
             null,
             null,
@@ -1202,18 +1202,18 @@
         }
       ],
       "total_row": {
-        "total": 102.3,
+        "total": 102.8,
         "weekly_values": [
           97.8,
           106.2,
-          96.3,
+          98.9,
           108.7,
           97.9,
           null,
           null
         ]
       },
-      "overall_efficiency": 102.3
+      "overall_efficiency": 102.8
     },
     "property_monthly": {
       "weeks": [
@@ -1348,9 +1348,9 @@
         },
         {
           "name": "John F. Kubala Water Treatment",
-          "total": 133.6,
+          "total": 180.2,
           "weekly_values": [
-            133.6
+            180.2
           ]
         },
         {
@@ -1502,12 +1502,12 @@
         }
       ],
       "total_row": {
-        "total": 100.8,
+        "total": 101.0,
         "weekly_values": [
-          100.8
+          101.0
         ]
       },
-      "overall_efficiency": 100.8
+      "overall_efficiency": 101.0
     }
   },
   "job_board": {
@@ -1568,9 +1568,30 @@
               }
             ],
             "total_hours": 13.0
+          },
+          "Wed 5/20": {
+            "tickets": [
+              {
+                "property": "Lori Payne Residence",
+                "service": "Mobilization",
+                "occur": "",
+                "target_hours": 21.0,
+                "actual_hours": 14.47,
+                "variance_pct": 145.1
+              },
+              {
+                "property": "Lori Payne Residence",
+                "service": "Plant Installation",
+                "occur": "",
+                "target_hours": 60.0,
+                "actual_hours": 48.24,
+                "variance_pct": 124.4
+              }
+            ],
+            "total_hours": 81.0
           }
         },
-        "job_count": 2
+        "job_count": 4
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -1701,9 +1722,46 @@
               }
             ],
             "total_hours": 20.0
+          },
+          "Thu 5/21": {
+            "tickets": [
+              {
+                "property": "Watauga Municipal Complex",
+                "service": "Mowing Cycle",
+                "occur": "17/31",
+                "target_hours": 4.0,
+                "actual_hours": 4.99,
+                "variance_pct": 80.2
+              },
+              {
+                "property": "Watauga Community Center",
+                "service": "Bed Maintenance",
+                "occur": "11/17",
+                "target_hours": 2.0,
+                "actual_hours": 3.78,
+                "variance_pct": 52.9
+              },
+              {
+                "property": "Watauga Community Center",
+                "service": "Mowing Cycle",
+                "occur": "17/31",
+                "target_hours": 8.0,
+                "actual_hours": 10.18,
+                "variance_pct": 78.6
+              },
+              {
+                "property": "Watauga - Hwy 377",
+                "service": "Bed Maintenance",
+                "occur": "11/17",
+                "target_hours": 12.0,
+                "actual_hours": 10.09,
+                "variance_pct": 118.9
+              }
+            ],
+            "total_hours": 26.0
           }
         },
-        "job_count": 12
+        "job_count": 16
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
@@ -1730,6 +1788,27 @@
               }
             ],
             "total_hours": 18.16
+          },
+          "Thu 5/21": {
+            "tickets": [
+              {
+                "property": "BASIS Benbrook ",
+                "service": "Maintenance Care",
+                "occur": "26/36",
+                "target_hours": 10.0,
+                "actual_hours": 10.04,
+                "variance_pct": 99.6
+              },
+              {
+                "property": "University Christian Church ",
+                "service": "Maintenance Care",
+                "occur": "26/36",
+                "target_hours": 16.0,
+                "actual_hours": 14.61,
+                "variance_pct": 109.5
+              }
+            ],
+            "total_hours": 26.0
           },
           "Mon 5/18": {
             "tickets": [
@@ -1766,7 +1845,7 @@
             "total_hours": 19.34
           }
         },
-        "job_count": 5
+        "job_count": 7
       }
     ]
   },
@@ -2048,6 +2127,18 @@
       "efficiency": 90.1
     },
     {
+      "date": "2026-05-21",
+      "day_label": "5/21",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "BASIS Benbrook ",
+      "service": "Maintenance Care",
+      "target_hours": 10.0,
+      "actual_hours": 10.04,
+      "efficiency": 99.6
+    },
+    {
       "date": "2026-05-11",
       "day_label": "5/11",
       "crew_leader": "Jon Hatcher",
@@ -2118,6 +2209,18 @@
       "target_hours": 16.0,
       "actual_hours": 16.64,
       "efficiency": 96.2
+    },
+    {
+      "date": "2026-05-21",
+      "day_label": "5/21",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "University Christian Church ",
+      "service": "Maintenance Care",
+      "target_hours": 16.0,
+      "actual_hours": 14.61,
+      "efficiency": 109.5
     },
     {
       "date": "2026-04-23",
@@ -2804,6 +2907,18 @@
       "efficiency": 83.0
     },
     {
+      "date": "2026-05-21",
+      "day_label": "5/21",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Municipal Complex",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 4.99,
+      "efficiency": 80.2
+    },
+    {
       "date": "2026-04-20",
       "day_label": "4/20",
       "crew_leader": "Gustavo Aguilar",
@@ -2936,6 +3051,18 @@
       "efficiency": 93.5
     },
     {
+      "date": "2026-05-21",
+      "day_label": "5/21",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Community Center",
+      "service": "Bed Maintenance",
+      "target_hours": 2.0,
+      "actual_hours": 3.78,
+      "efficiency": 52.9
+    },
+    {
       "date": "2026-04-22",
       "day_label": "4/22",
       "crew_leader": "Jorge Torres Conde",
@@ -2984,6 +3111,18 @@
       "efficiency": 70.6
     },
     {
+      "date": "2026-05-21",
+      "day_label": "5/21",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Community Center",
+      "service": "Mowing Cycle",
+      "target_hours": 8.0,
+      "actual_hours": 10.18,
+      "efficiency": 78.6
+    },
+    {
       "date": "2026-04-29",
       "day_label": "4/29",
       "crew_leader": "Gustavo Aguilar",
@@ -3018,6 +3157,18 @@
       "target_hours": 12.0,
       "actual_hours": 11.56,
       "efficiency": 103.8
+    },
+    {
+      "date": "2026-05-21",
+      "day_label": "5/21",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga - Hwy 377",
+      "service": "Bed Maintenance",
+      "target_hours": 12.0,
+      "actual_hours": 10.09,
+      "efficiency": 118.9
     },
     {
       "date": "2026-04-27",
@@ -3908,6 +4059,30 @@
       "efficiency": 60.2
     },
     {
+      "date": "2026-05-20",
+      "day_label": "5/20",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Lori Payne Residence",
+      "service": "Mobilization",
+      "target_hours": 21.0,
+      "actual_hours": 14.47,
+      "efficiency": 145.1
+    },
+    {
+      "date": "2026-05-20",
+      "day_label": "5/20",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Lori Payne Residence",
+      "service": "Plant Installation",
+      "target_hours": 60.0,
+      "actual_hours": 48.24,
+      "efficiency": 124.4
+    },
+    {
       "date": "2026-05-08",
       "day_label": "5/8",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -3942,18 +4117,6 @@
       "target_hours": 12.0,
       "actual_hours": 6.66,
       "efficiency": 180.2
-    },
-    {
-      "date": "2026-05-13",
-      "day_label": "5/13",
-      "crew_leader": "Jose Guadalupe Sandoval Ramos",
-      "route": "Land 1 - Green/Verde",
-      "division": "Landscape",
-      "property": "John F. Kubala Water Treatment",
-      "service": "Mobilization",
-      "target_hours": 2.0,
-      "actual_hours": 3.82,
-      "efficiency": 52.4
     },
     {
       "date": "2026-05-13",
@@ -4047,9 +4210,9 @@
       "division": "Landscape",
       "property": "Pierce Burch Water Treatment Plant",
       "service": "Bed Maintenance ",
-      "target_hours": 3.0,
-      "actual_hours": 0.0,
-      "efficiency": null
+      "target_hours": 6.0,
+      "actual_hours": 3.5,
+      "efficiency": 171.4
     },
     {
       "date": "2026-05-18",
@@ -4080,14 +4243,14 @@
     "period": {
       "label": "May 2026",
       "start": "2026-05-01",
-      "end": "2026-05-22"
+      "end": "2026-05-23"
     },
     "leaderboard": [
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 320.9,
-        "estimated_hours": 348.2,
-        "labor_variance_pct": 108.5,
+        "actual_hours": 379.8,
+        "estimated_hours": 427.2,
+        "labor_variance_pct": 112.5,
         "bonus_eligible": true,
         "rank": 1,
         "trend": "same",
@@ -4095,29 +4258,29 @@
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 233.8,
-        "estimated_hours": 226.9,
-        "labor_variance_pct": 97.0,
-        "bonus_eligible": true,
+        "actual_hours": 262.9,
+        "estimated_hours": 252.9,
+        "labor_variance_pct": 96.2,
+        "bonus_eligible": false,
         "rank": 2,
         "trend": "same",
         "rank_change": 0
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 358.8,
-        "estimated_hours": 325.4,
-        "labor_variance_pct": 90.7,
+        "actual_hours": 383.5,
+        "estimated_hours": 351.4,
+        "labor_variance_pct": 91.6,
         "bonus_eligible": false,
         "rank": 3,
         "trend": "same",
         "rank_change": 0
       }
     ],
-    "bonus_eligible_count": 2,
-    "company_avg_variance": 97.3,
+    "bonus_eligible_count": 1,
+    "company_avg_variance": 99.9,
     "total_crew_leaders": 3,
-    "tickets_analyzed": 144
+    "tickets_analyzed": 152
   },
   "prior_week": {
     "period": {
@@ -4128,9 +4291,9 @@
     "leaderboard": [
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 164.6,
-        "estimated_hours": 193.5,
-        "labor_variance_pct": 117.6,
+        "actual_hours": 160.8,
+        "estimated_hours": 191.5,
+        "labor_variance_pct": 119.1,
         "bonus_eligible": true,
         "rank": 1,
         "trend": "same",
@@ -4158,7 +4321,7 @@
       }
     ],
     "bonus_eligible_count": 2,
-    "company_avg_variance": 103.0,
+    "company_avg_variance": 105.3,
     "total_crew_leaders": 3,
     "tickets_analyzed": 48
   }
