@@ -1,24 +1,24 @@
 {
-  "generated": "2026-05-24T11:18:40",
+  "generated": "2026-05-25T13:31:01",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
       "weeks": [
-        "5/11-5/17"
+        "5/18-5/24"
       ],
       "rows": [
         {
           "name": "Irrigation 1 - Red/Rojo",
-          "total": 46.6,
+          "total": 63.3,
           "weekly_values": [
-            46.6
+            63.3
           ]
         },
         {
           "name": "Land 1 - Green/Verde",
-          "total": 121.0,
+          "total": 129.7,
           "weekly_values": [
-            121.0
+            129.7
           ]
         },
         {
@@ -37,59 +37,59 @@
         },
         {
           "name": "Maint 3 - White/Blanco",
-          "total": 104.3,
+          "total": 89.4,
           "weekly_values": [
-            104.3
+            89.4
           ]
         },
         {
           "name": "Maint 4 - Yellow/Amarillo",
-          "total": 86.1,
+          "total": 102.7,
           "weekly_values": [
-            86.1
+            102.7
           ]
         }
       ],
       "total_row": {
-        "total": 102.8,
+        "total": 103.9,
         "weekly_values": [
-          102.8
+          103.9
         ]
       },
-      "overall_efficiency": 102.8
+      "overall_efficiency": 103.9
     },
     "route_daily": {
       "weeks": [
-        "5/11",
-        "5/12",
-        "5/13",
-        "5/14",
-        "5/15",
-        "5/16",
-        "5/17"
+        "5/18",
+        "5/19",
+        "5/20",
+        "5/21",
+        "5/22",
+        "5/23",
+        "5/24"
       ],
       "rows": [
         {
           "name": "Irrigation 1 - Red/Rojo",
-          "total": 46.6,
+          "total": 63.3,
           "weekly_values": [
-            46.6,
+            52.6,
             null,
             null,
             null,
-            null,
+            79.4,
             null,
             null
           ]
         },
         {
           "name": "Land 1 - Green/Verde",
-          "total": 121.0,
+          "total": 129.7,
           "weekly_values": [
-            122.1,
-            133.2,
-            137.3,
-            110.6,
+            132.8,
+            null,
+            129.2,
+            null,
             null,
             null,
             null
@@ -123,44 +123,44 @@
         },
         {
           "name": "Maint 3 - White/Blanco",
-          "total": 104.3,
+          "total": 89.4,
           "weekly_values": [
-            null,
-            98.5,
-            85.5,
-            143.0,
-            104.6,
+            88.6,
+            81.4,
+            92.7,
+            89.5,
+            99.8,
             null,
             null
           ]
         },
         {
           "name": "Maint 4 - Yellow/Amarillo",
-          "total": 86.1,
+          "total": 102.7,
           "weekly_values": [
-            90.5,
-            81.7,
-            77.5,
-            84.6,
-            93.7,
+            113.0,
+            97.5,
+            87.9,
+            105.5,
+            null,
             null,
             null
           ]
         }
       ],
       "total_row": {
-        "total": 102.8,
+        "total": 103.9,
         "weekly_values": [
+          106.7,
+          88.6,
+          112.5,
+          96.9,
           97.8,
-          106.2,
-          98.9,
-          108.7,
-          97.9,
           null,
           null
         ]
       },
-      "overall_efficiency": 102.8
+      "overall_efficiency": 103.9
     },
     "route_monthly": {
       "weeks": [
@@ -169,23 +169,23 @@
       "rows": [
         {
           "name": "Irrigation 1 - Red/Rojo",
-          "total": 67.9,
+          "total": 67.1,
           "weekly_values": [
-            67.9
+            67.1
           ]
         },
         {
           "name": "Land 1 - Green/Verde",
-          "total": 116.8,
+          "total": 117.8,
           "weekly_values": [
-            116.8
+            117.8
           ]
         },
         {
           "name": "Maint 1 - Blue/Azul",
-          "total": null,
+          "total": 104.8,
           "weekly_values": [
-            null
+            104.8
           ]
         },
         {
@@ -197,127 +197,127 @@
         },
         {
           "name": "Maint 3 - White/Blanco",
-          "total": 101.2,
+          "total": 96.4,
           "weekly_values": [
-            101.2
+            96.4
           ]
         },
         {
           "name": "Maint 4 - Yellow/Amarillo",
-          "total": 87.8,
+          "total": 91.6,
           "weekly_values": [
-            87.8
+            91.6
           ]
         }
       ],
       "total_row": {
-        "total": 101.0,
+        "total": 102.1,
         "weekly_values": [
-          101.0
+          102.1
         ]
       },
-      "overall_efficiency": 101.0
+      "overall_efficiency": 102.1
     },
     "crew_weekly": {
       "weeks": [
-        "5/11-5/17"
+        "5/18-5/24"
       ],
       "rows": [
         {
           "name": "Gustavo Aguilar",
-          "total": 104.3,
+          "total": 89.4,
           "weekly_values": [
-            104.3
+            89.4
           ]
         },
         {
           "name": "Jon Hatcher",
-          "total": 46.6,
+          "total": 63.3,
           "weekly_values": [
-            46.6
+            63.3
           ]
         },
         {
           "name": "Jorge Torres Conde",
-          "total": 86.1,
+          "total": 102.7,
           "weekly_values": [
-            86.1
+            102.7
           ]
         },
         {
           "name": "Jose Guadalupe Sandoval Ramos",
-          "total": 121.0,
+          "total": 129.7,
           "weekly_values": [
-            121.0
+            129.7
           ]
         }
       ],
       "total_row": {
-        "total": 102.8,
+        "total": 103.9,
         "weekly_values": [
-          102.8
+          103.9
         ]
       },
-      "overall_efficiency": 102.8
+      "overall_efficiency": 103.9
     },
     "crew_daily": {
       "weeks": [
-        "5/11",
-        "5/12",
-        "5/13",
-        "5/14",
-        "5/15",
-        "5/16",
-        "5/17"
+        "5/18",
+        "5/19",
+        "5/20",
+        "5/21",
+        "5/22",
+        "5/23",
+        "5/24"
       ],
       "rows": [
         {
           "name": "Gustavo Aguilar",
-          "total": 104.3,
+          "total": 89.4,
           "weekly_values": [
-            null,
-            98.5,
-            85.5,
-            143.0,
-            104.6,
+            88.6,
+            81.4,
+            92.7,
+            89.5,
+            99.8,
             null,
             null
           ]
         },
         {
           "name": "Jon Hatcher",
-          "total": 46.6,
+          "total": 63.3,
           "weekly_values": [
-            46.6,
+            52.6,
             null,
             null,
             null,
-            null,
+            79.4,
             null,
             null
           ]
         },
         {
           "name": "Jorge Torres Conde",
-          "total": 86.1,
+          "total": 102.7,
           "weekly_values": [
-            90.5,
-            81.7,
-            77.5,
-            84.6,
-            93.7,
+            113.0,
+            97.5,
+            87.9,
+            105.5,
+            null,
             null,
             null
           ]
         },
         {
           "name": "Jose Guadalupe Sandoval Ramos",
-          "total": 121.0,
+          "total": 129.7,
           "weekly_values": [
-            122.1,
-            133.2,
-            137.3,
-            110.6,
+            132.8,
+            null,
+            129.2,
+            null,
             null,
             null,
             null
@@ -325,18 +325,18 @@
         }
       ],
       "total_row": {
-        "total": 102.8,
+        "total": 103.9,
         "weekly_values": [
+          106.7,
+          88.6,
+          112.5,
+          96.9,
           97.8,
-          106.2,
-          98.9,
-          108.7,
-          97.9,
           null,
           null
         ]
       },
-      "overall_efficiency": 102.8
+      "overall_efficiency": 103.9
     },
     "crew_monthly": {
       "weeks": [
@@ -345,108 +345,115 @@
       "rows": [
         {
           "name": "Gustavo Aguilar",
-          "total": 101.2,
+          "total": 96.4,
           "weekly_values": [
-            101.2
+            96.4
           ]
         },
         {
           "name": "Jon Hatcher",
-          "total": 67.9,
+          "total": 67.1,
           "weekly_values": [
-            67.9
+            67.1
           ]
         },
         {
           "name": "Jorge Torres Conde",
-          "total": 87.8,
+          "total": 91.6,
           "weekly_values": [
-            87.8
+            91.6
           ]
         },
         {
           "name": "Jose Guadalupe Sandoval Ramos",
-          "total": 116.8,
+          "total": 117.8,
           "weekly_values": [
-            116.8
+            117.8
+          ]
+        },
+        {
+          "name": "Jose Soto Armenta",
+          "total": 104.8,
+          "weekly_values": [
+            104.8
           ]
         }
       ],
       "total_row": {
-        "total": 101.0,
+        "total": 102.1,
         "weekly_values": [
-          101.0
+          102.1
         ]
       },
-      "overall_efficiency": 101.0
+      "overall_efficiency": 102.1
     },
     "division_weekly": {
       "weeks": [
-        "5/11-5/17"
+        "5/18-5/24"
       ],
       "rows": [
         {
           "name": "Irrigation",
-          "total": 46.6,
+          "total": 63.3,
           "weekly_values": [
-            46.6
+            63.3
           ]
         },
         {
           "name": "Landscape",
-          "total": 121.0,
+          "total": 129.7,
           "weekly_values": [
-            121.0
+            129.7
           ]
         },
         {
           "name": "Maintenance",
-          "total": 91.5,
+          "total": 95.6,
           "weekly_values": [
-            91.5
+            95.6
           ]
         }
       ],
       "total_row": {
-        "total": 102.8,
+        "total": 103.9,
         "weekly_values": [
-          102.8
+          103.9
         ]
       },
-      "overall_efficiency": 102.8
+      "overall_efficiency": 103.9
     },
     "division_daily": {
       "weeks": [
-        "5/11",
-        "5/12",
-        "5/13",
-        "5/14",
-        "5/15",
-        "5/16",
-        "5/17"
+        "5/18",
+        "5/19",
+        "5/20",
+        "5/21",
+        "5/22",
+        "5/23",
+        "5/24"
       ],
       "rows": [
         {
           "name": "Irrigation",
-          "total": 46.6,
+          "total": 63.3,
           "weekly_values": [
-            46.6,
+            52.6,
             null,
             null,
             null,
-            null,
+            79.4,
             null,
             null
           ]
         },
         {
           "name": "Landscape",
-          "total": 121.0,
+          "total": 129.7,
           "weekly_values": [
-            122.1,
-            133.2,
-            137.3,
-            110.6,
+            132.8,
+            null,
+            129.2,
+            null,
             null,
             null,
             null
@@ -454,31 +461,31 @@
         },
         {
           "name": "Maintenance",
-          "total": 91.5,
+          "total": 95.6,
           "weekly_values": [
-            90.5,
-            87.3,
-            80.7,
-            104.3,
-            97.9,
+            103.8,
+            88.6,
+            90.6,
+            96.9,
+            99.8,
             null,
             null
           ]
         }
       ],
       "total_row": {
-        "total": 102.8,
+        "total": 103.9,
         "weekly_values": [
+          106.7,
+          88.6,
+          112.5,
+          96.9,
           97.8,
-          106.2,
-          98.9,
-          108.7,
-          97.9,
           null,
           null
         ]
       },
-      "overall_efficiency": 102.8
+      "overall_efficiency": 103.9
     },
     "division_monthly": {
       "weeks": [
@@ -487,310 +494,255 @@
       "rows": [
         {
           "name": "Irrigation",
-          "total": 67.9,
+          "total": 67.1,
           "weekly_values": [
-            67.9
+            67.1
           ]
         },
         {
           "name": "Landscape",
-          "total": 116.8,
+          "total": 117.8,
           "weekly_values": [
-            116.8
+            117.8
           ]
         },
         {
           "name": "Maintenance",
-          "total": 92.7,
+          "total": 97.2,
           "weekly_values": [
-            92.7
+            97.2
           ]
         }
       ],
       "total_row": {
-        "total": 101.0,
+        "total": 102.1,
         "weekly_values": [
-          101.0
+          102.1
         ]
       },
-      "overall_efficiency": 101.0
+      "overall_efficiency": 102.1
     },
     "property_weekly": {
       "weeks": [
-        "5/11-5/17"
+        "5/18-5/24"
       ],
       "rows": [
         {
           "name": "Animal Service Center",
-          "total": 89.3,
+          "total": 90.1,
           "weekly_values": [
-            89.3
-          ]
-        },
-        {
-          "name": "Arlington Laboratory Services",
-          "total": 143.1,
-          "weekly_values": [
-            143.1
+            90.1
           ]
         },
         {
           "name": "BASIS Benbrook ",
-          "total": 75.5,
+          "total": 99.6,
           "weekly_values": [
-            75.5
+            99.6
           ]
         },
         {
           "name": "BISD Park",
-          "total": 72.7,
+          "total": 80.2,
           "weekly_values": [
-            72.7
+            80.2
           ]
         },
         {
           "name": "Bear Creek HOA",
-          "total": 92.4,
+          "total": 82.5,
           "weekly_values": [
-            92.4
+            82.5
           ]
         },
         {
           "name": "Capp Smith Park",
-          "total": 78.1,
+          "total": 81.4,
           "weekly_values": [
-            78.1
+            81.4
           ]
         },
         {
           "name": "Carol Katz Residence",
+          "total": 179.9,
+          "weekly_values": [
+            179.9
+          ]
+        },
+        {
+          "name": "Crowley Creekside HOA",
+          "total": 94.6,
+          "weekly_values": [
+            94.6
+          ]
+        },
+        {
+          "name": "Eric Oaks Residence",
+          "total": 52.6,
+          "weekly_values": [
+            52.6
+          ]
+        },
+        {
+          "name": "Five Oaks Crossing Mansfield",
+          "total": 92.8,
+          "weekly_values": [
+            92.8
+          ]
+        },
+        {
+          "name": "Foster Village Park",
+          "total": 82.9,
+          "weekly_values": [
+            82.9
+          ]
+        },
+        {
+          "name": "Hampton Manor of Crowley",
+          "total": 102.7,
+          "weekly_values": [
+            102.7
+          ]
+        },
+        {
+          "name": "Hillview Park",
+          "total": 144.9,
+          "weekly_values": [
+            144.9
+          ]
+        },
+        {
+          "name": "Leo at Bethel",
+          "total": 113.0,
+          "weekly_values": [
+            113.0
+          ]
+        },
+        {
+          "name": "Lori Payne Residence",
+          "total": 129.2,
+          "weekly_values": [
+            129.2
+          ]
+        },
+        {
+          "name": "Parcel B",
+          "total": 97.9,
+          "weekly_values": [
+            97.9
+          ]
+        },
+        {
+          "name": "Pierce Burch Water Treatment Plant",
           "total": 70.9,
           "weekly_values": [
             70.9
           ]
         },
         {
-          "name": "Craft Residence - Magnolia",
-          "total": 154.6,
+          "name": "Public Works Facility",
+          "total": 103.1,
           "weekly_values": [
-            154.6
+            103.1
           ]
         },
         {
-          "name": "Crowley Creekside HOA",
-          "total": 90.5,
-          "weekly_values": [
-            90.5
-          ]
-        },
-        {
-          "name": "Dakota Apartments ",
-          "total": 132.6,
-          "weekly_values": [
-            132.6
-          ]
-        },
-        {
-          "name": "Eric Oaks Residence",
-          "total": 75.0,
-          "weekly_values": [
-            75.0
-          ]
-        },
-        {
-          "name": "Five Oaks Crossing Mansfield",
+          "name": "Serene Surrett",
           "total": 79.4,
           "weekly_values": [
             79.4
           ]
         },
         {
-          "name": "Foster Village Park",
-          "total": 82.8,
+          "name": "Tom Brown Residence",
+          "total": 109.9,
           "weekly_values": [
-            82.8
+            109.9
           ]
         },
         {
-          "name": "Hillview Park",
-          "total": 91.7,
+          "name": "University Christian Church ",
+          "total": 109.5,
           "weekly_values": [
-            91.7
+            109.5
           ]
         },
         {
-          "name": "John F. Kubala Water Treatment",
-          "total": 180.2,
-          "weekly_values": [
-            180.2
-          ]
-        },
-        {
-          "name": "Leo at Bethel",
-          "total": 122.1,
-          "weekly_values": [
-            122.1
-          ]
-        },
-        {
-          "name": "Lori Payne Residence",
-          "total": 60.2,
-          "weekly_values": [
-            60.2
-          ]
-        },
-        {
-          "name": "Matthew Pursley Residence",
-          "total": 217.6,
-          "weekly_values": [
-            217.6
-          ]
-        },
-        {
-          "name": "Miller Milling",
-          "total": 112.1,
-          "weekly_values": [
-            112.1
-          ]
-        },
-        {
-          "name": "Nick Workman Residence",
+          "name": "Virgil Anthony Park",
           "total": 85.5,
           "weekly_values": [
             85.5
           ]
         },
         {
-          "name": "Parcel B",
-          "total": 111.1,
+          "name": "Watauga - Bunker Blvd",
+          "total": 108.7,
           "weekly_values": [
-            111.1
+            108.7
           ]
         },
         {
-          "name": "Public Works Facility",
-          "total": 89.3,
+          "name": "Watauga - Hwy 377",
+          "total": 118.9,
           "weekly_values": [
-            89.3
-          ]
-        },
-        {
-          "name": "Richard Watters Residence",
-          "total": 80.9,
-          "weekly_values": [
-            80.9
-          ]
-        },
-        {
-          "name": "Ridglea Court Apartments",
-          "total": 164.2,
-          "weekly_values": [
-            164.2
-          ]
-        },
-        {
-          "name": "Sam Shipley Residence",
-          "total": 47.2,
-          "weekly_values": [
-            47.2
-          ]
-        },
-        {
-          "name": "Shelly Wolfe Residence",
-          "total": 105.8,
-          "weekly_values": [
-            105.8
-          ]
-        },
-        {
-          "name": "Tom Brown Residence",
-          "total": 95.7,
-          "weekly_values": [
-            95.7
-          ]
-        },
-        {
-          "name": "University Christian Church ",
-          "total": 96.2,
-          "weekly_values": [
-            96.2
-          ]
-        },
-        {
-          "name": "Virgil Anthony Park",
-          "total": 90.7,
-          "weekly_values": [
-            90.7
+            118.9
           ]
         },
         {
           "name": "Watauga Central Fire Station",
-          "total": 120.8,
+          "total": 135.9,
           "weekly_values": [
-            120.8
+            135.9
           ]
         },
         {
           "name": "Watauga Community Center",
-          "total": 70.6,
+          "total": 71.6,
           "weekly_values": [
-            70.6
+            71.6
           ]
         },
         {
           "name": "Watauga Municipal Complex",
-          "total": 83.0,
+          "total": 71.4,
           "weekly_values": [
-            83.0
+            71.4
           ]
         },
         {
           "name": "Whites Branch Creek Trail",
-          "total": 95.2,
+          "total": 81.5,
           "weekly_values": [
-            95.2
+            81.5
           ]
         }
       ],
       "total_row": {
-        "total": 102.8,
+        "total": 103.9,
         "weekly_values": [
-          102.8
+          103.9
         ]
       },
-      "overall_efficiency": 102.8
+      "overall_efficiency": 103.9
     },
     "property_daily": {
       "weeks": [
-        "5/11",
-        "5/12",
-        "5/13",
-        "5/14",
-        "5/15",
-        "5/16",
-        "5/17"
+        "5/18",
+        "5/19",
+        "5/20",
+        "5/21",
+        "5/22",
+        "5/23",
+        "5/24"
       ],
       "rows": [
         {
           "name": "Animal Service Center",
-          "total": 89.3,
+          "total": 90.1,
           "weekly_values": [
-            null,
-            89.3,
-            null,
+            90.1,
             null,
             null,
-            null,
-            null
-          ]
-        },
-        {
-          "name": "Arlington Laboratory Services",
-          "total": 143.1,
-          "weekly_values": [
-            null,
-            null,
-            143.1,
             null,
             null,
             null,
@@ -799,23 +751,23 @@
         },
         {
           "name": "BASIS Benbrook ",
-          "total": 75.5,
+          "total": 99.6,
           "weekly_values": [
-            41.7,
             null,
             null,
             null,
-            90.1,
+            99.6,
+            null,
             null,
             null
           ]
         },
         {
           "name": "BISD Park",
-          "total": 72.7,
+          "total": 80.2,
           "weekly_values": [
+            80.2,
             null,
-            72.7,
             null,
             null,
             null,
@@ -825,12 +777,12 @@
         },
         {
           "name": "Bear Creek HOA",
-          "total": 92.4,
+          "total": 82.5,
           "weekly_values": [
             null,
             null,
+            82.5,
             null,
-            92.4,
             null,
             null,
             null
@@ -838,10 +790,10 @@
         },
         {
           "name": "Capp Smith Park",
-          "total": 78.1,
+          "total": 81.4,
           "weekly_values": [
             null,
-            78.1,
+            81.4,
             null,
             null,
             null,
@@ -851,23 +803,10 @@
         },
         {
           "name": "Carol Katz Residence",
-          "total": 70.9,
+          "total": 179.9,
           "weekly_values": [
+            179.9,
             null,
-            null,
-            null,
-            null,
-            70.9,
-            null,
-            null
-          ]
-        },
-        {
-          "name": "Craft Residence - Magnolia",
-          "total": 154.6,
-          "weekly_values": [
-            null,
-            154.6,
             null,
             null,
             null,
@@ -877,25 +816,12 @@
         },
         {
           "name": "Crowley Creekside HOA",
-          "total": 90.5,
-          "weekly_values": [
-            90.5,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
-          ]
-        },
-        {
-          "name": "Dakota Apartments ",
-          "total": 132.6,
+          "total": 94.6,
           "weekly_values": [
             null,
+            94.6,
             null,
             null,
-            132.6,
             null,
             null,
             null
@@ -903,10 +829,10 @@
         },
         {
           "name": "Eric Oaks Residence",
-          "total": 75.0,
+          "total": 52.6,
           "weekly_values": [
+            52.6,
             null,
-            75.0,
             null,
             null,
             null,
@@ -916,12 +842,12 @@
         },
         {
           "name": "Five Oaks Crossing Mansfield",
-          "total": 79.4,
+          "total": 92.8,
           "weekly_values": [
             null,
             null,
+            92.8,
             null,
-            79.4,
             null,
             null,
             null
@@ -929,11 +855,24 @@
         },
         {
           "name": "Foster Village Park",
-          "total": 82.8,
+          "total": 82.9,
           "weekly_values": [
             null,
             null,
-            82.8,
+            82.9,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "Hampton Manor of Crowley",
+          "total": 102.7,
+          "weekly_values": [
+            null,
+            102.7,
+            null,
             null,
             null,
             null,
@@ -942,24 +881,11 @@
         },
         {
           "name": "Hillview Park",
-          "total": 91.7,
+          "total": 144.9,
           "weekly_values": [
+            144.9,
             null,
             null,
-            91.7,
-            null,
-            null,
-            null,
-            null
-          ]
-        },
-        {
-          "name": "John F. Kubala Water Treatment",
-          "total": 180.2,
-          "weekly_values": [
-            null,
-            null,
-            180.2,
             null,
             null,
             null,
@@ -968,9 +894,9 @@
         },
         {
           "name": "Leo at Bethel",
-          "total": 122.1,
+          "total": 113.0,
           "weekly_values": [
-            122.1,
+            113.0,
             null,
             null,
             null,
@@ -981,113 +907,35 @@
         },
         {
           "name": "Lori Payne Residence",
-          "total": 60.2,
-          "weekly_values": [
-            60.2,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
-          ]
-        },
-        {
-          "name": "Matthew Pursley Residence",
-          "total": 217.6,
-          "weekly_values": [
-            null,
-            217.6,
-            null,
-            null,
-            null,
-            null,
-            null
-          ]
-        },
-        {
-          "name": "Miller Milling",
-          "total": 112.1,
+          "total": 129.2,
           "weekly_values": [
             null,
             null,
-            81.7,
-            120.3,
+            129.2,
             null,
             null,
-            null
-          ]
-        },
-        {
-          "name": "Nick Workman Residence",
-          "total": 85.5,
-          "weekly_values": [
-            null,
-            null,
-            null,
-            null,
-            85.5,
             null,
             null
           ]
         },
         {
           "name": "Parcel B",
-          "total": 111.1,
+          "total": 97.9,
           "weekly_values": [
             null,
             null,
-            91.4,
             null,
-            129.2,
+            null,
+            97.9,
             null,
             null
           ]
         },
         {
-          "name": "Public Works Facility",
-          "total": 89.3,
+          "name": "Pierce Burch Water Treatment Plant",
+          "total": 70.9,
           "weekly_values": [
-            null,
-            89.3,
-            null,
-            null,
-            null,
-            null,
-            null
-          ]
-        },
-        {
-          "name": "Richard Watters Residence",
-          "total": 80.9,
-          "weekly_values": [
-            null,
-            null,
-            null,
-            null,
-            80.9,
-            null,
-            null
-          ]
-        },
-        {
-          "name": "Ridglea Court Apartments",
-          "total": 164.2,
-          "weekly_values": [
-            null,
-            null,
-            null,
-            164.2,
-            null,
-            null,
-            null
-          ]
-        },
-        {
-          "name": "Sam Shipley Residence",
-          "total": 47.2,
-          "weekly_values": [
-            47.2,
+            70.9,
             null,
             null,
             null,
@@ -1097,52 +945,91 @@
           ]
         },
         {
-          "name": "Shelly Wolfe Residence",
-          "total": 105.8,
+          "name": "Public Works Facility",
+          "total": 103.1,
+          "weekly_values": [
+            103.1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "Serene Surrett",
+          "total": 79.4,
           "weekly_values": [
             null,
             null,
             null,
-            105.8,
             null,
+            79.4,
             null,
             null
           ]
         },
         {
           "name": "Tom Brown Residence",
-          "total": 95.7,
+          "total": 109.9,
           "weekly_values": [
             null,
             null,
             null,
             null,
-            95.7,
+            109.9,
             null,
             null
           ]
         },
         {
           "name": "University Christian Church ",
-          "total": 96.2,
+          "total": 109.5,
           "weekly_values": [
             null,
             null,
             null,
+            109.5,
             null,
-            96.2,
             null,
             null
           ]
         },
         {
           "name": "Virgil Anthony Park",
-          "total": 90.7,
+          "total": 85.5,
+          "weekly_values": [
+            85.5,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "Watauga - Bunker Blvd",
+          "total": 108.7,
+          "weekly_values": [
+            108.7,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "Watauga - Hwy 377",
+          "total": 118.9,
           "weekly_values": [
             null,
             null,
-            90.7,
             null,
+            118.9,
             null,
             null,
             null
@@ -1150,11 +1037,11 @@
         },
         {
           "name": "Watauga Central Fire Station",
-          "total": 120.8,
+          "total": 135.9,
           "weekly_values": [
             null,
-            120.8,
             null,
+            135.9,
             null,
             null,
             null,
@@ -1163,12 +1050,12 @@
         },
         {
           "name": "Watauga Community Center",
-          "total": 70.6,
+          "total": 71.6,
           "weekly_values": [
             null,
             null,
-            70.6,
             null,
+            71.6,
             null,
             null,
             null
@@ -1176,12 +1063,12 @@
         },
         {
           "name": "Watauga Municipal Complex",
-          "total": 83.0,
+          "total": 71.4,
           "weekly_values": [
+            55.4,
             null,
             null,
-            83.0,
-            null,
+            80.2,
             null,
             null,
             null
@@ -1189,11 +1076,11 @@
         },
         {
           "name": "Whites Branch Creek Trail",
-          "total": 95.2,
+          "total": 81.5,
           "weekly_values": [
             null,
-            95.2,
             null,
+            81.5,
             null,
             null,
             null,
@@ -1202,18 +1089,18 @@
         }
       ],
       "total_row": {
-        "total": 102.8,
+        "total": 103.9,
         "weekly_values": [
+          106.7,
+          88.6,
+          112.5,
+          96.9,
           97.8,
-          106.2,
-          98.9,
-          108.7,
-          97.9,
           null,
           null
         ]
       },
-      "overall_efficiency": 102.8
+      "overall_efficiency": 103.9
     },
     "property_monthly": {
       "weeks": [
@@ -1222,9 +1109,9 @@
       "rows": [
         {
           "name": "Animal Service Center",
-          "total": 79.2,
+          "total": 82.5,
           "weekly_values": [
-            79.2
+            82.5
           ]
         },
         {
@@ -1232,6 +1119,13 @@
           "total": 143.1,
           "weekly_values": [
             143.1
+          ]
+        },
+        {
+          "name": "Arlington Medians and ROW District 3",
+          "total": 104.8,
+          "weekly_values": [
+            104.8
           ]
         },
         {
@@ -1243,37 +1137,37 @@
         },
         {
           "name": "BASIS Benbrook ",
-          "total": 78.4,
+          "total": 84.0,
           "weekly_values": [
-            78.4
+            84.0
           ]
         },
         {
           "name": "BISD Park",
-          "total": 77.4,
+          "total": 78.3,
           "weekly_values": [
-            77.4
+            78.3
           ]
         },
         {
           "name": "Bear Creek HOA",
-          "total": 79.4,
+          "total": 80.4,
           "weekly_values": [
-            79.4
+            80.4
           ]
         },
         {
           "name": "Capp Smith Park",
-          "total": 77.6,
+          "total": 78.9,
           "weekly_values": [
-            77.6
+            78.9
           ]
         },
         {
           "name": "Carol Katz Residence",
-          "total": 69.0,
+          "total": 136.2,
           "weekly_values": [
-            69.0
+            136.2
           ]
         },
         {
@@ -1292,9 +1186,9 @@
         },
         {
           "name": "Crowley Creekside HOA",
-          "total": 109.8,
+          "total": 102.3,
           "weekly_values": [
-            109.8
+            102.3
           ]
         },
         {
@@ -1306,37 +1200,37 @@
         },
         {
           "name": "Eric Oaks Residence",
-          "total": 75.0,
+          "total": 72.9,
           "weekly_values": [
-            75.0
+            72.9
           ]
         },
         {
           "name": "Five Oaks Crossing Mansfield",
-          "total": 82.6,
+          "total": 85.5,
           "weekly_values": [
-            82.6
+            85.5
           ]
         },
         {
           "name": "Foster Village Park",
-          "total": 98.8,
+          "total": 92.9,
           "weekly_values": [
-            98.8
+            92.9
           ]
         },
         {
           "name": "Hampton Manor of Crowley",
-          "total": 128.1,
+          "total": 114.0,
           "weekly_values": [
-            128.1
+            114.0
           ]
         },
         {
           "name": "Hillview Park",
-          "total": 92.6,
+          "total": 105.3,
           "weekly_values": [
-            92.6
+            105.3
           ]
         },
         {
@@ -1355,16 +1249,16 @@
         },
         {
           "name": "Leo at Bethel",
-          "total": 115.4,
+          "total": 114.6,
           "weekly_values": [
-            115.4
+            114.6
           ]
         },
         {
           "name": "Lori Payne Residence",
-          "total": 60.2,
+          "total": 127.4,
           "weekly_values": [
-            60.2
+            127.4
           ]
         },
         {
@@ -1404,16 +1298,23 @@
         },
         {
           "name": "Parcel B",
-          "total": 113.6,
+          "total": 109.8,
           "weekly_values": [
-            113.6
+            109.8
+          ]
+        },
+        {
+          "name": "Pierce Burch Water Treatment Plant",
+          "total": 70.9,
+          "weekly_values": [
+            70.9
           ]
         },
         {
           "name": "Public Works Facility",
-          "total": 81.6,
+          "total": 87.7,
           "weekly_values": [
-            81.6
+            87.7
           ]
         },
         {
@@ -1438,6 +1339,13 @@
           ]
         },
         {
+          "name": "Serene Surrett",
+          "total": 79.4,
+          "weekly_values": [
+            79.4
+          ]
+        },
+        {
           "name": "Shelly Wolfe Residence",
           "total": 105.8,
           "weekly_values": [
@@ -1446,152 +1354,102 @@
         },
         {
           "name": "Tom Brown Residence",
-          "total": 121.2,
+          "total": 118.2,
           "weekly_values": [
-            121.2
+            118.2
           ]
         },
         {
           "name": "University Christian Church ",
-          "total": 94.6,
+          "total": 97.6,
           "weekly_values": [
-            94.6
+            97.6
           ]
         },
         {
           "name": "Virgil Anthony Park",
-          "total": 87.6,
+          "total": 86.9,
           "weekly_values": [
-            87.6
+            86.9
+          ]
+        },
+        {
+          "name": "Watauga - Bunker Blvd",
+          "total": 108.7,
+          "weekly_values": [
+            108.7
           ]
         },
         {
           "name": "Watauga - Hwy 377",
-          "total": 103.8,
+          "total": 110.9,
           "weekly_values": [
-            103.8
+            110.9
           ]
         },
         {
           "name": "Watauga Central Fire Station",
-          "total": 155.9,
+          "total": 145.9,
           "weekly_values": [
-            155.9
+            145.9
           ]
         },
         {
           "name": "Watauga Community Center",
-          "total": 69.1,
+          "total": 69.8,
           "weekly_values": [
-            69.1
+            69.8
           ]
         },
         {
           "name": "Watauga Municipal Complex",
-          "total": 79.5,
+          "total": 76.0,
           "weekly_values": [
-            79.5
+            76.0
           ]
         },
         {
           "name": "Whites Branch Creek Trail",
-          "total": 109.4,
+          "total": 98.2,
           "weekly_values": [
-            109.4
+            98.2
           ]
         }
       ],
       "total_row": {
-        "total": 101.0,
+        "total": 102.1,
         "weekly_values": [
-          101.0
+          102.1
         ]
       },
-      "overall_efficiency": 101.0
+      "overall_efficiency": 102.1
     }
   },
   "job_board": {
-    "week_label": "5/18 - 5/24",
+    "week_label": "5/25 - 5/31",
     "days": [
-      "Mon 5/18",
-      "Tue 5/19",
-      "Wed 5/20",
-      "Thu 5/21",
-      "Fri 5/22",
-      "Sat 5/23",
-      "Sun 5/24"
+      "Mon 5/25",
+      "Tue 5/26",
+      "Wed 5/27",
+      "Thu 5/28",
+      "Fri 5/29",
+      "Sat 5/30",
+      "Sun 5/31"
     ],
     "routes": [
       {
         "name": "Irrigation 1 - Red/Rojo",
         "crew_leader": "Jon Hatcher",
         "crew_leader_id": 2384,
-        "days": {
-          "Mon 5/18": {
-            "tickets": [
-              {
-                "property": "Eric Oaks Residence",
-                "service": "Irrigation Assessment",
-                "occur": "",
-                "target_hours": 1.0,
-                "actual_hours": 1.9,
-                "variance_pct": 52.6
-              }
-            ],
-            "total_hours": 1.0
-          }
-        },
-        "job_count": 1
+        "days": {},
+        "job_count": 0
       },
       {
         "name": "Land 1 - Green/Verde",
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
         "crew_leader_id": 1834,
-        "days": {
-          "Mon 5/18": {
-            "tickets": [
-              {
-                "property": "Carol Katz Residence",
-                "service": "Plant Installation",
-                "occur": "",
-                "target_hours": 10.0,
-                "actual_hours": 5.56,
-                "variance_pct": 179.9
-              },
-              {
-                "property": "Pierce Burch Water Treatment Plant",
-                "service": "Bed Maintenance ",
-                "occur": "3/21",
-                "target_hours": 3.0,
-                "actual_hours": 4.23,
-                "variance_pct": 70.9
-              }
-            ],
-            "total_hours": 13.0
-          },
-          "Wed 5/20": {
-            "tickets": [
-              {
-                "property": "Lori Payne Residence",
-                "service": "Mobilization",
-                "occur": "",
-                "target_hours": 21.0,
-                "actual_hours": 14.47,
-                "variance_pct": 145.1
-              },
-              {
-                "property": "Lori Payne Residence",
-                "service": "Plant Installation",
-                "occur": "",
-                "target_hours": 60.0,
-                "actual_hours": 48.24,
-                "variance_pct": 124.4
-              }
-            ],
-            "total_hours": 81.0
-          }
-        },
-        "job_count": 4
+        "days": {},
+        "job_count": 0
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -1611,241 +1469,15 @@
         "name": "Maint 3 - White/Blanco",
         "crew_leader": "Gustavo Aguilar",
         "crew_leader_id": 2284,
-        "days": {
-          "Wed 5/20": {
-            "tickets": [
-              {
-                "property": "Whites Branch Creek Trail",
-                "service": "Mowing Cycle",
-                "occur": "12/21",
-                "target_hours": 6.0,
-                "actual_hours": 7.36,
-                "variance_pct": 81.5
-              },
-              {
-                "property": "Watauga Central Fire Station",
-                "service": "Bed Maintenance",
-                "occur": "11/17",
-                "target_hours": 3.0,
-                "actual_hours": 2.08,
-                "variance_pct": 144.2
-              },
-              {
-                "property": "Watauga Central Fire Station",
-                "service": "Mowing Cycle",
-                "occur": "17/31",
-                "target_hours": 4.0,
-                "actual_hours": 3.07,
-                "variance_pct": 130.3
-              },
-              {
-                "property": "Foster Village Park",
-                "service": "Mowing Cycle",
-                "occur": "17/31",
-                "target_hours": 12.0,
-                "actual_hours": 14.47,
-                "variance_pct": 82.9
-              }
-            ],
-            "total_hours": 25.0
-          },
-          "Mon 5/18": {
-            "tickets": [
-              {
-                "property": "Animal Service Center",
-                "service": "Mowing Cycle",
-                "occur": "17/31",
-                "target_hours": 2.0,
-                "actual_hours": 2.22,
-                "variance_pct": 90.1
-              },
-              {
-                "property": "BISD Park",
-                "service": "Mowing Cycle",
-                "occur": "17/31",
-                "target_hours": 4.0,
-                "actual_hours": 4.99,
-                "variance_pct": 80.2
-              },
-              {
-                "property": "Hillview Park",
-                "service": "Mowing Cycle",
-                "occur": "17/31",
-                "target_hours": 2.0,
-                "actual_hours": 1.38,
-                "variance_pct": 144.9
-              },
-              {
-                "property": "Watauga Municipal Complex",
-                "service": "Bed Maintenance",
-                "occur": "11/17",
-                "target_hours": 1.5,
-                "actual_hours": 2.71,
-                "variance_pct": 55.4
-              },
-              {
-                "property": "Public Works Facility",
-                "service": "Mowing Cycle",
-                "occur": "17/31",
-                "target_hours": 2.0,
-                "actual_hours": 1.94,
-                "variance_pct": 103.1
-              },
-              {
-                "property": "Virgil Anthony Park",
-                "service": "Mowing Cycle",
-                "occur": "17/31",
-                "target_hours": 4.0,
-                "actual_hours": 4.68,
-                "variance_pct": 85.5
-              },
-              {
-                "property": "Watauga - Bunker Blvd",
-                "service": "Bed Maintenance",
-                "occur": "11/17",
-                "target_hours": 2.0,
-                "actual_hours": 1.84,
-                "variance_pct": 108.7
-              }
-            ],
-            "total_hours": 17.5
-          },
-          "Tue 5/19": {
-            "tickets": [
-              {
-                "property": "Capp Smith Park",
-                "service": "Mowing Cycle",
-                "occur": "17/31",
-                "target_hours": 20.0,
-                "actual_hours": 24.56,
-                "variance_pct": 81.4
-              }
-            ],
-            "total_hours": 20.0
-          },
-          "Thu 5/21": {
-            "tickets": [
-              {
-                "property": "Watauga Municipal Complex",
-                "service": "Mowing Cycle",
-                "occur": "17/31",
-                "target_hours": 4.0,
-                "actual_hours": 4.99,
-                "variance_pct": 80.2
-              },
-              {
-                "property": "Watauga Community Center",
-                "service": "Bed Maintenance",
-                "occur": "11/17",
-                "target_hours": 2.0,
-                "actual_hours": 3.78,
-                "variance_pct": 52.9
-              },
-              {
-                "property": "Watauga Community Center",
-                "service": "Mowing Cycle",
-                "occur": "17/31",
-                "target_hours": 8.0,
-                "actual_hours": 10.18,
-                "variance_pct": 78.6
-              },
-              {
-                "property": "Watauga - Hwy 377",
-                "service": "Bed Maintenance",
-                "occur": "11/17",
-                "target_hours": 12.0,
-                "actual_hours": 10.09,
-                "variance_pct": 118.9
-              }
-            ],
-            "total_hours": 26.0
-          }
-        },
-        "job_count": 16
+        "days": {},
+        "job_count": 0
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
-        "days": {
-          "Wed 5/20": {
-            "tickets": [
-              {
-                "property": "Bear Creek HOA",
-                "service": "Maintenance Care",
-                "occur": "34/36",
-                "target_hours": 8.0,
-                "actual_hours": 9.7,
-                "variance_pct": 82.5
-              },
-              {
-                "property": "Five Oaks Crossing Mansfield",
-                "service": "Maintenance Care",
-                "occur": "29/36",
-                "target_hours": 10.16,
-                "actual_hours": 10.95,
-                "variance_pct": 92.8
-              }
-            ],
-            "total_hours": 18.16
-          },
-          "Thu 5/21": {
-            "tickets": [
-              {
-                "property": "BASIS Benbrook ",
-                "service": "Maintenance Care",
-                "occur": "26/36",
-                "target_hours": 10.0,
-                "actual_hours": 10.04,
-                "variance_pct": 99.6
-              },
-              {
-                "property": "University Christian Church ",
-                "service": "Maintenance Care",
-                "occur": "26/36",
-                "target_hours": 16.0,
-                "actual_hours": 14.61,
-                "variance_pct": 109.5
-              }
-            ],
-            "total_hours": 26.0
-          },
-          "Mon 5/18": {
-            "tickets": [
-              {
-                "property": "Leo at Bethel",
-                "service": "Maintenance Care",
-                "occur": "30/39",
-                "target_hours": 37.0,
-                "actual_hours": 32.73,
-                "variance_pct": 113.0
-              }
-            ],
-            "total_hours": 37.0
-          },
-          "Tue 5/19": {
-            "tickets": [
-              {
-                "property": "Hampton Manor of Crowley",
-                "service": "Mowing Cycle",
-                "occur": "10/24",
-                "target_hours": 7.34,
-                "actual_hours": 7.15,
-                "variance_pct": 102.7
-              },
-              {
-                "property": "Crowley Creekside HOA",
-                "service": "Tractor Mowing",
-                "occur": "6/18",
-                "target_hours": 12.0,
-                "actual_hours": 12.69,
-                "variance_pct": 94.6
-              }
-            ],
-            "total_hours": 19.34
-          }
-        },
-        "job_count": 7
+        "days": {},
+        "job_count": 0
       }
     ]
   },
@@ -1861,18 +1493,6 @@
       "target_hours": 2.0,
       "actual_hours": 4.91,
       "efficiency": 40.7
-    },
-    {
-      "date": "2026-04-24",
-      "day_label": "4/24",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Parcel B",
-      "service": "Maintenance Care",
-      "target_hours": 10.0,
-      "actual_hours": 7.85,
-      "efficiency": 127.4
     },
     {
       "date": "2026-05-07",
@@ -1897,30 +1517,6 @@
       "target_hours": 3.0,
       "actual_hours": 1.99,
       "efficiency": 150.8
-    },
-    {
-      "date": "2026-04-20",
-      "day_label": "4/20",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Craft Residence - Magnolia",
-      "service": "Maintenance Care",
-      "target_hours": 3.0,
-      "actual_hours": 2.07,
-      "efficiency": 144.9
-    },
-    {
-      "date": "2026-04-23",
-      "day_label": "4/23",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Bear Creek HOA",
-      "service": "Maintenance Care",
-      "target_hours": 8.0,
-      "actual_hours": 9.78,
-      "efficiency": 81.8
     },
     {
       "date": "2026-04-30",
@@ -1971,18 +1567,6 @@
       "efficiency": 82.5
     },
     {
-      "date": "2026-04-24",
-      "day_label": "4/24",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Carol Katz Residence",
-      "service": "Maintenance Care",
-      "target_hours": 0.83,
-      "actual_hours": 1.23,
-      "efficiency": 67.5
-    },
-    {
       "date": "2026-05-01",
       "day_label": "5/1",
       "crew_leader": "Gustavo Aguilar",
@@ -2017,18 +1601,6 @@
       "target_hours": 0.83,
       "actual_hours": 1.17,
       "efficiency": 70.9
-    },
-    {
-      "date": "2026-04-23",
-      "day_label": "4/23",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Five Oaks Crossing Mansfield",
-      "service": "Maintenance Care",
-      "target_hours": 10.16,
-      "actual_hours": 11.79,
-      "efficiency": 86.2
     },
     {
       "date": "2026-04-30",
@@ -2077,18 +1649,6 @@
       "target_hours": 10.16,
       "actual_hours": 10.95,
       "efficiency": 92.8
-    },
-    {
-      "date": "2026-04-23",
-      "day_label": "4/23",
-      "crew_leader": "Jorge Torres Conde",
-      "route": "Maint 4 - Yellow/Amarillo",
-      "division": "Maintenance",
-      "property": "BASIS Benbrook ",
-      "service": "Maintenance Care",
-      "target_hours": 10.0,
-      "actual_hours": 10.11,
-      "efficiency": 98.9
     },
     {
       "date": "2026-04-28",
@@ -2163,18 +1723,6 @@
       "efficiency": 59.3
     },
     {
-      "date": "2026-04-23",
-      "day_label": "4/23",
-      "crew_leader": "Jorge Torres Conde",
-      "route": "Maint 4 - Yellow/Amarillo",
-      "division": "Maintenance",
-      "property": "University Christian Church ",
-      "service": "Maintenance Care",
-      "target_hours": 16.0,
-      "actual_hours": 15.21,
-      "efficiency": 105.2
-    },
-    {
       "date": "2026-04-28",
       "day_label": "4/28",
       "crew_leader": "Jorge Torres Conde",
@@ -2223,18 +1771,6 @@
       "efficiency": 109.5
     },
     {
-      "date": "2026-04-23",
-      "day_label": "4/23",
-      "crew_leader": "Jon Hatcher",
-      "route": "Irrigation 1 - Red/Rojo",
-      "division": "Irrigation",
-      "property": "University Christian Church ",
-      "service": "Irrigation Monitoring",
-      "target_hours": 1.0,
-      "actual_hours": 2.83,
-      "efficiency": 35.3
-    },
-    {
       "date": "2026-04-29",
       "day_label": "4/29",
       "crew_leader": "Jorge Torres Conde",
@@ -2269,18 +1805,6 @@
       "target_hours": 40.0,
       "actual_hours": 38.57,
       "efficiency": 103.7
-    },
-    {
-      "date": "2026-04-20",
-      "day_label": "4/20",
-      "crew_leader": "Jorge Torres Conde",
-      "route": "Maint 4 - Yellow/Amarillo",
-      "division": "Maintenance",
-      "property": "Leo at Bethel",
-      "service": "Maintenance Care",
-      "target_hours": 37.0,
-      "actual_hours": 38.61,
-      "efficiency": 95.8
     },
     {
       "date": "2026-04-27",
@@ -2367,18 +1891,6 @@
       "efficiency": 82.5
     },
     {
-      "date": "2026-04-20",
-      "day_label": "4/20",
-      "crew_leader": "Jon Hatcher",
-      "route": "Irrigation 1 - Red/Rojo",
-      "division": "Irrigation",
-      "property": "Miller Milling",
-      "service": "Irrigation Monitoring",
-      "target_hours": 2.0,
-      "actual_hours": 1.21,
-      "efficiency": 165.3
-    },
-    {
       "date": "2026-05-05",
       "day_label": "5/5",
       "crew_leader": "Jon Hatcher",
@@ -2389,18 +1901,6 @@
       "target_hours": 2.0,
       "actual_hours": 0.87,
       "efficiency": 229.9
-    },
-    {
-      "date": "2026-04-22",
-      "day_label": "4/22",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Whites Branch Creek Trail",
-      "service": "Mowing Cycle",
-      "target_hours": 6.0,
-      "actual_hours": 7.08,
-      "efficiency": 84.7
     },
     {
       "date": "2026-04-29",
@@ -2451,18 +1951,6 @@
       "efficiency": 81.5
     },
     {
-      "date": "2026-04-20",
-      "day_label": "4/20",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Animal Service Center",
-      "service": "Mowing Cycle",
-      "target_hours": 2.0,
-      "actual_hours": 2.7,
-      "efficiency": 74.1
-    },
-    {
       "date": "2026-04-28",
       "day_label": "4/28",
       "crew_leader": "Gustavo Aguilar",
@@ -2511,18 +1999,6 @@
       "efficiency": 90.1
     },
     {
-      "date": "2026-04-22",
-      "day_label": "4/22",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "BISD Park",
-      "service": "Mowing Cycle",
-      "target_hours": 4.0,
-      "actual_hours": 5.2,
-      "efficiency": 76.9
-    },
-    {
       "date": "2026-04-29",
       "day_label": "4/29",
       "crew_leader": "Gustavo Aguilar",
@@ -2568,18 +2044,6 @@
       "service": "Mowing Cycle",
       "target_hours": 4.0,
       "actual_hours": 4.99,
-      "efficiency": 80.2
-    },
-    {
-      "date": "2026-04-22",
-      "day_label": "4/22",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Capp Smith Park",
-      "service": "Mowing Cycle",
-      "target_hours": 20.0,
-      "actual_hours": 24.94,
       "efficiency": 80.2
     },
     {
@@ -2655,18 +2119,6 @@
       "efficiency": 144.2
     },
     {
-      "date": "2026-04-20",
-      "day_label": "4/20",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Watauga Central Fire Station",
-      "service": "Mowing Cycle",
-      "target_hours": 4.0,
-      "actual_hours": 4.2,
-      "efficiency": 95.2
-    },
-    {
       "date": "2026-04-27",
       "day_label": "4/27",
       "crew_leader": "Gustavo Aguilar",
@@ -2713,18 +2165,6 @@
       "target_hours": 4.0,
       "actual_hours": 3.07,
       "efficiency": 130.3
-    },
-    {
-      "date": "2026-04-22",
-      "day_label": "4/22",
-      "crew_leader": "Jorge Torres Conde",
-      "route": "Maint 4 - Yellow/Amarillo",
-      "division": "Maintenance",
-      "property": "Foster Village Park",
-      "service": "Mowing Cycle",
-      "target_hours": 12.0,
-      "actual_hours": 12.28,
-      "efficiency": 97.7
     },
     {
       "date": "2026-04-30",
@@ -2799,18 +2239,6 @@
       "efficiency": 93.5
     },
     {
-      "date": "2026-04-20",
-      "day_label": "4/20",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Hillview Park",
-      "service": "Mowing Cycle",
-      "target_hours": 2.0,
-      "actual_hours": 2.35,
-      "efficiency": 85.1
-    },
-    {
       "date": "2026-05-13",
       "day_label": "5/13",
       "crew_leader": "Gustavo Aguilar",
@@ -2857,18 +2285,6 @@
       "target_hours": 1.5,
       "actual_hours": 2.71,
       "efficiency": 55.4
-    },
-    {
-      "date": "2026-04-22",
-      "day_label": "4/22",
-      "crew_leader": "Jorge Torres Conde",
-      "route": "Maint 4 - Yellow/Amarillo",
-      "division": "Maintenance",
-      "property": "Watauga Municipal Complex",
-      "service": "Mowing Cycle",
-      "target_hours": 4.0,
-      "actual_hours": 4.55,
-      "efficiency": 87.9
     },
     {
       "date": "2026-04-30",
@@ -2919,18 +2335,6 @@
       "efficiency": 80.2
     },
     {
-      "date": "2026-04-20",
-      "day_label": "4/20",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Public Works Facility",
-      "service": "Mowing Cycle",
-      "target_hours": 2.0,
-      "actual_hours": 2.35,
-      "efficiency": 85.1
-    },
-    {
       "date": "2026-04-29",
       "day_label": "4/29",
       "crew_leader": "Gustavo Aguilar",
@@ -2977,18 +2381,6 @@
       "target_hours": 2.0,
       "actual_hours": 1.94,
       "efficiency": 103.1
-    },
-    {
-      "date": "2026-04-22",
-      "day_label": "4/22",
-      "crew_leader": "Jorge Torres Conde",
-      "route": "Maint 4 - Yellow/Amarillo",
-      "division": "Maintenance",
-      "property": "Virgil Anthony Park",
-      "service": "Mowing Cycle",
-      "target_hours": 4.0,
-      "actual_hours": 3.81,
-      "efficiency": 105.0
     },
     {
       "date": "2026-04-30",
@@ -3061,18 +2453,6 @@
       "target_hours": 2.0,
       "actual_hours": 3.78,
       "efficiency": 52.9
-    },
-    {
-      "date": "2026-04-22",
-      "day_label": "4/22",
-      "crew_leader": "Jorge Torres Conde",
-      "route": "Maint 4 - Yellow/Amarillo",
-      "division": "Maintenance",
-      "property": "Watauga Community Center",
-      "service": "Mowing Cycle",
-      "target_hours": 8.0,
-      "actual_hours": 10.66,
-      "efficiency": 75.0
     },
     {
       "date": "2026-05-01",
@@ -3183,18 +2563,6 @@
       "efficiency": 64.3
     },
     {
-      "date": "2026-04-24",
-      "day_label": "4/24",
-      "crew_leader": "Jorge Torres Conde",
-      "route": "Maint 4 - Yellow/Amarillo",
-      "division": "Maintenance",
-      "property": "Hampton Manor of Crowley",
-      "service": "Mowing Cycle",
-      "target_hours": 7.34,
-      "actual_hours": 7.72,
-      "efficiency": 95.1
-    },
-    {
       "date": "2026-05-07",
       "day_label": "5/7",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -3279,18 +2647,6 @@
       "efficiency": 193.2
     },
     {
-      "date": "2026-04-24",
-      "day_label": "4/24",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Richard Watters Residence",
-      "service": "Maintenance Care",
-      "target_hours": 3.0,
-      "actual_hours": 2.66,
-      "efficiency": 112.8
-    },
-    {
       "date": "2026-05-01",
       "day_label": "5/1",
       "crew_leader": "Gustavo Aguilar",
@@ -3327,18 +2683,6 @@
       "efficiency": 80.9
     },
     {
-      "date": "2026-04-24",
-      "day_label": "4/24",
-      "crew_leader": "Jorge Torres Conde",
-      "route": "Maint 4 - Yellow/Amarillo",
-      "division": "Maintenance",
-      "property": "Crowley Creekside HOA",
-      "service": "Tractor Mowing",
-      "target_hours": 12.0,
-      "actual_hours": 17.32,
-      "efficiency": 69.3
-    },
-    {
       "date": "2026-05-07",
       "day_label": "5/7",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -3363,18 +2707,6 @@
       "efficiency": 94.6
     },
     {
-      "date": "2026-04-24",
-      "day_label": "4/24",
-      "crew_leader": "Jorge Torres Conde",
-      "route": "Maint 4 - Yellow/Amarillo",
-      "division": "Maintenance",
-      "property": "Crowley Creekside HOA",
-      "service": "Mobilization",
-      "target_hours": 6.0,
-      "actual_hours": 5.34,
-      "efficiency": 112.4
-    },
-    {
       "date": "2026-05-07",
       "day_label": "5/7",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -3382,21 +2714,9 @@
       "division": "Landscape",
       "property": "Crowley Creekside HOA",
       "service": "Mobilization",
-      "target_hours": 12.0,
+      "target_hours": 6.0,
       "actual_hours": 1.96,
-      "efficiency": 612.2
-    },
-    {
-      "date": "2026-04-24",
-      "day_label": "4/24",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Nick Workman Residence",
-      "service": "Maintenance Care",
-      "target_hours": 2.0,
-      "actual_hours": 1.99,
-      "efficiency": 100.5
+      "efficiency": 306.1
     },
     {
       "date": "2026-05-01",
@@ -3447,18 +2767,6 @@
       "efficiency": 99.0
     },
     {
-      "date": "2026-04-24",
-      "day_label": "4/24",
-      "crew_leader": "Gustavo Aguilar",
-      "route": "Maint 3 - White/Blanco",
-      "division": "Maintenance",
-      "property": "Tom Brown Residence",
-      "service": "Maintenance Care",
-      "target_hours": 2.0,
-      "actual_hours": 1.75,
-      "efficiency": 114.3
-    },
-    {
       "date": "2026-05-01",
       "day_label": "5/1",
       "crew_leader": "Gustavo Aguilar",
@@ -3495,40 +2803,16 @@
       "efficiency": 95.7
     },
     {
-      "date": "2026-04-23",
-      "day_label": "4/23",
-      "crew_leader": "Jose Guadalupe Sandoval Ramos",
-      "route": "Land 1 - Green/Verde",
-      "division": "Landscape",
-      "property": "Marcy Selander Residence",
-      "service": "Landscape Clean Up ",
-      "target_hours": 20.0,
-      "actual_hours": 23.8,
-      "efficiency": 84.0
-    },
-    {
-      "date": "2026-04-23",
-      "day_label": "4/23",
-      "crew_leader": "Jose Guadalupe Sandoval Ramos",
-      "route": "Land 1 - Green/Verde",
-      "division": "Landscape",
-      "property": "Marcy Selander Residence",
-      "service": "Sod Install",
-      "target_hours": 50.0,
-      "actual_hours": 38.08,
-      "efficiency": 131.3
-    },
-    {
-      "date": "2026-04-24",
-      "day_label": "4/24",
-      "crew_leader": "Jose Guadalupe Sandoval Ramos",
-      "route": "Land 1 - Green/Verde",
-      "division": "Landscape",
-      "property": "Sam Schein Residence",
-      "service": "Sod Install",
-      "target_hours": 31.5,
-      "actual_hours": 26.7,
-      "efficiency": 118.0
+      "date": "2026-05-22",
+      "day_label": "5/22",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Tom Brown Residence",
+      "service": "Maintenance Care",
+      "target_hours": 2.0,
+      "actual_hours": 1.82,
+      "efficiency": 109.9
     },
     {
       "date": "2026-04-28",
@@ -3627,42 +2911,6 @@
       "efficiency": 90.1
     },
     {
-      "date": "2026-04-20",
-      "day_label": "4/20",
-      "crew_leader": "Jon Hatcher",
-      "route": "Irrigation 1 - Red/Rojo",
-      "division": "Irrigation",
-      "property": "Martin Amelung Residence",
-      "service": "Irrigation Assessment",
-      "target_hours": 1.0,
-      "actual_hours": 1.18,
-      "efficiency": 84.7
-    },
-    {
-      "date": "2026-04-20",
-      "day_label": "4/20",
-      "crew_leader": "Jose Guadalupe Sandoval Ramos",
-      "route": "Land 1 - Green/Verde",
-      "division": "Landscape",
-      "property": "Ridglea Court Apartments",
-      "service": "Mobilization",
-      "target_hours": 4.0,
-      "actual_hours": 2.84,
-      "efficiency": 140.8
-    },
-    {
-      "date": "2026-04-20",
-      "day_label": "4/20",
-      "crew_leader": "Jose Guadalupe Sandoval Ramos",
-      "route": "Land 1 - Green/Verde",
-      "division": "Landscape",
-      "property": "Ridglea Court Apartments",
-      "service": "Landscape Clean Up ",
-      "target_hours": 24.0,
-      "actual_hours": 22.41,
-      "efficiency": 107.1
-    },
-    {
       "date": "2026-05-07",
       "day_label": "5/7",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -3723,18 +2971,6 @@
       "efficiency": null
     },
     {
-      "date": "2026-04-24",
-      "day_label": "4/24",
-      "crew_leader": "Jose Guadalupe Sandoval Ramos",
-      "route": "Land 1 - Green/Verde",
-      "division": "Landscape",
-      "property": "University Christian Church ",
-      "service": "Edging Install",
-      "target_hours": 1.5,
-      "actual_hours": 1.43,
-      "efficiency": 104.9
-    },
-    {
       "date": "2026-04-29",
       "day_label": "4/29",
       "crew_leader": "Jon Hatcher",
@@ -3745,18 +2981,6 @@
       "target_hours": 1.0,
       "actual_hours": 1.92,
       "efficiency": 52.1
-    },
-    {
-      "date": "2026-04-20",
-      "day_label": "4/20",
-      "crew_leader": "Jon Hatcher",
-      "route": "Irrigation 1 - Red/Rojo",
-      "division": "Irrigation",
-      "property": "Eric Oaks Residence",
-      "service": "Irrigation Assessment",
-      "target_hours": 1.0,
-      "actual_hours": 1.39,
-      "efficiency": 71.9
     },
     {
       "date": "2026-05-01",
@@ -3795,16 +3019,16 @@
       "efficiency": 129.2
     },
     {
-      "date": "2026-04-24",
-      "day_label": "4/24",
-      "crew_leader": "Jon Hatcher",
-      "route": "Irrigation 1 - Red/Rojo",
-      "division": "Irrigation",
-      "property": "Marcy Selander Residence",
-      "service": "Landscape Upgrade",
-      "target_hours": 4.0,
-      "actual_hours": 9.21,
-      "efficiency": 43.4
+      "date": "2026-05-22",
+      "day_label": "5/22",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Parcel B",
+      "service": "Maintenance Care",
+      "target_hours": 10.0,
+      "actual_hours": 10.21,
+      "efficiency": 97.9
     },
     {
       "date": "2026-04-27",
@@ -4119,6 +3343,30 @@
       "efficiency": 180.2
     },
     {
+      "date": "2026-05-11",
+      "day_label": "5/11",
+      "crew_leader": "Jose Soto Armenta",
+      "route": "Maint 1 - Blue/Azul",
+      "division": "Maintenance",
+      "property": "Arlington Medians and ROW District 3",
+      "service": "Mobilization",
+      "target_hours": 70.0,
+      "actual_hours": 58.94,
+      "efficiency": 118.8
+    },
+    {
+      "date": "2026-05-11",
+      "day_label": "5/11",
+      "crew_leader": "Jose Soto Armenta",
+      "route": "Maint 1 - Blue/Azul",
+      "division": "Maintenance",
+      "property": "Arlington Medians and ROW District 3",
+      "service": "Municipality Mow",
+      "target_hours": 260.0,
+      "actual_hours": 255.99,
+      "efficiency": 101.6
+    },
+    {
       "date": "2026-05-13",
       "day_label": "5/13",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -4237,32 +3485,54 @@
       "target_hours": 1.0,
       "actual_hours": 1.9,
       "efficiency": 52.6
+    },
+    {
+      "date": "2026-05-22",
+      "day_label": "5/22",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "Serene Surrett",
+      "service": "Irrigation Assessment",
+      "target_hours": 1.0,
+      "actual_hours": 1.26,
+      "efficiency": 79.4
     }
   ],
   "mtd": {
     "period": {
       "label": "May 2026",
       "start": "2026-05-01",
-      "end": "2026-05-24"
+      "end": "2026-05-25"
     },
     "leaderboard": [
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
         "actual_hours": 379.8,
-        "estimated_hours": 427.2,
-        "labor_variance_pct": 112.5,
+        "estimated_hours": 421.2,
+        "labor_variance_pct": 110.9,
         "bonus_eligible": true,
         "rank": 1,
         "trend": "same",
         "rank_change": 0
       },
       {
-        "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 262.9,
-        "estimated_hours": 252.9,
-        "labor_variance_pct": 96.2,
-        "bonus_eligible": false,
+        "crew_leader": "Jose Soto Armenta",
+        "actual_hours": 314.9,
+        "estimated_hours": 330.0,
+        "labor_variance_pct": 104.8,
+        "bonus_eligible": true,
         "rank": 2,
+        "trend": "same",
+        "rank_change": 0
+      },
+      {
+        "crew_leader": "Gustavo Aguilar",
+        "actual_hours": 274.9,
+        "estimated_hours": 264.9,
+        "labor_variance_pct": 96.4,
+        "bonus_eligible": false,
+        "rank": 3,
         "trend": "same",
         "rank_change": 0
       },
@@ -4272,48 +3542,58 @@
         "estimated_hours": 351.4,
         "labor_variance_pct": 91.6,
         "bonus_eligible": false,
-        "rank": 3,
+        "rank": 4,
         "trend": "same",
+        "rank_change": 0
+      },
+      {
+        "crew_leader": "Jon Hatcher",
+        "actual_hours": 50.7,
+        "estimated_hours": 23.0,
+        "labor_variance_pct": 45.3,
+        "bonus_eligible": false,
+        "rank": 5,
+        "trend": "new",
         "rank_change": 0
       }
     ],
-    "bonus_eligible_count": 1,
-    "company_avg_variance": 99.9,
-    "total_crew_leaders": 3,
-    "tickets_analyzed": 152
+    "bonus_eligible_count": 2,
+    "company_avg_variance": 100.3,
+    "total_crew_leaders": 5,
+    "tickets_analyzed": 160
   },
   "prior_week": {
     "period": {
-      "label": "Week of 5/11-5/17",
-      "start": "2026-05-11",
-      "end": "2026-05-17"
+      "label": "Week of 5/18-5/24",
+      "start": "2026-05-18",
+      "end": "2026-05-24"
     },
     "leaderboard": [
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 160.8,
-        "estimated_hours": 191.5,
-        "labor_variance_pct": 119.1,
+        "actual_hours": 84.9,
+        "estimated_hours": 99.0,
+        "labor_variance_pct": 116.6,
         "bonus_eligible": true,
         "rank": 1,
         "trend": "same",
         "rank_change": 0
       },
       {
-        "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 61.1,
-        "estimated_hours": 63.8,
-        "labor_variance_pct": 104.3,
+        "crew_leader": "Jorge Torres Conde",
+        "actual_hours": 97.9,
+        "estimated_hours": 100.5,
+        "labor_variance_pct": 102.7,
         "bonus_eligible": true,
         "rank": 2,
-        "trend": "same",
-        "rank_change": 0
+        "trend": "up",
+        "rank_change": 2
       },
       {
-        "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 145.9,
-        "estimated_hours": 125.7,
-        "labor_variance_pct": 86.1,
+        "crew_leader": "Gustavo Aguilar",
+        "actual_hours": 112.4,
+        "estimated_hours": 100.5,
+        "labor_variance_pct": 89.4,
         "bonus_eligible": false,
         "rank": 3,
         "trend": "same",
@@ -4321,8 +3601,8 @@
       }
     ],
     "bonus_eligible_count": 2,
-    "company_avg_variance": 105.3,
+    "company_avg_variance": 99.0,
     "total_crew_leaders": 3,
-    "tickets_analyzed": 48
+    "tickets_analyzed": 40
   }
 }
