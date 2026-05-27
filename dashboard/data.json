@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T13:31:01",
+  "generated": "2026-05-27T12:54:22",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -176,23 +176,23 @@
         },
         {
           "name": "Land 1 - Green/Verde",
-          "total": 117.8,
+          "total": 117.7,
           "weekly_values": [
-            117.8
+            117.7
           ]
         },
         {
           "name": "Maint 1 - Blue/Azul",
-          "total": 104.8,
+          "total": 111.0,
           "weekly_values": [
-            104.8
+            111.0
           ]
         },
         {
           "name": "Maint 2 - Orange/Naranja",
-          "total": null,
+          "total": 96.5,
           "weekly_values": [
-            null
+            96.5
           ]
         },
         {
@@ -211,12 +211,12 @@
         }
       ],
       "total_row": {
-        "total": 102.1,
+        "total": 101.7,
         "weekly_values": [
-          102.1
+          101.7
         ]
       },
-      "overall_efficiency": 102.1
+      "overall_efficiency": 101.7
     },
     "crew_weekly": {
       "weeks": [
@@ -344,6 +344,13 @@
       ],
       "rows": [
         {
+          "name": "Daniel Garcia Albarran",
+          "total": 96.5,
+          "weekly_values": [
+            96.5
+          ]
+        },
+        {
           "name": "Gustavo Aguilar",
           "total": 96.4,
           "weekly_values": [
@@ -366,26 +373,26 @@
         },
         {
           "name": "Jose Guadalupe Sandoval Ramos",
-          "total": 117.8,
+          "total": 117.7,
           "weekly_values": [
-            117.8
+            117.7
           ]
         },
         {
           "name": "Jose Soto Armenta",
-          "total": 104.8,
+          "total": 111.0,
           "weekly_values": [
-            104.8
+            111.0
           ]
         }
       ],
       "total_row": {
-        "total": 102.1,
+        "total": 101.7,
         "weekly_values": [
-          102.1
+          101.7
         ]
       },
-      "overall_efficiency": 102.1
+      "overall_efficiency": 101.7
     },
     "division_weekly": {
       "weeks": [
@@ -501,26 +508,26 @@
         },
         {
           "name": "Landscape",
-          "total": 117.8,
+          "total": 117.7,
           "weekly_values": [
-            117.8
+            117.7
           ]
         },
         {
           "name": "Maintenance",
-          "total": 97.2,
+          "total": 98.2,
           "weekly_values": [
-            97.2
+            98.2
           ]
         }
       ],
       "total_row": {
-        "total": 102.1,
+        "total": 101.7,
         "weekly_values": [
-          102.1
+          101.7
         ]
       },
-      "overall_efficiency": 102.1
+      "overall_efficiency": 101.7
     },
     "property_weekly": {
       "weeks": [
@@ -1116,16 +1123,23 @@
         },
         {
           "name": "Arlington Laboratory Services",
-          "total": 143.1,
+          "total": 130.8,
           "weekly_values": [
-            143.1
+            130.8
+          ]
+        },
+        {
+          "name": "Arlington Medians and ROW District 2",
+          "total": 96.5,
+          "weekly_values": [
+            96.5
           ]
         },
         {
           "name": "Arlington Medians and ROW District 3",
-          "total": 104.8,
+          "total": 111.0,
           "weekly_values": [
-            104.8
+            111.0
           ]
         },
         {
@@ -1417,12 +1431,12 @@
         }
       ],
       "total_row": {
-        "total": 102.1,
+        "total": 101.7,
         "weekly_values": [
-          102.1
+          101.7
         ]
       },
-      "overall_efficiency": 102.1
+      "overall_efficiency": 101.7
     }
   },
   "job_board": {
@@ -1448,8 +1462,22 @@
         "name": "Land 1 - Green/Verde",
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
         "crew_leader_id": 1834,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Tue 5/26": {
+            "tickets": [
+              {
+                "property": "Arlington Laboratory Services",
+                "service": "Bed Maintenance ",
+                "occur": "4/21",
+                "target_hours": 18.0,
+                "actual_hours": 8.56,
+                "variance_pct": 210.3
+              }
+            ],
+            "total_hours": 18.0
+          }
+        },
+        "job_count": 1
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -1469,15 +1497,67 @@
         "name": "Maint 3 - White/Blanco",
         "crew_leader": "Gustavo Aguilar",
         "crew_leader_id": 2284,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 5/25": {
+            "tickets": [
+              {
+                "property": "Animal Service Center",
+                "service": "Mowing Cycle",
+                "occur": "18/31",
+                "target_hours": 2.0,
+                "actual_hours": 2.29,
+                "variance_pct": 87.3
+              },
+              {
+                "property": "BISD Park",
+                "service": "Mowing Cycle",
+                "occur": "18/31",
+                "target_hours": 4.0,
+                "actual_hours": 4.89,
+                "variance_pct": 81.8
+              },
+              {
+                "property": "Watauga Municipal Complex",
+                "service": "Mowing Cycle",
+                "occur": "18/31",
+                "target_hours": 4.0,
+                "actual_hours": 4.75,
+                "variance_pct": 84.2
+              },
+              {
+                "property": "Virgil Anthony Park",
+                "service": "Mowing Cycle",
+                "occur": "18/31",
+                "target_hours": 4.0,
+                "actual_hours": 4.43,
+                "variance_pct": 90.3
+              }
+            ],
+            "total_hours": 14.0
+          }
+        },
+        "job_count": 4
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 5/25": {
+            "tickets": [
+              {
+                "property": "Leo at Bethel",
+                "service": "Maintenance Care",
+                "occur": "31/39",
+                "target_hours": 37.0,
+                "actual_hours": 35.09,
+                "variance_pct": 105.4
+              }
+            ],
+            "total_hours": 37.0
+          }
+        },
+        "job_count": 1
       }
     ]
   },
@@ -1855,6 +1935,18 @@
       "efficiency": 113.0
     },
     {
+      "date": "2026-05-25",
+      "day_label": "5/25",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Leo at Bethel",
+      "service": "Maintenance Care",
+      "target_hours": 37.0,
+      "actual_hours": 35.09,
+      "efficiency": 105.4
+    },
+    {
       "date": "2026-04-28",
       "day_label": "4/28",
       "crew_leader": "Gustavo Aguilar",
@@ -1999,6 +2091,18 @@
       "efficiency": 90.1
     },
     {
+      "date": "2026-05-25",
+      "day_label": "5/25",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Animal Service Center",
+      "service": "Mowing Cycle",
+      "target_hours": 2.0,
+      "actual_hours": 2.29,
+      "efficiency": 87.3
+    },
+    {
       "date": "2026-04-29",
       "day_label": "4/29",
       "crew_leader": "Gustavo Aguilar",
@@ -2045,6 +2149,18 @@
       "target_hours": 4.0,
       "actual_hours": 4.99,
       "efficiency": 80.2
+    },
+    {
+      "date": "2026-05-25",
+      "day_label": "5/25",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "BISD Park",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 4.89,
+      "efficiency": 81.8
     },
     {
       "date": "2026-04-27",
@@ -2335,6 +2451,18 @@
       "efficiency": 80.2
     },
     {
+      "date": "2026-05-25",
+      "day_label": "5/25",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Municipal Complex",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 4.75,
+      "efficiency": 84.2
+    },
+    {
       "date": "2026-04-29",
       "day_label": "4/29",
       "crew_leader": "Gustavo Aguilar",
@@ -2429,6 +2557,18 @@
       "target_hours": 4.0,
       "actual_hours": 4.68,
       "efficiency": 85.5
+    },
+    {
+      "date": "2026-05-25",
+      "day_label": "5/25",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Virgil Anthony Park",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 4.43,
+      "efficiency": 90.3
     },
     {
       "date": "2026-05-01",
@@ -3345,14 +3485,38 @@
     {
       "date": "2026-05-11",
       "day_label": "5/11",
+      "crew_leader": "Daniel Garcia Albarran",
+      "route": "Maint 2 - Orange/Naranja",
+      "division": "Maintenance",
+      "property": "Arlington Medians and ROW District 2",
+      "service": "Mobilization",
+      "target_hours": 90.0,
+      "actual_hours": 78.56,
+      "efficiency": 114.6
+    },
+    {
+      "date": "2026-05-11",
+      "day_label": "5/11",
+      "crew_leader": "Daniel Garcia Albarran",
+      "route": "Maint 2 - Orange/Naranja",
+      "division": "Maintenance",
+      "property": "Arlington Medians and ROW District 2",
+      "service": "Municipality Mow",
+      "target_hours": 330.0,
+      "actual_hours": 356.55,
+      "efficiency": 92.6
+    },
+    {
+      "date": "2026-05-11",
+      "day_label": "5/11",
       "crew_leader": "Jose Soto Armenta",
       "route": "Maint 1 - Blue/Azul",
       "division": "Maintenance",
       "property": "Arlington Medians and ROW District 3",
       "service": "Mobilization",
       "target_hours": 70.0,
-      "actual_hours": 58.94,
-      "efficiency": 118.8
+      "actual_hours": 57.04,
+      "efficiency": 122.7
     },
     {
       "date": "2026-05-11",
@@ -3363,8 +3527,8 @@
       "property": "Arlington Medians and ROW District 3",
       "service": "Municipality Mow",
       "target_hours": 260.0,
-      "actual_hours": 255.99,
-      "efficiency": 101.6
+      "actual_hours": 240.19,
+      "efficiency": 108.2
     },
     {
       "date": "2026-05-13",
@@ -3377,6 +3541,30 @@
       "target_hours": 10.0,
       "actual_hours": 6.99,
       "efficiency": 143.1
+    },
+    {
+      "date": "2026-05-26",
+      "day_label": "5/26",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Arlington Laboratory Services",
+      "service": "Bed Maintenance ",
+      "target_hours": 18.0,
+      "actual_hours": 8.56,
+      "efficiency": 210.3
+    },
+    {
+      "date": "2026-05-13",
+      "day_label": "5/13",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Arlington Laboratory Services",
+      "service": "Mobilization",
+      "target_hours": 4.0,
+      "actual_hours": 3.71,
+      "efficiency": 107.8
     },
     {
       "date": "2026-05-12",
@@ -3503,14 +3691,14 @@
     "period": {
       "label": "May 2026",
       "start": "2026-05-01",
-      "end": "2026-05-25"
+      "end": "2026-05-27"
     },
     "leaderboard": [
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 379.8,
-        "estimated_hours": 421.2,
-        "labor_variance_pct": 110.9,
+        "actual_hours": 392.1,
+        "estimated_hours": 443.2,
+        "labor_variance_pct": 113.0,
         "bonus_eligible": true,
         "rank": 1,
         "trend": "same",
@@ -3518,31 +3706,41 @@
       },
       {
         "crew_leader": "Jose Soto Armenta",
-        "actual_hours": 314.9,
+        "actual_hours": 297.2,
         "estimated_hours": 330.0,
-        "labor_variance_pct": 104.8,
+        "labor_variance_pct": 111.0,
         "bonus_eligible": true,
         "rank": 2,
         "trend": "same",
         "rank_change": 0
       },
       {
-        "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 274.9,
-        "estimated_hours": 264.9,
-        "labor_variance_pct": 96.4,
+        "crew_leader": "Daniel Garcia Albarran",
+        "actual_hours": 435.1,
+        "estimated_hours": 420.0,
+        "labor_variance_pct": 96.5,
         "bonus_eligible": false,
         "rank": 3,
-        "trend": "same",
-        "rank_change": 0
+        "trend": "up",
+        "rank_change": 1
+      },
+      {
+        "crew_leader": "Gustavo Aguilar",
+        "actual_hours": 291.3,
+        "estimated_hours": 278.9,
+        "labor_variance_pct": 95.8,
+        "bonus_eligible": false,
+        "rank": 4,
+        "trend": "down",
+        "rank_change": -1
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 383.5,
-        "estimated_hours": 351.4,
-        "labor_variance_pct": 91.6,
+        "actual_hours": 418.6,
+        "estimated_hours": 388.4,
+        "labor_variance_pct": 92.8,
         "bonus_eligible": false,
-        "rank": 4,
+        "rank": 5,
         "trend": "same",
         "rank_change": 0
       },
@@ -3552,15 +3750,15 @@
         "estimated_hours": 23.0,
         "labor_variance_pct": 45.3,
         "bonus_eligible": false,
-        "rank": 5,
+        "rank": 6,
         "trend": "new",
         "rank_change": 0
       }
     ],
     "bonus_eligible_count": 2,
-    "company_avg_variance": 100.3,
-    "total_crew_leaders": 5,
-    "tickets_analyzed": 160
+    "company_avg_variance": 100.9,
+    "total_crew_leaders": 6,
+    "tickets_analyzed": 170
   },
   "prior_week": {
     "period": {
@@ -3587,7 +3785,7 @@
         "bonus_eligible": true,
         "rank": 2,
         "trend": "up",
-        "rank_change": 2
+        "rank_change": 3
       },
       {
         "crew_leader": "Gustavo Aguilar",
