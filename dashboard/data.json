@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T12:54:22",
+  "generated": "2026-05-28T13:54:10",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1498,6 +1498,35 @@
         "crew_leader": "Gustavo Aguilar",
         "crew_leader_id": 2284,
         "days": {
+          "Wed 5/27": {
+            "tickets": [
+              {
+                "property": "Miller Milling",
+                "service": "Maintenance Care",
+                "occur": "10/37",
+                "target_hours": 5.32,
+                "actual_hours": 6.08,
+                "variance_pct": 87.5
+              },
+              {
+                "property": "Watauga Central Fire Station",
+                "service": "Mowing Cycle",
+                "occur": "18/31",
+                "target_hours": 4.0,
+                "actual_hours": 3.61,
+                "variance_pct": 110.8
+              },
+              {
+                "property": "Watauga Community Center",
+                "service": "Mowing Cycle",
+                "occur": "18/31",
+                "target_hours": 8.0,
+                "actual_hours": 10.02,
+                "variance_pct": 79.8
+              }
+            ],
+            "total_hours": 17.32
+          },
           "Mon 5/25": {
             "tickets": [
               {
@@ -1536,7 +1565,7 @@
             "total_hours": 14.0
           }
         },
-        "job_count": 4
+        "job_count": 7
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
@@ -1555,9 +1584,22 @@
               }
             ],
             "total_hours": 37.0
+          },
+          "Wed 5/27": {
+            "tickets": [
+              {
+                "property": "Capp Smith Park",
+                "service": "Mowing Cycle",
+                "occur": "18/31",
+                "target_hours": 20.0,
+                "actual_hours": 23.1,
+                "variance_pct": 86.6
+              }
+            ],
+            "total_hours": 20.0
           }
         },
-        "job_count": 1
+        "job_count": 2
       }
     ]
   },
@@ -1983,6 +2025,18 @@
       "efficiency": 82.5
     },
     {
+      "date": "2026-05-27",
+      "day_label": "5/27",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Miller Milling",
+      "service": "Maintenance Care",
+      "target_hours": 5.32,
+      "actual_hours": 6.08,
+      "efficiency": 87.5
+    },
+    {
       "date": "2026-05-05",
       "day_label": "5/5",
       "crew_leader": "Jon Hatcher",
@@ -2199,6 +2253,18 @@
       "efficiency": 81.4
     },
     {
+      "date": "2026-05-27",
+      "day_label": "5/27",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Capp Smith Park",
+      "service": "Mowing Cycle",
+      "target_hours": 20.0,
+      "actual_hours": 23.1,
+      "efficiency": 86.6
+    },
+    {
       "date": "2026-05-12",
       "day_label": "5/12",
       "crew_leader": "Jorge Torres Conde",
@@ -2281,6 +2347,18 @@
       "target_hours": 4.0,
       "actual_hours": 3.07,
       "efficiency": 130.3
+    },
+    {
+      "date": "2026-05-27",
+      "day_label": "5/27",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Central Fire Station",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 3.61,
+      "efficiency": 110.8
     },
     {
       "date": "2026-04-30",
@@ -2641,6 +2719,18 @@
       "target_hours": 8.0,
       "actual_hours": 10.18,
       "efficiency": 78.6
+    },
+    {
+      "date": "2026-05-27",
+      "day_label": "5/27",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Community Center",
+      "service": "Mowing Cycle",
+      "target_hours": 8.0,
+      "actual_hours": 10.02,
+      "efficiency": 79.8
     },
     {
       "date": "2026-04-29",
@@ -3691,7 +3781,7 @@
     "period": {
       "label": "May 2026",
       "start": "2026-05-01",
-      "end": "2026-05-27"
+      "end": "2026-05-28"
     },
     "leaderboard": [
       {
@@ -3726,9 +3816,9 @@
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 291.3,
-        "estimated_hours": 278.9,
-        "labor_variance_pct": 95.8,
+        "actual_hours": 311.0,
+        "estimated_hours": 296.2,
+        "labor_variance_pct": 95.3,
         "bonus_eligible": false,
         "rank": 4,
         "trend": "down",
@@ -3736,9 +3826,9 @@
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 418.6,
-        "estimated_hours": 388.4,
-        "labor_variance_pct": 92.8,
+        "actual_hours": 441.7,
+        "estimated_hours": 408.4,
+        "labor_variance_pct": 92.5,
         "bonus_eligible": false,
         "rank": 5,
         "trend": "same",
@@ -3756,9 +3846,9 @@
       }
     ],
     "bonus_eligible_count": 2,
-    "company_avg_variance": 100.9,
+    "company_avg_variance": 100.6,
     "total_crew_leaders": 6,
-    "tickets_analyzed": 170
+    "tickets_analyzed": 174
   },
   "prior_week": {
     "period": {
