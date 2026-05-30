@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T12:48:43",
+  "generated": "2026-05-30T11:22:41",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -176,9 +176,9 @@
         },
         {
           "name": "Land 1 - Green/Verde",
-          "total": 117.7,
+          "total": 117.1,
           "weekly_values": [
-            117.7
+            117.1
           ]
         },
         {
@@ -211,12 +211,12 @@
         }
       ],
       "total_row": {
-        "total": 101.7,
+        "total": 101.6,
         "weekly_values": [
-          101.7
+          101.6
         ]
       },
-      "overall_efficiency": 101.7
+      "overall_efficiency": 101.6
     },
     "crew_weekly": {
       "weeks": [
@@ -373,9 +373,9 @@
         },
         {
           "name": "Jose Guadalupe Sandoval Ramos",
-          "total": 117.7,
+          "total": 117.1,
           "weekly_values": [
-            117.7
+            117.1
           ]
         },
         {
@@ -387,12 +387,12 @@
         }
       ],
       "total_row": {
-        "total": 101.7,
+        "total": 101.6,
         "weekly_values": [
-          101.7
+          101.6
         ]
       },
-      "overall_efficiency": 101.7
+      "overall_efficiency": 101.6
     },
     "division_weekly": {
       "weeks": [
@@ -508,9 +508,9 @@
         },
         {
           "name": "Landscape",
-          "total": 117.7,
+          "total": 117.1,
           "weekly_values": [
-            117.7
+            117.1
           ]
         },
         {
@@ -522,12 +522,12 @@
         }
       ],
       "total_row": {
-        "total": 101.7,
+        "total": 101.6,
         "weekly_values": [
-          101.7
+          101.6
         ]
       },
-      "overall_efficiency": 101.7
+      "overall_efficiency": 101.6
     },
     "property_weekly": {
       "weeks": [
@@ -1367,9 +1367,9 @@
         },
         {
           "name": "Ridglea Court Apartments",
-          "total": 140.1,
+          "total": 119.8,
           "weekly_values": [
-            140.1
+            119.8
           ]
         },
         {
@@ -1458,12 +1458,12 @@
         }
       ],
       "total_row": {
-        "total": 101.7,
+        "total": 101.6,
         "weekly_values": [
-          101.7
+          101.6
         ]
       },
-      "overall_efficiency": 101.7
+      "overall_efficiency": 101.6
     }
   },
   "job_board": {
@@ -1482,8 +1482,22 @@
         "name": "Irrigation 1 - Red/Rojo",
         "crew_leader": "Jon Hatcher",
         "crew_leader_id": 2384,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Thu 5/28": {
+            "tickets": [
+              {
+                "property": "Jennifer Johnson Residence",
+                "service": "Irrigation Essential Plan",
+                "occur": "1/4",
+                "target_hours": 1.0,
+                "actual_hours": 1.13,
+                "variance_pct": 88.5
+              }
+            ],
+            "total_hours": 1.0
+          }
+        },
+        "job_count": 1
       },
       {
         "name": "Land 1 - Green/Verde",
@@ -1502,9 +1516,22 @@
               }
             ],
             "total_hours": 18.0
+          },
+          "Thu 5/28": {
+            "tickets": [
+              {
+                "property": "Brenda Thomson Residence",
+                "service": "Mobilization",
+                "occur": "",
+                "target_hours": 10.0,
+                "actual_hours": 4.96,
+                "variance_pct": 201.6
+              }
+            ],
+            "total_hours": 10.0
           }
         },
-        "job_count": 1
+        "job_count": 2
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -1590,15 +1617,65 @@
               }
             ],
             "total_hours": 14.0
+          },
+          "Thu 5/28": {
+            "tickets": [
+              {
+                "property": "Foster Village Park",
+                "service": "Mowing Cycle",
+                "occur": "18/31",
+                "target_hours": 12.0,
+                "actual_hours": 11.92,
+                "variance_pct": 100.7
+              },
+              {
+                "property": "Hillview Park",
+                "service": "Mowing Cycle",
+                "occur": "18/31",
+                "target_hours": 2.0,
+                "actual_hours": 1.67,
+                "variance_pct": 119.8
+              },
+              {
+                "property": "Public Works Facility",
+                "service": "Mowing Cycle",
+                "occur": "18/31",
+                "target_hours": 2.0,
+                "actual_hours": 2.38,
+                "variance_pct": 84.0
+              },
+              {
+                "property": "Craft Residence - Magnolia",
+                "service": "Maintenance Care",
+                "occur": "3/36",
+                "target_hours": 3.0,
+                "actual_hours": 2.64,
+                "variance_pct": 113.6
+              }
+            ],
+            "total_hours": 19.0
           }
         },
-        "job_count": 7
+        "job_count": 11
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
         "days": {
+          "Thu 5/28": {
+            "tickets": [
+              {
+                "property": "Five Oaks Crossing Mansfield",
+                "service": "Maintenance Care",
+                "occur": "30/36",
+                "target_hours": 10.16,
+                "actual_hours": 13.47,
+                "variance_pct": 75.4
+              }
+            ],
+            "total_hours": 10.16
+          },
           "Mon 5/25": {
             "tickets": [
               {
@@ -1626,7 +1703,7 @@
             "total_hours": 20.0
           }
         },
-        "job_count": 2
+        "job_count": 3
       }
     ]
   },
@@ -1798,6 +1875,18 @@
       "target_hours": 10.16,
       "actual_hours": 10.95,
       "efficiency": 92.8
+    },
+    {
+      "date": "2026-05-28",
+      "day_label": "5/28",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Five Oaks Crossing Mansfield",
+      "service": "Maintenance Care",
+      "target_hours": 10.16,
+      "actual_hours": 13.47,
+      "efficiency": 75.4
     },
     {
       "date": "2026-04-28",
@@ -2436,6 +2525,18 @@
       "efficiency": 82.9
     },
     {
+      "date": "2026-05-28",
+      "day_label": "5/28",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Foster Village Park",
+      "service": "Mowing Cycle",
+      "target_hours": 12.0,
+      "actual_hours": 11.92,
+      "efficiency": 100.7
+    },
+    {
       "date": "2026-04-29",
       "day_label": "4/29",
       "crew_leader": "Gustavo Aguilar",
@@ -2482,6 +2583,18 @@
       "target_hours": 2.0,
       "actual_hours": 1.38,
       "efficiency": 144.9
+    },
+    {
+      "date": "2026-05-28",
+      "day_label": "5/28",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Hillview Park",
+      "service": "Mowing Cycle",
+      "target_hours": 2.0,
+      "actual_hours": 1.67,
+      "efficiency": 119.8
     },
     {
       "date": "2026-04-30",
@@ -2614,6 +2727,18 @@
       "target_hours": 2.0,
       "actual_hours": 1.94,
       "efficiency": 103.1
+    },
+    {
+      "date": "2026-05-28",
+      "day_label": "5/28",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Public Works Facility",
+      "service": "Mowing Cycle",
+      "target_hours": 2.0,
+      "actual_hours": 2.38,
+      "efficiency": 84.0
     },
     {
       "date": "2026-04-30",
@@ -3024,6 +3149,18 @@
       "efficiency": 99.0
     },
     {
+      "date": "2026-05-28",
+      "day_label": "5/28",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "Jennifer Johnson Residence",
+      "service": "Irrigation Essential Plan",
+      "target_hours": 1.0,
+      "actual_hours": 1.13,
+      "efficiency": 88.5
+    },
+    {
       "date": "2026-05-01",
       "day_label": "5/1",
       "crew_leader": "Gustavo Aguilar",
@@ -3214,18 +3351,6 @@
       "target_hours": 3.88,
       "actual_hours": 2.8,
       "efficiency": 138.6
-    },
-    {
-      "date": "2026-05-07",
-      "day_label": "5/7",
-      "crew_leader": "Jose Guadalupe Sandoval Ramos",
-      "route": "Land 1 - Green/Verde",
-      "division": "Landscape",
-      "property": "Ridglea Court Apartments",
-      "service": "Bed Weed Control",
-      "target_hours": 2.0,
-      "actual_hours": 0.0,
-      "efficiency": null
     },
     {
       "date": "2026-04-29",
@@ -3696,6 +3821,18 @@
       "efficiency": 154.6
     },
     {
+      "date": "2026-05-28",
+      "day_label": "5/28",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Craft Residence - Magnolia",
+      "service": "Maintenance Care",
+      "target_hours": 3.0,
+      "actual_hours": 2.64,
+      "efficiency": 113.6
+    },
+    {
       "date": "2026-05-11",
       "day_label": "5/11",
       "crew_leader": "Jon Hatcher",
@@ -3706,6 +3843,18 @@
       "target_hours": 1.0,
       "actual_hours": 2.12,
       "efficiency": 47.2
+    },
+    {
+      "date": "2026-05-28",
+      "day_label": "5/28",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Brenda Thomson Residence",
+      "service": "Mobilization",
+      "target_hours": 10.0,
+      "actual_hours": 4.96,
+      "efficiency": 201.6
     },
     {
       "date": "2026-05-14",
@@ -3820,14 +3969,14 @@
     "period": {
       "label": "May 2026",
       "start": "2026-05-01",
-      "end": "2026-05-29"
+      "end": "2026-05-30"
     },
     "leaderboard": [
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 392.1,
-        "estimated_hours": 443.2,
-        "labor_variance_pct": 113.0,
+        "actual_hours": 397.0,
+        "estimated_hours": 451.2,
+        "labor_variance_pct": 113.6,
         "bonus_eligible": true,
         "rank": 1,
         "trend": "same",
@@ -3855,9 +4004,9 @@
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 311.0,
-        "estimated_hours": 296.2,
-        "labor_variance_pct": 95.3,
+        "actual_hours": 329.6,
+        "estimated_hours": 315.2,
+        "labor_variance_pct": 95.6,
         "bonus_eligible": false,
         "rank": 4,
         "trend": "down",
@@ -3865,9 +4014,9 @@
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 441.7,
-        "estimated_hours": 408.4,
-        "labor_variance_pct": 92.5,
+        "actual_hours": 455.1,
+        "estimated_hours": 418.5,
+        "labor_variance_pct": 92.0,
         "bonus_eligible": false,
         "rank": 5,
         "trend": "same",
@@ -3875,9 +4024,9 @@
       },
       {
         "crew_leader": "Jon Hatcher",
-        "actual_hours": 53.5,
-        "estimated_hours": 25.0,
-        "labor_variance_pct": 46.7,
+        "actual_hours": 54.6,
+        "estimated_hours": 26.0,
+        "labor_variance_pct": 47.6,
         "bonus_eligible": false,
         "rank": 6,
         "trend": "new",
@@ -3887,7 +4036,7 @@
     "bonus_eligible_count": 2,
     "company_avg_variance": 100.5,
     "total_crew_leaders": 6,
-    "tickets_analyzed": 177
+    "tickets_analyzed": 183
   },
   "prior_week": {
     "period": {
