@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T11:22:41",
+  "generated": "2026-05-31T11:41:51",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -3969,7 +3969,7 @@
     "period": {
       "label": "May 2026",
       "start": "2026-05-01",
-      "end": "2026-05-30"
+      "end": "2026-05-31"
     },
     "leaderboard": [
       {
