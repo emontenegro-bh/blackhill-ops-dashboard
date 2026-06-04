@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03T14:42:51",
+  "generated": "2026-06-04T12:45:50",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1097,6 +1097,19 @@
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
         "crew_leader_id": 1834,
         "days": {
+          "Tue 6/2": {
+            "tickets": [
+              {
+                "property": "Stacie Rucker Residence",
+                "service": "Mobilization",
+                "occur": "",
+                "target_hours": 14.0,
+                "actual_hours": 10.35,
+                "variance_pct": 135.3
+              }
+            ],
+            "total_hours": 14.0
+          },
           "Mon 6/1": {
             "tickets": [
               {
@@ -1117,9 +1130,30 @@
               }
             ],
             "total_hours": 30.0
+          },
+          "Wed 6/3": {
+            "tickets": [
+              {
+                "property": "Sam Schein Residence",
+                "service": "Landscape Clean Up ",
+                "occur": "",
+                "target_hours": 8.0,
+                "actual_hours": 8.46,
+                "variance_pct": 94.6
+              },
+              {
+                "property": "Sam Schein Residence",
+                "service": "Mobilization",
+                "occur": "",
+                "target_hours": 4.0,
+                "actual_hours": 3.26,
+                "variance_pct": 122.7
+              }
+            ],
+            "total_hours": 12.0
           }
         },
-        "job_count": 2
+        "job_count": 5
       },
       {
         "name": "Maint 1 - Blue/Azul",
@@ -1140,6 +1174,35 @@
         "crew_leader": "Gustavo Aguilar",
         "crew_leader_id": 2284,
         "days": {
+          "Tue 6/2": {
+            "tickets": [
+              {
+                "property": "Miller Milling",
+                "service": "Maintenance Care",
+                "occur": "11/37",
+                "target_hours": 5.32,
+                "actual_hours": 5.48,
+                "variance_pct": 97.1
+              },
+              {
+                "property": "Watauga Community Center",
+                "service": "Mowing Cycle",
+                "occur": "19/31",
+                "target_hours": 8.0,
+                "actual_hours": 10.52,
+                "variance_pct": 76.0
+              },
+              {
+                "property": "Craft Residence - Magnolia",
+                "service": "Maintenance Care",
+                "occur": "4/36",
+                "target_hours": 3.0,
+                "actual_hours": 2.36,
+                "variance_pct": 127.1
+              }
+            ],
+            "total_hours": 16.32
+          },
           "Mon 6/1": {
             "tickets": [
               {
@@ -1192,16 +1255,85 @@
               }
             ],
             "total_hours": 18.0
+          },
+          "Wed 6/3": {
+            "tickets": [
+              {
+                "property": "Capp Smith Park",
+                "service": "Mowing Cycle",
+                "occur": "19/31",
+                "target_hours": 20.0,
+                "actual_hours": 23.83,
+                "variance_pct": 83.9
+              },
+              {
+                "property": "Watauga Municipal Complex",
+                "service": "Mowing Cycle",
+                "occur": "19/31",
+                "target_hours": 4.0,
+                "actual_hours": 3.78,
+                "variance_pct": 105.8
+              }
+            ],
+            "total_hours": 24.0
           }
         },
-        "job_count": 6
+        "job_count": 11
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Wed 6/3": {
+            "tickets": [
+              {
+                "property": "Five Oaks Crossing Mansfield",
+                "service": "Maintenance Care",
+                "occur": "31/36",
+                "target_hours": 9.0,
+                "actual_hours": 15.98,
+                "variance_pct": 56.3
+              },
+              {
+                "property": "Hampton Manor of Crowley",
+                "service": "Mowing Cycle",
+                "occur": "11/24",
+                "target_hours": 7.34,
+                "actual_hours": 12.48,
+                "variance_pct": 58.8
+              }
+            ],
+            "total_hours": 16.34
+          },
+          "Tue 6/2": {
+            "tickets": [
+              {
+                "property": "Crowley Creekside HOA",
+                "service": "Maintenance Care",
+                "occur": "29/37",
+                "target_hours": 37.0,
+                "actual_hours": 35.2,
+                "variance_pct": 105.1
+              }
+            ],
+            "total_hours": 37.0
+          },
+          "Mon 6/1": {
+            "tickets": [
+              {
+                "property": "Leo at Bethel",
+                "service": "Maintenance Care",
+                "occur": "32/39",
+                "target_hours": 37.0,
+                "actual_hours": 36.62,
+                "variance_pct": 101.0
+              }
+            ],
+            "total_hours": 37.0
+          }
+        },
+        "job_count": 4
       }
     ]
   },
@@ -1339,6 +1471,18 @@
       "efficiency": 75.4
     },
     {
+      "date": "2026-06-03",
+      "day_label": "6/3",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Five Oaks Crossing Mansfield",
+      "service": "Maintenance Care",
+      "target_hours": 9.0,
+      "actual_hours": 15.98,
+      "efficiency": 56.3
+    },
+    {
       "date": "2026-05-07",
       "day_label": "5/7",
       "crew_leader": "Jorge Torres Conde",
@@ -1471,6 +1615,18 @@
       "efficiency": 65.9
     },
     {
+      "date": "2026-06-02",
+      "day_label": "6/2",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Crowley Creekside HOA",
+      "service": "Maintenance Care",
+      "target_hours": 37.0,
+      "actual_hours": 35.2,
+      "efficiency": 105.1
+    },
+    {
       "date": "2026-05-04",
       "day_label": "5/4",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -1519,6 +1675,18 @@
       "efficiency": 105.4
     },
     {
+      "date": "2026-06-01",
+      "day_label": "6/1",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Leo at Bethel",
+      "service": "Maintenance Care",
+      "target_hours": 37.0,
+      "actual_hours": 36.62,
+      "efficiency": 101.0
+    },
+    {
       "date": "2026-05-13",
       "day_label": "5/13",
       "crew_leader": "Gustavo Aguilar",
@@ -1553,6 +1721,18 @@
       "target_hours": 5.32,
       "actual_hours": 6.08,
       "efficiency": 87.5
+    },
+    {
+      "date": "2026-06-02",
+      "day_label": "6/2",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Miller Milling",
+      "service": "Maintenance Care",
+      "target_hours": 5.32,
+      "actual_hours": 5.48,
+      "efficiency": 97.1
     },
     {
       "date": "2026-05-05",
@@ -1769,6 +1949,18 @@
       "target_hours": 20.0,
       "actual_hours": 23.1,
       "efficiency": 86.6
+    },
+    {
+      "date": "2026-06-03",
+      "day_label": "6/3",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Capp Smith Park",
+      "service": "Mowing Cycle",
+      "target_hours": 20.0,
+      "actual_hours": 23.83,
+      "efficiency": 83.9
     },
     {
       "date": "2026-05-12",
@@ -2023,6 +2215,18 @@
       "efficiency": 84.2
     },
     {
+      "date": "2026-06-03",
+      "day_label": "6/3",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Municipal Complex",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 3.78,
+      "efficiency": 105.8
+    },
+    {
       "date": "2026-05-06",
       "day_label": "5/6",
       "crew_leader": "Gustavo Aguilar",
@@ -2203,6 +2407,18 @@
       "efficiency": 79.8
     },
     {
+      "date": "2026-06-02",
+      "day_label": "6/2",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Community Center",
+      "service": "Mowing Cycle",
+      "target_hours": 8.0,
+      "actual_hours": 10.52,
+      "efficiency": 76.0
+    },
+    {
       "date": "2026-05-18",
       "day_label": "5/18",
       "crew_leader": "Gustavo Aguilar",
@@ -2249,6 +2465,18 @@
       "target_hours": 7.34,
       "actual_hours": 7.15,
       "efficiency": 102.7
+    },
+    {
+      "date": "2026-06-03",
+      "day_label": "6/3",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Hampton Manor of Crowley",
+      "service": "Mowing Cycle",
+      "target_hours": 7.34,
+      "actual_hours": 12.48,
+      "efficiency": 58.8
     },
     {
       "date": "2026-05-04",
@@ -2647,6 +2875,18 @@
       "efficiency": 217.4
     },
     {
+      "date": "2026-06-02",
+      "day_label": "6/2",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Stacie Rucker Residence",
+      "service": "Mobilization",
+      "target_hours": 14.0,
+      "actual_hours": 10.35,
+      "efficiency": 135.3
+    },
+    {
       "date": "2026-05-06",
       "day_label": "5/6",
       "crew_leader": "Jon Hatcher",
@@ -2995,6 +3235,18 @@
       "efficiency": 113.6
     },
     {
+      "date": "2026-06-02",
+      "day_label": "6/2",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Craft Residence - Magnolia",
+      "service": "Maintenance Care",
+      "target_hours": 3.0,
+      "actual_hours": 2.36,
+      "efficiency": 127.1
+    },
+    {
       "date": "2026-05-11",
       "day_label": "5/11",
       "crew_leader": "Jon Hatcher",
@@ -3127,6 +3379,30 @@
       "efficiency": 55.9
     },
     {
+      "date": "2026-06-03",
+      "day_label": "6/3",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Sam Schein Residence",
+      "service": "Landscape Clean Up ",
+      "target_hours": 8.0,
+      "actual_hours": 8.46,
+      "efficiency": 94.6
+    },
+    {
+      "date": "2026-06-03",
+      "day_label": "6/3",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Sam Schein Residence",
+      "service": "Mobilization",
+      "target_hours": 4.0,
+      "actual_hours": 3.26,
+      "efficiency": 122.7
+    },
+    {
       "date": "2026-05-26",
       "day_label": "5/26",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -3155,24 +3431,44 @@
     "period": {
       "label": "June 2026",
       "start": "2026-06-01",
-      "end": "2026-06-03"
+      "end": "2026-06-04"
     },
     "leaderboard": [
       {
         "crew_leader": "Jose Guadalupe Sandoval Ramos",
-        "actual_hours": 26.9,
-        "estimated_hours": 30.0,
-        "labor_variance_pct": 111.7,
+        "actual_hours": 50.9,
+        "estimated_hours": 59.0,
+        "labor_variance_pct": 115.8,
         "bonus_eligible": true,
         "rank": 1,
+        "trend": "same",
+        "rank_change": 0
+      },
+      {
+        "crew_leader": "Jorge Torres Conde",
+        "actual_hours": 100.3,
+        "estimated_hours": 90.3,
+        "labor_variance_pct": 90.1,
+        "bonus_eligible": false,
+        "rank": 2,
+        "trend": "same",
+        "rank_change": 0
+      },
+      {
+        "crew_leader": "Gustavo Aguilar",
+        "actual_hours": 65.3,
+        "estimated_hours": 58.3,
+        "labor_variance_pct": 89.3,
+        "bonus_eligible": false,
+        "rank": 3,
         "trend": "same",
         "rank_change": 0
       }
     ],
     "bonus_eligible_count": 1,
-    "company_avg_variance": 106.1,
-    "total_crew_leaders": 1,
-    "tickets_analyzed": 9
+    "company_avg_variance": 96.4,
+    "total_crew_leaders": 3,
+    "tickets_analyzed": 22
   },
   "prior_week": {
     "period": {
