@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-04T12:45:50",
+  "generated": "2026-06-05T12:40:34",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -23,9 +23,9 @@
         },
         {
           "name": "Maint 1 - Blue/Azul",
-          "total": null,
+          "total": 101.5,
           "weekly_values": [
-            null
+            101.5
           ]
         },
         {
@@ -51,12 +51,12 @@
         }
       ],
       "total_row": {
-        "total": 100.1,
+        "total": 100.9,
         "weekly_values": [
-          100.1
+          100.9
         ]
       },
-      "overall_efficiency": 100.1
+      "overall_efficiency": 100.9
     },
     "route_daily": {
       "weeks": [
@@ -97,9 +97,9 @@
         },
         {
           "name": "Maint 1 - Blue/Azul",
-          "total": null,
+          "total": 101.5,
           "weekly_values": [
-            null,
+            101.5,
             null,
             null,
             null,
@@ -149,9 +149,9 @@
         }
       ],
       "total_row": {
-        "total": 100.1,
+        "total": 100.9,
         "weekly_values": [
-          99.1,
+          101.1,
           205.2,
           89.9,
           84.3,
@@ -160,7 +160,7 @@
           null
         ]
       },
-      "overall_efficiency": 100.1
+      "overall_efficiency": 100.9
     },
     "route_monthly": {
       "weeks": [
@@ -250,15 +250,22 @@
           "weekly_values": [
             129.5
           ]
+        },
+        {
+          "name": "Jose Soto Armenta",
+          "total": 101.5,
+          "weekly_values": [
+            101.5
+          ]
         }
       ],
       "total_row": {
-        "total": 100.1,
+        "total": 100.9,
         "weekly_values": [
-          100.1
+          100.9
         ]
       },
-      "overall_efficiency": 100.1
+      "overall_efficiency": 100.9
     },
     "crew_daily": {
       "weeks": [
@@ -322,12 +329,25 @@
             null,
             null
           ]
+        },
+        {
+          "name": "Jose Soto Armenta",
+          "total": 101.5,
+          "weekly_values": [
+            101.5,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
         }
       ],
       "total_row": {
-        "total": 100.1,
+        "total": 100.9,
         "weekly_values": [
-          99.1,
+          101.1,
           205.2,
           89.9,
           84.3,
@@ -336,7 +356,7 @@
           null
         ]
       },
-      "overall_efficiency": 100.1
+      "overall_efficiency": 100.9
     },
     "crew_monthly": {
       "weeks": [
@@ -372,19 +392,19 @@
         },
         {
           "name": "Maintenance",
-          "total": 87.0,
+          "total": 96.1,
           "weekly_values": [
-            87.0
+            96.1
           ]
         }
       ],
       "total_row": {
-        "total": 100.1,
+        "total": 100.9,
         "weekly_values": [
-          100.1
+          100.9
         ]
       },
-      "overall_efficiency": 100.1
+      "overall_efficiency": 100.9
     },
     "division_daily": {
       "weeks": [
@@ -425,9 +445,9 @@
         },
         {
           "name": "Maintenance",
-          "total": 87.0,
+          "total": 96.1,
           "weekly_values": [
-            99.1,
+            101.1,
             null,
             87.2,
             78.1,
@@ -438,9 +458,9 @@
         }
       ],
       "total_row": {
-        "total": 100.1,
+        "total": 100.9,
         "weekly_values": [
-          99.1,
+          101.1,
           205.2,
           89.9,
           84.3,
@@ -449,7 +469,7 @@
           null
         ]
       },
-      "overall_efficiency": 100.1
+      "overall_efficiency": 100.9
     },
     "division_monthly": {
       "weeks": [
@@ -496,6 +516,13 @@
           "total": 210.3,
           "weekly_values": [
             210.3
+          ]
+        },
+        {
+          "name": "Arlington Medians and ROW District 3",
+          "total": 101.5,
+          "weekly_values": [
+            101.5
           ]
         },
         {
@@ -675,12 +702,12 @@
         }
       ],
       "total_row": {
-        "total": 100.1,
+        "total": 100.9,
         "weekly_values": [
-          100.1
+          100.9
         ]
       },
-      "overall_efficiency": 100.1
+      "overall_efficiency": 100.9
     },
     "property_daily": {
       "weeks": [
@@ -712,6 +739,19 @@
           "weekly_values": [
             null,
             210.3,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "Arlington Medians and ROW District 3",
+          "total": 101.5,
+          "weekly_values": [
+            101.5,
+            null,
             null,
             null,
             null,
@@ -1046,9 +1086,9 @@
         }
       ],
       "total_row": {
-        "total": 100.1,
+        "total": 100.9,
         "weekly_values": [
-          99.1,
+          101.1,
           205.2,
           89.9,
           84.3,
@@ -1057,7 +1097,7 @@
           null
         ]
       },
-      "overall_efficiency": 100.1
+      "overall_efficiency": 100.9
     },
     "property_monthly": {
       "weeks": [
@@ -1089,8 +1129,22 @@
         "name": "Irrigation 1 - Red/Rojo",
         "crew_leader": "Jon Hatcher",
         "crew_leader_id": 2384,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Thu 6/4": {
+            "tickets": [
+              {
+                "property": "University Christian Church ",
+                "service": "Irrigation Maintenance Repairs",
+                "occur": "3/1",
+                "target_hours": 0.0,
+                "actual_hours": 4.11,
+                "variance_pct": 0.0
+              }
+            ],
+            "total_hours": 0.0
+          }
+        },
+        "job_count": 1
       },
       {
         "name": "Land 1 - Green/Verde",
@@ -3015,7 +3069,7 @@
       "property": "Bear Creek HOA",
       "service": "Irrigation Maintenance Repairs",
       "target_hours": 0.0,
-      "actual_hours": 0.67,
+      "actual_hours": 1.67,
       "efficiency": 0.0
     },
     {
@@ -3403,6 +3457,30 @@
       "efficiency": 122.7
     },
     {
+      "date": "2026-05-25",
+      "day_label": "5/25",
+      "crew_leader": "Jose Soto Armenta",
+      "route": "Maint 1 - Blue/Azul",
+      "division": "Maintenance",
+      "property": "Arlington Medians and ROW District 3",
+      "service": "Mobilization",
+      "target_hours": 61.5,
+      "actual_hours": 53.59,
+      "efficiency": 114.8
+    },
+    {
+      "date": "2026-05-25",
+      "day_label": "5/25",
+      "crew_leader": "Jose Soto Armenta",
+      "route": "Maint 1 - Blue/Azul",
+      "division": "Maintenance",
+      "property": "Arlington Medians and ROW District 3",
+      "service": "ROW & Median",
+      "target_hours": 244.5,
+      "actual_hours": 247.95,
+      "efficiency": 98.6
+    },
+    {
       "date": "2026-05-26",
       "day_label": "5/26",
       "crew_leader": "Jose Guadalupe Sandoval Ramos",
@@ -3425,13 +3503,25 @@
       "target_hours": 20.0,
       "actual_hours": 9.66,
       "efficiency": 207.0
+    },
+    {
+      "date": "2026-06-04",
+      "day_label": "6/4",
+      "crew_leader": "Jon Hatcher",
+      "route": "Irrigation 1 - Red/Rojo",
+      "division": "Irrigation",
+      "property": "University Christian Church ",
+      "service": "Irrigation Maintenance Repairs",
+      "target_hours": 0.0,
+      "actual_hours": 4.11,
+      "efficiency": 0.0
     }
   ],
   "mtd": {
     "period": {
       "label": "June 2026",
       "start": "2026-06-01",
-      "end": "2026-06-04"
+      "end": "2026-06-05"
     },
     "leaderboard": [
       {
@@ -3466,9 +3556,9 @@
       }
     ],
     "bonus_eligible_count": 1,
-    "company_avg_variance": 96.4,
+    "company_avg_variance": 94.6,
     "total_crew_leaders": 3,
-    "tickets_analyzed": 22
+    "tickets_analyzed": 23
   },
   "prior_week": {
     "period": {
@@ -3488,14 +3578,24 @@
         "rank_change": 0
       },
       {
+        "crew_leader": "Jose Soto Armenta",
+        "actual_hours": 301.5,
+        "estimated_hours": 306.0,
+        "labor_variance_pct": 101.5,
+        "bonus_eligible": true,
+        "rank": 2,
+        "trend": "new",
+        "rank_change": 0
+      },
+      {
         "crew_leader": "Gustavo Aguilar",
         "actual_hours": 71.1,
         "estimated_hours": 64.2,
         "labor_variance_pct": 90.2,
         "bonus_eligible": false,
-        "rank": 2,
-        "trend": "up",
-        "rank_change": 1
+        "rank": 3,
+        "trend": "same",
+        "rank_change": 0
       },
       {
         "crew_leader": "Jorge Torres Conde",
@@ -3503,14 +3603,14 @@
         "estimated_hours": 89.2,
         "labor_variance_pct": 84.9,
         "bonus_eligible": false,
-        "rank": 3,
+        "rank": 4,
         "trend": "down",
-        "rank_change": -1
+        "rank_change": -2
       }
     ],
-    "bonus_eligible_count": 1,
-    "company_avg_variance": 93.9,
-    "total_crew_leaders": 3,
-    "tickets_analyzed": 36
+    "bonus_eligible_count": 2,
+    "company_avg_variance": 97.8,
+    "total_crew_leaders": 4,
+    "tickets_analyzed": 38
   }
 }
