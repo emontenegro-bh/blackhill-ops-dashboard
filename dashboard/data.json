@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T14:10:09",
+  "generated": "2026-06-09T12:39:48",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -3161,8 +3161,8 @@
       "property": "D2 Arlington Medians and ROW",
       "service": "Mobilization",
       "target_hours": 102.0,
-      "actual_hours": 75.83,
-      "efficiency": 134.5
+      "actual_hours": 72.73,
+      "efficiency": 140.2
     },
     {
       "date": "2026-05-25",
@@ -3173,8 +3173,8 @@
       "property": "D2 Arlington Medians and ROW",
       "service": "Municipality Mow",
       "target_hours": 398.0,
-      "actual_hours": 385.19,
-      "efficiency": 103.3
+      "actual_hours": 376.19,
+      "efficiency": 105.8
     },
     {
       "date": "2026-05-25",
@@ -3185,8 +3185,8 @@
       "property": "D3 Arlington Medians and ROW",
       "service": "Mobilization",
       "target_hours": 61.5,
-      "actual_hours": 53.59,
-      "efficiency": 114.8
+      "actual_hours": 58.29,
+      "efficiency": 105.5
     },
     {
       "date": "2026-05-25",
@@ -3197,8 +3197,8 @@
       "property": "D3 Arlington Medians and ROW",
       "service": "ROW & Median",
       "target_hours": 244.5,
-      "actual_hours": 247.95,
-      "efficiency": 98.6
+      "actual_hours": 255.35,
+      "efficiency": 95.8
     },
     {
       "date": "2026-05-26",
@@ -3211,6 +3211,18 @@
       "target_hours": 8.0,
       "actual_hours": 4.11,
       "efficiency": 194.6
+    },
+    {
+      "date": "2026-05-26",
+      "day_label": "5/26",
+      "crew_leader": "Jose Guadalupe Sandoval Ramos",
+      "route": "Land 1 - Green/Verde",
+      "division": "Landscape",
+      "property": "Arlington Plant Purchases",
+      "service": "Plant Installation",
+      "target_hours": 8.0,
+      "actual_hours": 0.0,
+      "efficiency": null
     },
     {
       "date": "2026-05-29",
@@ -3241,7 +3253,7 @@
     "period": {
       "label": "June 2026",
       "start": "2026-06-01",
-      "end": "2026-06-08"
+      "end": "2026-06-09"
     },
     "leaderboard": [
       {
