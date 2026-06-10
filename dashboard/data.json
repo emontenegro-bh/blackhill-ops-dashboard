@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T12:39:48",
+  "generated": "2026-06-10T12:59:02",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -7,6 +7,13 @@
         "6/1-6/7"
       ],
       "rows": [
+        {
+          "name": "Denisse ",
+          "total": null,
+          "weekly_values": [
+            null
+          ]
+        },
         {
           "name": "Irrigation 1 - Red/Rojo",
           "total": 131.0,
@@ -69,6 +76,19 @@
         "6/7"
       ],
       "rows": [
+        {
+          "name": "Denisse ",
+          "total": null,
+          "weekly_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
         {
           "name": "Irrigation 1 - Red/Rojo",
           "total": 131.0,
@@ -167,6 +187,13 @@
         "Jun 2026"
       ],
       "rows": [
+        {
+          "name": "Denisse ",
+          "total": null,
+          "weekly_values": [
+            null
+          ]
+        },
         {
           "name": "Irrigation 1 - Red/Rojo",
           "total": 131.0,
@@ -1366,6 +1393,13 @@
     ],
     "routes": [
       {
+        "name": "Denisse ",
+        "crew_leader": "",
+        "crew_leader_id": 5,
+        "days": {},
+        "job_count": 0
+      },
+      {
         "name": "Irrigation 1 - Red/Rojo",
         "crew_leader": "Jon Hatcher",
         "crew_leader_id": 2384,
@@ -1397,8 +1431,70 @@
         "name": "Maint 3 - White/Blanco",
         "crew_leader": "Gustavo Aguilar",
         "crew_leader_id": 2284,
-        "days": {},
-        "job_count": 0
+        "days": {
+          "Mon 6/8": {
+            "tickets": [
+              {
+                "property": "Miller Milling",
+                "service": "Maintenance Care",
+                "occur": "12/37",
+                "target_hours": 5.32,
+                "actual_hours": 5.89,
+                "variance_pct": 90.3
+              },
+              {
+                "property": "Animal Service Center",
+                "service": "Mowing Cycle",
+                "occur": "20/31",
+                "target_hours": 2.0,
+                "actual_hours": 2.67,
+                "variance_pct": 74.9
+              },
+              {
+                "property": "BISD Park",
+                "service": "Mowing Cycle",
+                "occur": "20/31",
+                "target_hours": 4.0,
+                "actual_hours": 6.41,
+                "variance_pct": 62.4
+              },
+              {
+                "property": "Hillview Park",
+                "service": "Mowing Cycle",
+                "occur": "20/31",
+                "target_hours": 2.0,
+                "actual_hours": 2.4,
+                "variance_pct": 83.3
+              },
+              {
+                "property": "Public Works Facility",
+                "service": "Mowing Cycle",
+                "occur": "20/31",
+                "target_hours": 2.0,
+                "actual_hours": 2.92,
+                "variance_pct": 68.5
+              },
+              {
+                "property": "Virgil Anthony Park",
+                "service": "Mowing Cycle",
+                "occur": "20/31",
+                "target_hours": 4.0,
+                "actual_hours": 5.21,
+                "variance_pct": 76.8
+              },
+              {
+                "property": "Watauga - Bunker Blvd",
+                "service": "Bed Maintenance",
+                "occur": "12/17",
+                "target_hours": 2.0,
+                "actual_hours": 3.48,
+                "variance_pct": 57.5
+              }
+            ],
+            "total_hours": 21.32
+          }
+        },
+        "job_count": 7
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
@@ -1408,6 +1504,14 @@
           "Mon 6/8": {
             "tickets": [
               {
+                "property": "Leo at Bethel",
+                "service": "Maintenance Care",
+                "occur": "33/39",
+                "target_hours": 37.0,
+                "actual_hours": 42.21,
+                "variance_pct": 87.7
+              },
+              {
                 "property": "Crowley Creekside HOA",
                 "service": "Mobilization",
                 "occur": "6/18",
@@ -1416,10 +1520,10 @@
                 "variance_pct": null
               }
             ],
-            "total_hours": 6.0
+            "total_hours": 43.0
           }
         },
-        "job_count": 1
+        "job_count": 2
       }
     ]
   },
@@ -1725,6 +1829,18 @@
       "efficiency": 101.0
     },
     {
+      "date": "2026-06-08",
+      "day_label": "6/8",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Leo at Bethel",
+      "service": "Maintenance Care",
+      "target_hours": 37.0,
+      "actual_hours": 42.21,
+      "efficiency": 87.7
+    },
+    {
       "date": "2026-05-13",
       "day_label": "5/13",
       "crew_leader": "Gustavo Aguilar",
@@ -1759,6 +1875,18 @@
       "target_hours": 5.32,
       "actual_hours": 5.48,
       "efficiency": 97.1
+    },
+    {
+      "date": "2026-06-08",
+      "day_label": "6/8",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Miller Milling",
+      "service": "Maintenance Care",
+      "target_hours": 5.32,
+      "actual_hours": 5.89,
+      "efficiency": 90.3
     },
     {
       "date": "2026-05-12",
@@ -1845,6 +1973,18 @@
       "efficiency": 84.7
     },
     {
+      "date": "2026-06-08",
+      "day_label": "6/8",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Animal Service Center",
+      "service": "Mowing Cycle",
+      "target_hours": 2.0,
+      "actual_hours": 2.67,
+      "efficiency": 74.9
+    },
+    {
       "date": "2026-05-12",
       "day_label": "5/12",
       "crew_leader": "Gustavo Aguilar",
@@ -1891,6 +2031,18 @@
       "target_hours": 4.0,
       "actual_hours": 5.36,
       "efficiency": 74.6
+    },
+    {
+      "date": "2026-06-08",
+      "day_label": "6/8",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "BISD Park",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 6.41,
+      "efficiency": 62.4
     },
     {
       "date": "2026-05-19",
@@ -2097,6 +2249,18 @@
       "efficiency": 88.5
     },
     {
+      "date": "2026-06-08",
+      "day_label": "6/8",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Hillview Park",
+      "service": "Mowing Cycle",
+      "target_hours": 2.0,
+      "actual_hours": 2.4,
+      "efficiency": 83.3
+    },
+    {
       "date": "2026-05-18",
       "day_label": "5/18",
       "crew_leader": "Gustavo Aguilar",
@@ -2205,6 +2369,18 @@
       "efficiency": 84.7
     },
     {
+      "date": "2026-06-08",
+      "day_label": "6/8",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Public Works Facility",
+      "service": "Mowing Cycle",
+      "target_hours": 2.0,
+      "actual_hours": 2.92,
+      "efficiency": 68.5
+    },
+    {
       "date": "2026-05-13",
       "day_label": "5/13",
       "crew_leader": "Gustavo Aguilar",
@@ -2251,6 +2427,18 @@
       "target_hours": 4.0,
       "actual_hours": 4.55,
       "efficiency": 87.9
+    },
+    {
+      "date": "2026-06-08",
+      "day_label": "6/8",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Virgil Anthony Park",
+      "service": "Mowing Cycle",
+      "target_hours": 4.0,
+      "actual_hours": 5.21,
+      "efficiency": 76.8
     },
     {
       "date": "2026-05-21",
@@ -2323,6 +2511,18 @@
       "target_hours": 2.0,
       "actual_hours": 1.84,
       "efficiency": 108.7
+    },
+    {
+      "date": "2026-06-08",
+      "day_label": "6/8",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga - Bunker Blvd",
+      "service": "Bed Maintenance",
+      "target_hours": 2.0,
+      "actual_hours": 3.48,
+      "efficiency": 57.5
     },
     {
       "date": "2026-05-21",
@@ -3220,7 +3420,7 @@
       "division": "Landscape",
       "property": "Arlington Plant Purchases",
       "service": "Plant Installation",
-      "target_hours": 8.0,
+      "target_hours": 12.0,
       "actual_hours": 0.0,
       "efficiency": null
     },
@@ -3253,7 +3453,7 @@
     "period": {
       "label": "June 2026",
       "start": "2026-06-01",
-      "end": "2026-06-09"
+      "end": "2026-06-10"
     },
     "leaderboard": [
       {
@@ -3268,9 +3468,9 @@
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 161.3,
-        "estimated_hours": 154.3,
-        "labor_variance_pct": 95.7,
+        "actual_hours": 203.5,
+        "estimated_hours": 191.3,
+        "labor_variance_pct": 94.0,
         "bonus_eligible": false,
         "rank": 2,
         "trend": "up",
@@ -3278,9 +3478,9 @@
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 103.1,
-        "estimated_hours": 97.5,
-        "labor_variance_pct": 94.6,
+        "actual_hours": 132.1,
+        "estimated_hours": 118.8,
+        "labor_variance_pct": 90.0,
         "bonus_eligible": false,
         "rank": 3,
         "trend": "up",
@@ -3288,9 +3488,9 @@
       }
     ],
     "bonus_eligible_count": 1,
-    "company_avg_variance": 99.9,
+    "company_avg_variance": 96.7,
     "total_crew_leaders": 3,
-    "tickets_analyzed": 44
+    "tickets_analyzed": 52
   },
   "prior_week": {
     "period": {
