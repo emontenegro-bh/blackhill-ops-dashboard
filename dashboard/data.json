@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T12:59:02",
+  "generated": "2026-06-11T14:00:52",
   "bonus_threshold": 97.0,
   "scorecard": {
     "route_weekly": {
@@ -1492,15 +1492,57 @@
               }
             ],
             "total_hours": 21.32
+          },
+          "Tue 6/9": {
+            "tickets": [
+              {
+                "property": "Capp Smith Park",
+                "service": "Mowing Cycle",
+                "occur": "20/31",
+                "target_hours": 18.0,
+                "actual_hours": 22.61,
+                "variance_pct": 79.6
+              },
+              {
+                "property": "Watauga Municipal Complex",
+                "service": "Bed Maintenance",
+                "occur": "12/17",
+                "target_hours": 1.0,
+                "actual_hours": 1.25,
+                "variance_pct": 80.0
+              },
+              {
+                "property": "Watauga Municipal Complex",
+                "service": "Mowing Cycle",
+                "occur": "20/31",
+                "target_hours": 3.0,
+                "actual_hours": 3.98,
+                "variance_pct": 75.4
+              }
+            ],
+            "total_hours": 22.0
           }
         },
-        "job_count": 7
+        "job_count": 10
       },
       {
         "name": "Maint 4 - Yellow/Amarillo",
         "crew_leader": "Jorge Torres Conde",
         "crew_leader_id": 1838,
         "days": {
+          "Tue 6/9": {
+            "tickets": [
+              {
+                "property": "Crowley Creekside HOA",
+                "service": "Maintenance Care",
+                "occur": "30/37",
+                "target_hours": 37.0,
+                "actual_hours": 37.8,
+                "variance_pct": 97.9
+              }
+            ],
+            "total_hours": 37.0
+          },
           "Mon 6/8": {
             "tickets": [
               {
@@ -1523,7 +1565,7 @@
             "total_hours": 43.0
           }
         },
-        "job_count": 2
+        "job_count": 3
       }
     ]
   },
@@ -1779,6 +1821,18 @@
       "target_hours": 37.0,
       "actual_hours": 35.2,
       "efficiency": 105.1
+    },
+    {
+      "date": "2026-06-09",
+      "day_label": "6/9",
+      "crew_leader": "Jorge Torres Conde",
+      "route": "Maint 4 - Yellow/Amarillo",
+      "division": "Maintenance",
+      "property": "Crowley Creekside HOA",
+      "service": "Maintenance Care",
+      "target_hours": 37.0,
+      "actual_hours": 37.8,
+      "efficiency": 97.9
     },
     {
       "date": "2026-05-11",
@@ -2093,6 +2147,18 @@
       "efficiency": 78.1
     },
     {
+      "date": "2026-06-09",
+      "day_label": "6/9",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Capp Smith Park",
+      "service": "Mowing Cycle",
+      "target_hours": 18.0,
+      "actual_hours": 22.61,
+      "efficiency": 79.6
+    },
+    {
       "date": "2026-05-20",
       "day_label": "5/20",
       "crew_leader": "Gustavo Aguilar",
@@ -2273,6 +2339,18 @@
       "efficiency": 55.4
     },
     {
+      "date": "2026-06-09",
+      "day_label": "6/9",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Municipal Complex",
+      "service": "Bed Maintenance",
+      "target_hours": 1.0,
+      "actual_hours": 1.25,
+      "efficiency": 80.0
+    },
+    {
       "date": "2026-05-13",
       "day_label": "5/13",
       "crew_leader": "Gustavo Aguilar",
@@ -2319,6 +2397,18 @@
       "target_hours": 4.0,
       "actual_hours": 3.78,
       "efficiency": 105.8
+    },
+    {
+      "date": "2026-06-09",
+      "day_label": "6/9",
+      "crew_leader": "Gustavo Aguilar",
+      "route": "Maint 3 - White/Blanco",
+      "division": "Maintenance",
+      "property": "Watauga Municipal Complex",
+      "service": "Mowing Cycle",
+      "target_hours": 3.0,
+      "actual_hours": 3.98,
+      "efficiency": 75.4
     },
     {
       "date": "2026-05-12",
@@ -3421,8 +3511,8 @@
       "property": "Arlington Plant Purchases",
       "service": "Plant Installation",
       "target_hours": 12.0,
-      "actual_hours": 0.0,
-      "efficiency": null
+      "actual_hours": 5.94,
+      "efficiency": 202.0
     },
     {
       "date": "2026-05-29",
@@ -3453,7 +3543,7 @@
     "period": {
       "label": "June 2026",
       "start": "2026-06-01",
-      "end": "2026-06-10"
+      "end": "2026-06-11"
     },
     "leaderboard": [
       {
@@ -3468,9 +3558,9 @@
       },
       {
         "crew_leader": "Jorge Torres Conde",
-        "actual_hours": 203.5,
-        "estimated_hours": 191.3,
-        "labor_variance_pct": 94.0,
+        "actual_hours": 241.3,
+        "estimated_hours": 228.3,
+        "labor_variance_pct": 94.6,
         "bonus_eligible": false,
         "rank": 2,
         "trend": "up",
@@ -3478,9 +3568,9 @@
       },
       {
         "crew_leader": "Gustavo Aguilar",
-        "actual_hours": 132.1,
-        "estimated_hours": 118.8,
-        "labor_variance_pct": 90.0,
+        "actual_hours": 160.0,
+        "estimated_hours": 140.8,
+        "labor_variance_pct": 88.1,
         "bonus_eligible": false,
         "rank": 3,
         "trend": "up",
@@ -3488,9 +3578,9 @@
       }
     ],
     "bonus_eligible_count": 1,
-    "company_avg_variance": 96.7,
+    "company_avg_variance": 95.8,
     "total_crew_leaders": 3,
-    "tickets_analyzed": 52
+    "tickets_analyzed": 56
   },
   "prior_week": {
     "period": {
